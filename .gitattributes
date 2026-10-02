@@ -1,0 +1,3 @@
+# Keep the checksummed CSV inputs byte-for-byte (CRLF). Git must not renormalize them.
+data/bank_reports/manifests/*.csv -text
+evaluations/section45_full_window_20260708/*.csv -text
