@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdg-honesty-scorer"
+version = "0.2.0"
+description = "Score how honestly bank sustainability reports discuss SDGs against investments."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openpyxl>=3.1.0,<4",
+    "pandas>=2.0.0,<3",
+    "pdfplumber>=0.11.0,<1",
+    "pydantic>=2.8.0,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.14.8,<1",
+]
+eval = [
+    "numpy>=1.26.0,<3",
+    "pillow>=12.3.0,<13",
+]
+reproduce = [
+    "numpy>=1.26.0,<3",
+    "matplotlib>=3.8.0,<4",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.8,<1",
+]
+eval = [
+    "numpy>=1.26.0,<3",
+    "pillow>=12.3.0,<13",
+]
+
+[project.scripts]
+sdg-honesty-scorer = "honesty_scorer.cli:cli_main"
+
+[tool.setuptools]
+py-modules = ["sdg_honesty_scorer"]
+
+[tool.setuptools.packages.find]
+include = ["honesty_scorer*", "reproduction*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["UP006", "UP007", "UP035", "UP045"]
+
+[tool.ruff.lint.per-file-ignores]
+"evaluations/google_doc_update/prepare_doc_update_assets.py" = ["E501"]
+"evaluations/section4_threshold/recompute_section4_threshold.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

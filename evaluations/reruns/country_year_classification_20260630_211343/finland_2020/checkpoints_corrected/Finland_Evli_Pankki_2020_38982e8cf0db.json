@@ -1,0 +1,215 @@
+{
+  "bank": "Finland_Evli Pankki_2020",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 10,
+        "page_numbers": [
+          15,
+          16,
+          17,
+          26,
+          28,
+          36
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          15,
+          16,
+          17,
+          36
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 13,
+        "page_numbers": [
+          15,
+          16,
+          20,
+          27,
+          29,
+          30,
+          32,
+          36,
+          135
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          21
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          25,
+          35,
+          40,
+          41
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 23,
+        "page_numbers": [
+          15,
+          16,
+          17,
+          20,
+          26,
+          28,
+          29,
+          30,
+          35,
+          36,
+          45,
+          133,
+          134,
+          135,
+          144,
+          145,
+          146
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          17,
+          19,
+          40,
+          41,
+          46
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          15,
+          16,
+          27,
+          32,
+          36
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          21
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 19,
+        "page_numbers": [
+          14,
+          15,
+          16,
+          18,
+          19,
+          25,
+          39,
+          40,
+          41
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 20,
+        "page_numbers": [
+          6,
+          7,
+          14,
+          20,
+          21,
+          25,
+          35,
+          38,
+          39,
+          40,
+          41
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          6,
+          21,
+          39
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 17,
+        "page_numbers": [
+          15,
+          16,
+          17,
+          20,
+          23,
+          25,
+          35,
+          132,
+          133,
+          134
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          17,
+          39
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

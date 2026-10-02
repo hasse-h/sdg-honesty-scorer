@@ -1,0 +1,402 @@
+{
+  "bank": "Finland_Danske Bank_2022",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 40341000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "“Facilitated sustainable financing since DKK 300 billion …”",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Facilitated sustainable financing",
+        "justification": "The report states a facilitated sustainable financing amount of DKK 300 billion, but does not link it to specific SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          27
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 300 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 300.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 20170500000.0,
+        "construct_type": "taxonomy_denominator",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "“Assets under management in Article 9 DKK 150 billion …”",
+        "exclusion_reason": "context_construct:taxonomy_denominator",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Article 9 assets under management",
+        "justification": "The amount refers to assets under management in Article 9, a taxonomy classification, without explicit SDG reference.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          27
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 150 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 150.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 6723500000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "“Investments in the green transition by DKK 50 billion …”",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green transition investment",
+        "justification": "The report discloses DKK 50 billion invested in the green transition, but does not name specific SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          27
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 50 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 50.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 2121264250.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "Listed green bonds held for liquidity purposes amounted to DKK 15,775 million",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report lists listed green bonds held for liquidity purposes amounting to DKK 15,775 million, indicating a sustainable finance instrument.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          109
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 15,775 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 15775.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 1749992580.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "The Group has issued non‑preferred senior bonds in accordance with the Group’s green bond framework. At the end of 2022, the nominal value of green non‑preferred senior bonds amounted to DKK 13,014 million.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "Green bond issued under the Group’s green bond framework, indicating the financing is intended for sustainable projects.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          134
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 13,014 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 13014.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 2897021680.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "Bonds issued by Realkredit Danmark under the Group’s green bond framework amounted to a nominal value of DKK 21,544 million",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report notes that bonds issued under the Group’s green bond framework total DKK 21,544 million, showing a disclosed sustainable finance instrument but without explicit SDG references.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          133
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 21,544 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 21544.0,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 36710310000.0,
+        "category": "Sustainable financing",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "With a current tally of DKK 273 billion, we are now close to fulfilling our commitment...",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The text states the bank’s current tally of sustainable financing, providing a disclosed amount of DKK 273 billion.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          5
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 273 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 273.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 40341000000.0,
+        "category": "Sustainable financing",
+        "construct_type": "target",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2022",
+        "evidence": "close to fulfilling our commitment to provide DKK 300 billion in sustainable financing by the end of 2023.",
+        "exclusion_reason": "excluded_construct:target",
+        "inclusion_policy": "excluded",
+        "justification": "The bank sets a target to provide DKK 300 billion in sustainable financing by end‑2023.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          5
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 300 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 300.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "category": "Sustainability-linked loans",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "structured the sustainability link for a EUR 500 million credit facility provided to global bioscience company Chr. Hansen",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states a EUR 500 million credit facility that is explicitly structured with a sustainability link to the borrower’s Paris‑aligned climate targets, indicating a concrete sustainable‑finance commitment.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          53
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          16,
+          46,
+          58
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          16,
+          56
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          16,
+          56
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          5,
+          13,
+          14,
+          16,
+          27,
+          56
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          5,
+          13,
+          14,
+          16,
+          56
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 13,
+        "page_numbers": [
+          12,
+          14,
+          16,
+          27,
+          46,
+          49,
+          56,
+          58
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 3,
+        "page_numbers": [
+          16,
+          46
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [
+          16,
+          26,
+          27,
+          56
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 49,
+        "page_numbers": [
+          7,
+          9,
+          13,
+          14,
+          16,
+          26,
+          27,
+          56,
+          58,
+          75,
+          77,
+          109,
+          113,
+          115,
+          169,
+          171
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          7,
+          13,
+          16
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          13,
+          16,
+          62,
+          225,
+          226
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 3,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

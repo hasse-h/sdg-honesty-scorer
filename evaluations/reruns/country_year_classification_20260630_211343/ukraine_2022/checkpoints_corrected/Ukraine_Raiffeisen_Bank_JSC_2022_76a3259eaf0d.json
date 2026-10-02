@@ -1,0 +1,276 @@
+{
+  "bank": "Ukraine_Raiffeisen Bank JSC_2022",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 70000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…with loan additionally secured by the EBRD guarantee under risk sharing facility, with the total amount of EUR 70 mn…",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Guarantee",
+        "justification": "EBRD guarantee for corporate loans is disclosed, but the text does not name any SDG numbers or explicit sustainability tags.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          48
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 70 mn",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 70.0,
+        "subcategories": [
+          "EBRD risk sharing"
+        ]
+      },
+      {
+        "amount_eur": 70000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…the risk sharing guarantee provided by EIB and EIF … increase the allowed loan portfolio amount by EUR 70 mn up to EUR 225 mn…",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Guarantee",
+        "justification": "EIB and EIF guarantee covering 70 % of loans is described, but no SDG reference is provided.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          48
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 70 mn",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 70.0,
+        "subcategories": [
+          "EIB/EIF loan guarantee"
+        ]
+      },
+      {
+        "amount_eur": 100000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…MIGA … provided a one-year guarantee … for EUR 100 mn to cover Raiffeisen Bank’s risks of mandatory reserves expropriation…",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Guarantee",
+        "justification": "MIGA guarantee is disclosed to reduce risk weight, yet the passage does not link it to specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          48
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 100 mn",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 100.0,
+        "subcategories": [
+          "MIGA capital optimisation guarantee"
+        ]
+      }
+    ],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          104
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 13,
+        "page_numbers": [
+          30,
+          33,
+          38,
+          40,
+          104
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          16,
+          31,
+          77
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 8,
+        "page_numbers": [
+          16,
+          17,
+          31,
+          32,
+          33
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          31
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          104
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          17,
+          104
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 23,
+        "page_numbers": [
+          15,
+          16,
+          31,
+          33,
+          34,
+          36,
+          37,
+          38,
+          77,
+          104,
+          105
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 19,
+        "page_numbers": [
+          31,
+          32,
+          34,
+          35,
+          36,
+          37,
+          41,
+          42,
+          43,
+          77,
+          104,
+          105
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          16,
+          41,
+          57,
+          58
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          17,
+          35,
+          77
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 10,
+        "page_numbers": [
+          15,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          64,
+          65,
+          66,
+          67,
+          68,
+          74,
+          75,
+          76,
+          77,
+          104,
+          105
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          33,
+          104,
+          105
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "bank": "Ukraine_Ukreximbank_2019",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 80000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Received the syndicated loan for amount of EUR 80 mln. from the EBRD to finance renewable energy and energy efficiency projects.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "Loan explicitly earmarked for renewable energy and energy efficiency projects, aligning with SDG 7 and 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          11
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 80 mln.",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 80.0,
+        "subcategories": [
+          "renewable energy",
+          "energy efficiency"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 2,
+        "page_numbers": [
+          91
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 4,
+        "page_numbers": [
+          92,
+          93
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 3,
+        "page_numbers": [
+          9
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 5,
+        "page_numbers": [
+          9,
+          11
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          9,
+          10,
+          46,
+          91,
+          92
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 8,
+        "page_numbers": [
+          9,
+          11,
+          46,
+          92
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 7,
+        "page_numbers": [
+          9,
+          11
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 6,
+        "page_numbers": [
+          11
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          18192021
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 9,
+        "page_numbers": [
+          11,
+          91,
+          92
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

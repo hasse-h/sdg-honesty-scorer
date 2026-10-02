@@ -1,0 +1,208 @@
+{
+  "bank": "Ukraine_Credit Agricole Bank_2023",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 2.0,
+        "mention_count": 5,
+        "page_numbers": [
+          11,
+          31,
+          32,
+          33,
+          62
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 15,
+        "page_numbers": [
+          5,
+          11,
+          32,
+          60,
+          107
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          5,
+          30,
+          31,
+          32,
+          33
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          31,
+          60
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 2,
+        "page_numbers": [
+          29,
+          30
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          5,
+          7,
+          11,
+          60
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 20,
+        "page_numbers": [
+          5,
+          11,
+          24,
+          26,
+          29,
+          30,
+          31,
+          32,
+          33,
+          60,
+          62,
+          106,
+          107,
+          108,
+          113,
+          114,
+          115
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 18,
+        "page_numbers": [
+          5,
+          7,
+          10,
+          12,
+          13,
+          24,
+          25,
+          26,
+          28,
+          32,
+          33,
+          62,
+          116
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          5,
+          7,
+          30
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          62
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          11,
+          32
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          7,
+          11,
+          32
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          25,
+          26,
+          27,
+          29,
+          35,
+          36,
+          37,
+          113,
+          115,
+          116
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          5,
+          7,
+          10,
+          11,
+          28,
+          30,
+          60,
+          62
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

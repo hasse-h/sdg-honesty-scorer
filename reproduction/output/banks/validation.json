@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "historical_totals_source": "evaluations/fusion_open_items_adjudication_20260701/before_after_totals.json",
+  "historical_totals_checks": 96,
+  "historical_profiles": [
+    {
+      "source": "evaluations/section45_full_window_20260708/sdg_profiles_by_country_year.csv",
+      "rows": 204,
+      "max_absolute_errors": {
+        "narrative_weight": 0.0,
+        "finance_eur": 0.0,
+        "narrative_share": 4.97335701597941e-07,
+        "finance_share": 4.897760143099331e-07,
+        "gap_pp": 0.04985254770228398
+      },
+      "passed": true
+    },
+    {
+      "source": "evaluations/section45_full_window_20260708/sdg_profiles_pooled_2019_2024.csv",
+      "rows": 34,
+      "max_absolute_errors": {
+        "narrative_weight": 0.0,
+        "finance_eur": 0.0,
+        "narrative_share": 4.866982477452764e-07,
+        "finance_share": 4.0130527977286765e-07,
+        "gap_pp": 0.04712737882538054
+      },
+      "passed": true
+    }
+  ]
+}

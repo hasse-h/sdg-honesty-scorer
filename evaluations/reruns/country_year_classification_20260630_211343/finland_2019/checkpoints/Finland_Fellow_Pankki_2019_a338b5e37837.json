@@ -1,0 +1,121 @@
+{
+  "bank": "Finland_Fellow Pankki_2019",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          15
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          15,
+          18
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 1.5,
+        "mention_count": 2,
+        "page_numbers": [
+          15
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

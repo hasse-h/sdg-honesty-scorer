@@ -1,0 +1,208 @@
+{
+  "bank_years": 142,
+  "canonical_bank_years_before_source_audit": 152,
+  "canonical_source_entries_before_source_audit": 181,
+  "source_audited_primary": true,
+  "excluded_bank_years": [
+    [
+      "finland",
+      2019,
+      "Aktia Pankki"
+    ],
+    [
+      "finland",
+      2019,
+      "Fellow Pankki"
+    ],
+    [
+      "finland",
+      2020,
+      "Fellow Pankki"
+    ],
+    [
+      "finland",
+      2021,
+      "Alisa Pankki"
+    ],
+    [
+      "finland",
+      2021,
+      "Evli Pankki"
+    ],
+    [
+      "finland",
+      2021,
+      "Fellow Pankki"
+    ],
+    [
+      "finland",
+      2022,
+      "Fellow Pankki"
+    ],
+    [
+      "ukraine",
+      2020,
+      "Oschadbank"
+    ],
+    [
+      "ukraine",
+      2023,
+      "Raiffeisen Bank JSC"
+    ],
+    [
+      "ukraine",
+      2023,
+      "Universal Bank"
+    ]
+  ],
+  "source_file_count": 166,
+  "original_153_score_rows_outdated": true,
+  "historical_raw_eligible_unique_amount_eur": 77121346120.85,
+  "corrected_historical_eligible_unique_amount_eur": 15446773067.27,
+  "primary": {
+    "retained_mentions": 16063,
+    "financial_items": 238,
+    "eligible_rows": 2,
+    "eligible_unique_amount_eur": 7031.77,
+    "tagged_exposure_total_eur": 7813.54,
+    "mean_M_all": 35.26478873239437,
+    "mean_AS_all": 0.5851201325600663,
+    "mean_AS_non_silent": 0.5699785315586089,
+    "pearson_AS_retained_mentions_non_silent": -0.7534657164715942,
+    "pearson_n": 137,
+    "bank_years": 142,
+    "non_silent_bank_years": 137,
+    "silent_bank_years": 5,
+    "distinct_manifest_banks": 27
+  },
+  "by_country": {
+    "finland": {
+      "retained_mentions": 10539,
+      "financial_items": 194,
+      "eligible_rows": 1,
+      "eligible_unique_amount_eur": 6250.0,
+      "tagged_exposure_total_eur": 6250.0,
+      "mean_M_all": 46.463157894736845,
+      "mean_AS_all": 0.453374613003096,
+      "mean_AS_non_silent": 0.4334973262032086,
+      "pearson_AS_retained_mentions_non_silent": -0.7043805528206939,
+      "pearson_n": 55,
+      "bank_years": 57,
+      "non_silent_bank_years": 55,
+      "silent_bank_years": 2,
+      "distinct_manifest_banks": 12
+    },
+    "ukraine": {
+      "retained_mentions": 5524,
+      "financial_items": 44,
+      "eligible_rows": 1,
+      "eligible_unique_amount_eur": 781.77,
+      "tagged_exposure_total_eur": 1563.54,
+      "mean_M_all": 27.755294117647058,
+      "mean_AS_all": 0.6734671280276816,
+      "mean_AS_non_silent": 0.6615208034433285,
+      "pearson_AS_retained_mentions_non_silent": -0.802713763863768,
+      "pearson_n": 82,
+      "bank_years": 85,
+      "non_silent_bank_years": 82,
+      "silent_bank_years": 3,
+      "distinct_manifest_banks": 15
+    }
+  },
+  "undrawn_rows": 1,
+  "strict_undrawn_impacted_rows": 0,
+  "strict_undrawn_removed_unique_eur": 0.0,
+  "eligible_credit_limit_evidence_rows_preserved": [],
+  "complete_panel_banks": {
+    "finland": [
+      "Danske Bank",
+      "Nordea Bank",
+      "Oma Säästöpankki"
+    ],
+    "ukraine": [
+      "A-bank",
+      "Credit Agricole Bank",
+      "Credobank",
+      "FUIB",
+      "OTP Bank",
+      "Privatbank",
+      "Sense Bank",
+      "Tascombank",
+      "Ukreximbank",
+      "Ukrgazbank",
+      "Ukrsibbank"
+    ]
+  },
+  "country_year_bank_counts": {
+    "finland_2019": 4,
+    "finland_2020": 11,
+    "finland_2021": 9,
+    "finland_2022": 11,
+    "finland_2023": 11,
+    "finland_2024": 11,
+    "ukraine_2019": 15,
+    "ukraine_2020": 14,
+    "ukraine_2021": 15,
+    "ukraine_2022": 15,
+    "ukraine_2023": 13,
+    "ukraine_2024": 13
+  },
+  "finland_predecessor_manifest_identities": {
+    "Alisa Pankki": [
+      2022,
+      2023,
+      2024
+    ],
+    "Evli Pankki": [
+      2019,
+      2020
+    ]
+  },
+  "zero_finance_country_years": [
+    "finland_2019",
+    "finland_2020",
+    "finland_2021",
+    "finland_2022",
+    "finland_2023",
+    "ukraine_2019",
+    "ukraine_2020",
+    "ukraine_2021",
+    "ukraine_2022",
+    "ukraine_2024"
+  ],
+  "manuscript_discrepancies": [
+    "Canonical checkpoints contain 152 exact-identity bank-years; the primary source-audited subset contains 142. The original 153-row workbook-derived score panel is superseded, not a validation target.",
+    "Finland has 12 manifest banks in 2020-2022 and 11 in 2023-2024 (6 in 2019). Fellow remains a separate label through 2022 and is absent in 2023-2024; Alisa appears from 2021 and Evli through 2021. The 12-to-11 change is coverage, not permission to consolidate predecessors. Inspect manifest_coverage.csv report names.",
+    "Canonical manifests contain 181 source report entries; the status document's 184 staged files is not the analyzed source-file denominator.",
+    "The cached-construct-only exclusion is insufficient. The main driver requires finance and tag adjudications; credit-limit wording is resolved through source decisions, not a verb override.",
+    "Silent AS=1 is mechanical and must not be described as demonstrated narrative-finance alignment.",
+    "The prior score-withholding statement is superseded by this deterministic recomputation. Historical Figure 5 composition is validated separately from bank-year M/AS.",
+    "Tagged finance exposures can exceed unique row money; normalized display allocations are synthetic. Primary AS and symmetric normalized alignment use different scales and must not be compared as levels."
+  ],
+  "validation_passed": true,
+  "artifacts": [
+    "bank_coverage.csv",
+    "bank_sdg.csv",
+    "bank_year.csv",
+    "bank_year_manuscript_display.csv",
+    "country_sdg_profiles_pooled_2019_2024.csv",
+    "country_year.csv",
+    "country_year_manuscript_display.csv",
+    "country_year_sdg_profiles.csv",
+    "credit_limit_evidence_review.csv",
+    "definitions.json",
+    "eligibility_audit.csv",
+    "historical_country_sdg_profiles_pooled_2019_2024.csv",
+    "historical_country_year_sdg_profiles.csv",
+    "input_provenance.csv",
+    "manifest_coverage.csv",
+    "matched_panel_bank_year.csv",
+    "matched_panel_country_year.csv",
+    "sensitivity_bank_year.csv",
+    "sensitivity_country_year.csv",
+    "summary.json",
+    "undrawn_impacted_rows.csv",
+    "undrawn_rows.csv",
+    "validation.json"
+  ]
+}

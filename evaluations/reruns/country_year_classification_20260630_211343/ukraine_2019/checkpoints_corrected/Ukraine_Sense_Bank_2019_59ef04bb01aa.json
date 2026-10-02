@@ -1,0 +1,207 @@
+{
+  "bank": "Ukraine_Sense Bank_2019",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          35,
+          249
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 5,
+        "page_numbers": [
+          36,
+          37,
+          131,
+          132
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          35
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 29,
+        "page_numbers": [
+          35,
+          36,
+          37,
+          56,
+          90,
+          131,
+          133,
+          134,
+          185,
+          196,
+          197,
+          198,
+          200,
+          237,
+          238,
+          239,
+          240,
+          249,
+          250,
+          251
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 13,
+        "page_numbers": [
+          56,
+          61,
+          62,
+          89,
+          90,
+          91,
+          131,
+          133,
+          134,
+          249
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          185
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 55,
+        "page_numbers": [
+          60,
+          62,
+          63,
+          81,
+          82,
+          83,
+          84,
+          85,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          123,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          134,
+          239,
+          241
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          60,
+          90
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

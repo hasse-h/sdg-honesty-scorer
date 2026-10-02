@@ -1,0 +1,475 @@
+{
+  "bank": "Finland_Nordea Bank_2022",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 2000000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Sustainability‑linked lending framework launched and Nordea issues innovative bond to fund sustainability‑linked loans. EUR 2bn.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Bond",
+        "justification": "The report states that Nordea launched a sustainability‑linked lending framework and issued an innovative bond to fund sustainability‑linked loans, indicating a disclosed sustainable finance instrument but without naming specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          41
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 2bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 2.0,
+        "subcategories": [
+          "sustainability‑linked loans"
+        ]
+      },
+      {
+        "amount_eur": 54000000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "During 2022 we were part of facilitating EUR 54bn of sustainable financing...",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainable financing",
+        "justification": "Facilitated EUR 54bn of sustainable financing in 2022.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          329
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 54bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 54.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 8919000000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Volume of green loans in EURm 8,919",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green loan",
+        "justification": "The report lists the volume of green loans as sustainable finance, but it does not reference specific SDG numbers or tags.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          350
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "Volume of green loans in EURm 8,919",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 8919.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 7560000000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Total apportioned deal value bonds in EURbn 7.56",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report provides the total deal value of green bonds, but no explicit SDG references are given.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          350
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "Total apportioned deal value bonds in EURbn 7.56",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 7.56,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 58000000000.0,
+        "category": "Sustainable financing",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "58 EUR bn facilitated in sustainable financing in 2022",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states 58 EUR bn facilitated in sustainable financing in 2022, but does not explicitly link this amount to any SDG.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          20
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "58 EUR bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 58.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 58000000000.0,
+        "category": "Sustainable financing",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Facilitate more than EUR 200bn in sustainable financing by the end of 2025. EUR 58bn",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states that Nordea has facilitated EUR 58 bn in sustainable financing, but it does not explicitly associate the amount with any SDG.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          326
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 58bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 58.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 768000000.0,
+        "category": "Renewable energy",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In 2022 we supported more than 2,800 green mortgage borrowers with 768 EURm...",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "Green mortgage financing supporting energy‑renovation of homes.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          329
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "768 EURm",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 768.0,
+        "subcategories": [
+          "energy renovation"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          6,
+          23,
+          24
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          335
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 8,
+        "page_numbers": [
+          5,
+          23,
+          24,
+          341,
+          342,
+          343,
+          354
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 24,
+        "page_numbers": [
+          13,
+          21,
+          66,
+          67,
+          75,
+          88,
+          89,
+          182,
+          230,
+          282,
+          341,
+          342,
+          343,
+          344,
+          345,
+          354
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          332,
+          334
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          327,
+          328,
+          329,
+          331,
+          332,
+          334,
+          354
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 26,
+        "page_numbers": [
+          5,
+          21,
+          23,
+          30,
+          31,
+          32,
+          75,
+          88,
+          89,
+          182,
+          190,
+          230,
+          274,
+          282,
+          341,
+          342,
+          345,
+          346,
+          354
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          28,
+          29,
+          30,
+          31,
+          48,
+          50,
+          190,
+          332,
+          333,
+          347,
+          354
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          21,
+          24,
+          75,
+          88,
+          89,
+          230,
+          342,
+          343,
+          344,
+          354
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          23,
+          24,
+          88,
+          331
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 27,
+        "page_numbers": [
+          7,
+          13,
+          30,
+          31,
+          34,
+          35,
+          36,
+          89,
+          90,
+          228,
+          229,
+          327,
+          328,
+          329,
+          332,
+          333,
+          334,
+          348,
+          349,
+          354
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 69,
+        "page_numbers": [
+          4,
+          5,
+          7,
+          12,
+          13,
+          23,
+          28,
+          29,
+          30,
+          31,
+          34,
+          35,
+          37,
+          41,
+          70,
+          88,
+          90,
+          91,
+          130,
+          228,
+          229,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          344,
+          350,
+          354,
+          355
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          354
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          334,
+          354
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 40,
+        "page_numbers": [
+          4,
+          6,
+          23,
+          48,
+          50,
+          65,
+          66,
+          67,
+          88,
+          89,
+          90,
+          230,
+          275,
+          332,
+          333,
+          341,
+          342,
+          346,
+          347,
+          351,
+          354
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 18,
+        "page_numbers": [
+          7,
+          23,
+          30,
+          32,
+          230,
+          327,
+          328,
+          331,
+          332,
+          333,
+          342,
+          343,
+          347,
+          348,
+          351
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

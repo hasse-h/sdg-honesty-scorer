@@ -1,0 +1,654 @@
+{
+  "bank": "Finland_Nordea Bank_2023",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 77000000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "EUR 77bn increase in sustainable financing",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainable financing",
+        "justification": "The report cites EUR 77 bn as an increase in sustainable financing, but does not explicitly link the amount to specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          9
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 77bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 77.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 135000000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "EUR 135bn facilitated as at end-2023",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainable financing",
+        "justification": "The report states EUR 135 bn of facilitated sustainable financing as at end‑2023, without explicit SDG attribution.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          9
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 135bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 135.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 6000000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…including … a EUR 6bn green bond for the European Union.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "A EUR 6 bn green bond issuance is reported, representing finance linked to environmental objectives.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          35
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 6bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 6.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "“inaugural 500m euro sustainability-linked bond… tied to its climate and circularity goals.”",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainability-linked bond",
+        "justification": "The 500 million‑euro sustainability‑linked bond is explicitly tied to Pandora’s climate‑neutral and circularity targets, indicating a concrete SDG‑related financing commitment.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          339
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "500m euros",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": [
+          "climate",
+          "circularity"
+        ]
+      },
+      {
+        "amount_eur": 3553000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Bonds EURm EURbn Nordea 3,553 250",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report lists €3,553 million of bonds issued in 2023 under sustainable financing, interpreted as green bonds, without explicit SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          338
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "3,553",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 3553.0,
+        "subcategories": [
+          "green"
+        ]
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 135000000000.0,
+        "category": "Sustainable financing",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Even when the end of 2023 we had already delivered EUR 135bn towards this target.",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states that by the end of 2023 Nordea had delivered EUR 135 bn in sustainable financing, but it does not name specific SDGs, so the SDG link is weak.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          18
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 135bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 135.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 200000000000.0,
+        "category": "Sustainable financing",
+        "construct_type": "target",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "We have committed to facilitate more than EUR 200bn ...",
+        "exclusion_reason": "excluded_construct:target",
+        "inclusion_policy": "excluded",
+        "justification": "The bank commits to facilitate more than EUR 200 bn in sustainable financing; this is presented as a future target, not an actual disclosed amount.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          18
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 200bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 200.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 128000000000.0,
+        "category": "Sustainable financing",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…we remain on track to facilitate EUR 200bn in sustainable financing for our large corporate and institutional customers by 2025, and we have now delivered EUR 128bn towards this target…",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states the bank has delivered EUR 128 bn of sustainable financing, indicating a sizable amount of finance aimed at sustainability goals.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          35
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 128bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 128.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 9194000000.0,
+        "category": "Sustainability-linked loans",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "the amount of these sustainability-linked loans amounted to EUR 9,194m (EUR 6,775m).",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report quantifies sustainability‑linked loans at EUR 9,194 million, showing a concrete amount of sustainable finance but without naming specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          132
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 9,194m",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 9194.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 12108000000.0,
+        "category": "Green loans",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Green loans 12,108 8,919 5,799",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report lists €12,108 million of green loans in 2023, but no specific SDG is mentioned.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          338
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "12,108",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 12108.0,
+        "subcategories": [
+          "green"
+        ]
+      },
+      {
+        "amount_eur": 9705000000.0,
+        "category": "Green corporate loans",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Green corporate loans 9,705 7,642 –",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report provides €9,705 million of green corporate loans for 2023 without linking to a particular SDG.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          338
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "9,705",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 9705.0,
+        "subcategories": [
+          "corporate"
+        ]
+      },
+      {
+        "amount_eur": 1238000000.0,
+        "category": "Other green loans",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Other green loans2 1,238 544 –",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "€1,238 million of other green loans are reported for 2023, but the text does not reference any SDG.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          338
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "1,238",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 1238.0,
+        "subcategories": [
+          "other"
+        ]
+      },
+      {
+        "amount_eur": 77000000000.0,
+        "category": "Sustainable financing facilitation",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "During 2023 we helped facilitate EUR 77bn of sustainable financing",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The bank states it facilitated €77 billion of sustainable financing in 2023, but no SDG is explicitly cited.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          338
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 77bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 77.0,
+        "subcategories": [
+          "facilitation"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          381
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          348,
+          350
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          215,
+          363,
+          381
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          25,
+          333,
+          362,
+          364,
+          365,
+          376,
+          381
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 24,
+        "page_numbers": [
+          19,
+          23,
+          65,
+          67,
+          80,
+          199,
+          333,
+          360,
+          361,
+          363,
+          364,
+          365,
+          369,
+          370,
+          376
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          342
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 18,
+        "page_numbers": [
+          27,
+          95,
+          96,
+          97,
+          98,
+          136,
+          137,
+          336,
+          338,
+          342,
+          344,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          376
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 26,
+        "page_numbers": [
+          19,
+          23,
+          25,
+          41,
+          80,
+          199,
+          333,
+          360,
+          361,
+          364,
+          365,
+          366,
+          369,
+          370,
+          376,
+          381
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 24,
+        "page_numbers": [
+          20,
+          31,
+          41,
+          342,
+          351,
+          361,
+          368,
+          376
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 23,
+        "page_numbers": [
+          19,
+          23,
+          25,
+          65,
+          66,
+          80,
+          215,
+          360,
+          361,
+          363,
+          364,
+          369,
+          376,
+          381
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 10,
+        "page_numbers": [
+          215,
+          342,
+          348,
+          350,
+          361,
+          362
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 34,
+        "page_numbers": [
+          20,
+          27,
+          31,
+          33,
+          35,
+          36,
+          37,
+          215,
+          338,
+          339,
+          340,
+          342,
+          351,
+          352,
+          369,
+          370,
+          376
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 112,
+        "page_numbers": [
+          5,
+          6,
+          19,
+          20,
+          22,
+          27,
+          31,
+          32,
+          33,
+          35,
+          36,
+          37,
+          41,
+          63,
+          80,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          136,
+          137,
+          141,
+          211,
+          212,
+          213,
+          214,
+          215,
+          269,
+          333,
+          335,
+          336,
+          337,
+          338,
+          339,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          367,
+          368,
+          369,
+          370,
+          376,
+          381
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 9,
+        "page_numbers": [
+          334,
+          340,
+          350,
+          381
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 20,
+        "page_numbers": [
+          333,
+          340,
+          344,
+          348,
+          350,
+          352,
+          367,
+          368,
+          376,
+          381
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 36,
+        "page_numbers": [
+          19,
+          25,
+          62,
+          63,
+          64,
+          65,
+          66,
+          333,
+          360,
+          361,
+          363,
+          364,
+          366,
+          367,
+          371,
+          372,
+          376
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 12,
+        "page_numbers": [
+          20,
+          25,
+          27,
+          33,
+          35,
+          41,
+          368,
+          371,
+          372
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

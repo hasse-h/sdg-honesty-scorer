@@ -1,0 +1,273 @@
+{
+  "bank": "Ukraine_Ukrgazbank_2020",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 30000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Loan Agreement … to provide a loan of EUR 30 million … to finance energy efficiency and renewable energy projects.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The loan of EUR 30 million is explicitly designated to finance energy efficiency and renewable energy projects, which directly supports SDG 7 (Clean Energy) and SDG 13 (Climate Action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          30
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 30 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 30.0,
+        "subcategories": [
+          "renewable energy",
+          "energy efficiency"
+        ]
+      },
+      {
+        "amount_eur": 30000000.0,
+        "category": "Renewable energy",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "On 25 January 2021, the Loan Agreement … to provide a loan of EUR 30 million. The loan shall be provided for a period of five years to finance energy efficiency and renewable energy projects.",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The loan is explicitly described as being provided to finance energy efficiency and renewable energy projects, indicating a sustainable‑finance purpose.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          3
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 30 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 30.0,
+        "subcategories": [
+          "solar"
+        ]
+      },
+      {
+        "amount_eur": 7330000.0,
+        "category": "Renewable energy",
+        "construct_type": "target",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "During 2020, limits for financing of five projects in terms of renewable energy sources, with the general capacity of 21,044 MWt for 7.33 million EUR ... Three projects – network solar power plants ... for the amount of 7.33 million EUR.",
+        "exclusion_reason": "excluded_construct:target",
+        "inclusion_policy": "excluded",
+        "justification": "The report states that financing limits were approved for five renewable‑energy projects, including three solar power plants, with a total amount of 7.33 million EUR. This is a disclosed financing target but the text does not explicitly link it to specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          29
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "7.33 million EUR",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 7.33,
+        "subcategories": [
+          "solar"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 30000000.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 2,
+        "page_numbers": [
+          56
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          59,
+          61
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          62
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          51,
+          60,
+          61
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          29,
+          30,
+          58,
+          59,
+          62,
+          76
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 15,
+        "page_numbers": [
+          41,
+          42,
+          48,
+          51,
+          55,
+          56,
+          57,
+          61
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 18,
+        "page_numbers": [
+          21,
+          22,
+          29,
+          48,
+          54,
+          55,
+          56,
+          76
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          60
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          59,
+          76
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 15,
+        "page_numbers": [
+          6,
+          10,
+          20,
+          38,
+          55,
+          58,
+          62,
+          76
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          59
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 33,
+        "page_numbers": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          16,
+          17,
+          18,
+          19,
+          22,
+          23,
+          24,
+          30,
+          31,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          55,
+          60
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 7,
+        "page_numbers": [
+          20,
+          55,
+          58
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

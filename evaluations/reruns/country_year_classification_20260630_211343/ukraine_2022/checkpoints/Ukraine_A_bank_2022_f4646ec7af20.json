@@ -1,0 +1,196 @@
+{
+  "bank": "Ukraine_A-bank_2022",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [
+          68,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          18,
+          68,
+          69
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 2,
+        "page_numbers": [
+          26,
+          33
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 14,
+        "page_numbers": [
+          17,
+          18,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          33,
+          68,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          33,
+          34,
+          66,
+          68,
+          71,
+          72
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          71,
+          72
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 30,
+        "page_numbers": [
+          17,
+          18,
+          20,
+          22,
+          23,
+          24,
+          25,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          206,
+          207,
+          208,
+          209,
+          210
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          18,
+          66,
+          68,
+          70
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

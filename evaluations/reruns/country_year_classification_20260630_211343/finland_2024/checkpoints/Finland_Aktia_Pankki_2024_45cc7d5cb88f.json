@@ -1,0 +1,302 @@
+{
+  "bank": "Finland_Aktia Pankki_2024",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 75000000.0,
+        "category": "Green loan",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "EUR 75 million loan agreement concluded in April 2024 with NIB (Nordic Investment Bank), which is partly earmarked for supporting environmental projects.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states a EUR 75 million loan agreement earmarked for supporting environmental projects, indicating sustainable finance but without explicit SDG references.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          44
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 75 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 75.0,
+        "subcategories": []
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 14,
+        "page_numbers": [
+          31,
+          38,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 8,
+        "page_numbers": [
+          31,
+          38,
+          39,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 15,
+        "page_numbers": [
+          31,
+          38,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          72,
+          73,
+          74
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 15,
+        "page_numbers": [
+          31,
+          38,
+          40,
+          50,
+          79,
+          80,
+          81,
+          85,
+          86,
+          87
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 19,
+        "page_numbers": [
+          31,
+          43,
+          44,
+          45,
+          48,
+          73,
+          75
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 21,
+        "page_numbers": [
+          17,
+          31,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          74
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 17,
+        "page_numbers": [
+          31,
+          37,
+          38,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          74
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 34,
+        "page_numbers": [
+          30,
+          31,
+          37,
+          38,
+          40,
+          43,
+          44,
+          48,
+          50,
+          51,
+          73,
+          74,
+          79,
+          80,
+          81,
+          85,
+          86,
+          87
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 41,
+        "page_numbers": [
+          25,
+          26,
+          30,
+          31,
+          37,
+          38,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          73,
+          75,
+          79,
+          80,
+          81,
+          85,
+          86,
+          87,
+          92,
+          93
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          31,
+          74,
+          79,
+          80,
+          81,
+          85,
+          86,
+          87
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 21,
+        "page_numbers": [
+          30,
+          31,
+          38,
+          40,
+          51,
+          74,
+          79,
+          80,
+          81,
+          85,
+          86,
+          87
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 18,
+        "page_numbers": [
+          29,
+          31,
+          38,
+          58,
+          59,
+          60,
+          62,
+          63,
+          72,
+          73,
+          74
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 12,
+        "page_numbers": [
+          29,
+          30,
+          38,
+          39,
+          43,
+          44
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

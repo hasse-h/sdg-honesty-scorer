@@ -1,0 +1,618 @@
+{
+  "bank": "Finland_Aktia Pankki_2023",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 180000000.0,
+        "category": "Renewable energy",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "The fund raised almost EUR 180 million and \"strongly supports the green transition in the energy economy\".",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The Aurinkotuuli III fund is described as strongly supporting the green transition in the energy economy, which aligns with SDG 7 (clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          8
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 180 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 180.0,
+        "subcategories": [
+          "solar",
+          "wind"
+        ]
+      },
+      {
+        "amount_eur": 180000000.0,
+        "category": "Renewable energy",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "so far it has raised almost EUR 180 million... Aurinkotuuli III strongly supports the green transition in the energy economy.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The fund Aurinkotuuli III raised almost EUR 180 million and is described as strongly supporting the green transition in the energy economy, indicating a renewable‑energy focus but without any explicit SDG linkage.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          20
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 180 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 180.0,
+        "subcategories": [
+          "solar",
+          "wind"
+        ]
+      },
+      {
+        "amount_eur": 180000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "“With a subscription of nearly EUR 180 million… the fund’s investments have positive impacts on the environment and society… acquire, develop, construct, operate… utility‑scale onshore wind farms, solar parks… to mitigate climate change.”",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The fund is described as supporting Aktia’s sustainability goals and delivering positive environmental and societal impacts through renewable‑energy (wind and solar) investments, which aligns strongly with SDG 7 and SDG 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          54
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 180 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 180.0,
+        "subcategories": [
+          "solar",
+          "wind"
+        ]
+      },
+      {
+        "amount_eur": 117000000.0,
+        "category": "Green asset ratio",
+        "construct_type": "taxonomy_denominator",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Main KPI Green asset ratio (GAR) Based on the Turnover KPI 117 mEUR",
+        "exclusion_reason": "context_construct:taxonomy_denominator",
+        "inclusion_policy": "gross_context_only",
+        "justification": "GAR disclosed as taxonomy‑aligned asset amount without any SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          155
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "117 mEUR",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 117.0,
+        "subcategories": [
+          "Turnover KPI"
+        ]
+      },
+      {
+        "amount_eur": 120000000.0,
+        "category": "Green asset ratio",
+        "construct_type": "taxonomy_denominator",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Based on the CapEx KPI 120 mEUR",
+        "exclusion_reason": "context_construct:taxonomy_denominator",
+        "inclusion_policy": "gross_context_only",
+        "justification": "GAR disclosed based on CapEx KPI, no SDG link mentioned.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          155
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "120 mEUR",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 120.0,
+        "subcategories": [
+          "CapEx KPI"
+        ]
+      },
+      {
+        "amount_eur": 16000000.0,
+        "category": "Additional GAR (flow)",
+        "construct_type": "taxonomy_denominator",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Additional KPIs GAR (flow) Based on the Turnover 16 mEUR",
+        "exclusion_reason": "context_construct:taxonomy_denominator",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Additional GAR flow disclosed via Turnover KPI, without SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          155
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "16 mEUR",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 16.0,
+        "subcategories": [
+          "Turnover KPI"
+        ]
+      },
+      {
+        "amount_eur": 19000000.0,
+        "category": "Additional GAR (flow)",
+        "construct_type": "taxonomy_denominator",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Based on the CapEx 19 mEUR",
+        "exclusion_reason": "context_construct:taxonomy_denominator",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Additional GAR flow disclosed via CapEx KPI, no SDG link.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          155
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "19 mEUR",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 19.0,
+        "subcategories": [
+          "CapEx KPI"
+        ]
+      },
+      {
+        "amount_eur": 24000000.0,
+        "category": "GAR assets",
+        "construct_type": "taxonomy_denominator",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Assets under Based on the Turnover 24 mEUR",
+        "exclusion_reason": "context_construct:taxonomy_denominator",
+        "inclusion_policy": "gross_context_only",
+        "justification": "GAR assets based on Turnover KPI, not linked to any SDG.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          155
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "24 mEUR",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 24.0,
+        "subcategories": [
+          "Turnover KPI"
+        ]
+      },
+      {
+        "amount_eur": 26000000.0,
+        "category": "GAR assets",
+        "construct_type": "taxonomy_denominator",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Based on the CapEx 26 mEUR",
+        "exclusion_reason": "context_construct:taxonomy_denominator",
+        "inclusion_policy": "gross_context_only",
+        "justification": "GAR assets based on CapEx KPI, no SDG reference provided.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          155
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "26 mEUR",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 26.0,
+        "subcategories": [
+          "CapEx KPI"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 5.0,
+        "mention_count": 6,
+        "page_numbers": [
+          30,
+          31,
+          32,
+          36,
+          60
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 4,
+        "page_numbers": [
+          30,
+          31,
+          32,
+          36
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 20,
+        "page_numbers": [
+          24,
+          30,
+          31,
+          32,
+          36,
+          55,
+          56,
+          62,
+          63,
+          64,
+          65,
+          67,
+          80
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 11,
+        "page_numbers": [
+          8,
+          14,
+          30,
+          31,
+          32,
+          36,
+          61,
+          80,
+          83
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 14,
+        "page_numbers": [
+          29,
+          30,
+          31,
+          32,
+          36,
+          63,
+          66,
+          67,
+          74,
+          80,
+          83
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 7,
+        "page_numbers": [
+          30,
+          31,
+          32,
+          36,
+          156,
+          160,
+          164
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 29,
+        "page_numbers": [
+          5,
+          9,
+          14,
+          20,
+          26,
+          30,
+          31,
+          32,
+          34,
+          36,
+          39,
+          40,
+          53,
+          54,
+          71,
+          72,
+          75,
+          76,
+          79,
+          84
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 38,
+        "page_numbers": [
+          11,
+          12,
+          13,
+          14,
+          24,
+          26,
+          29,
+          30,
+          31,
+          32,
+          36,
+          62,
+          65,
+          66,
+          74,
+          76,
+          78,
+          82,
+          112,
+          113,
+          114,
+          115,
+          130
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 19,
+        "page_numbers": [
+          14,
+          18,
+          24,
+          29,
+          30,
+          31,
+          32,
+          35,
+          36,
+          40,
+          41,
+          54
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 14,
+        "page_numbers": [
+          8,
+          14,
+          30,
+          31,
+          32,
+          36,
+          60,
+          63,
+          66,
+          74,
+          81,
+          83
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 8,
+        "page_numbers": [
+          9,
+          14,
+          30,
+          31,
+          32,
+          36,
+          70,
+          71
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 42,
+        "page_numbers": [
+          9,
+          13,
+          14,
+          20,
+          26,
+          29,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          51,
+          52,
+          53,
+          55,
+          56,
+          69,
+          71,
+          72,
+          75,
+          78,
+          84,
+          156,
+          160,
+          164
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 103,
+        "page_numbers": [
+          5,
+          9,
+          12,
+          13,
+          14,
+          20,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          39,
+          40,
+          41,
+          42,
+          43,
+          53,
+          54,
+          55,
+          56,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          84,
+          86,
+          156,
+          160,
+          164,
+          168,
+          172,
+          173,
+          174,
+          191,
+          192,
+          193
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 8,
+        "page_numbers": [
+          30,
+          31,
+          32,
+          36,
+          60,
+          156,
+          160,
+          164
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 8,
+        "page_numbers": [
+          30,
+          31,
+          32,
+          36,
+          156,
+          160,
+          164
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 22,
+        "page_numbers": [
+          24,
+          29,
+          30,
+          31,
+          32,
+          36,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          73,
+          74,
+          79,
+          81,
+          84
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 26,
+        "page_numbers": [
+          14,
+          19,
+          20,
+          24,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          40,
+          41,
+          50,
+          52,
+          53,
+          60,
+          62,
+          73,
+          74
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

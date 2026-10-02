@@ -1,0 +1,359 @@
+{
+  "bank": "Finland_Ålandsbanken_2023",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 13518000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 0.09012,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "“The Bank of Åland has an outstanding green T2 (supplementary capital) instrument of SEK 150 million… This framework covers the financing of renewable energy, specifically wind and solar power…”.",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report discloses a green bond (T2 supplementary capital) of SEK 150 million that finances renewable‑energy (wind and solar) projects, but it does not explicitly reference SDG numbers.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          36
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "SEK 150 million",
+        "source_currency": "SEK",
+        "source_unit": "million",
+        "source_value": 150.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 13518000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Green Floating Rate Tier 2 Note 2021 13,518",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The instrument is labelled \"Green\", indicating a sustainability‑linked bond, but the text does not name specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          108
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "13,518",
+        "source_currency": "EUR",
+        "source_unit": "thousand",
+        "source_value": 13518.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 13500000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Green Bonds total3 13.5 13.5 … of which renewable energy, % 20",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The report lists Green Bonds total of 13.5 million EUR (both 2022 and 2023) and states that 20 % of this amount is allocated to renewable energy, directly financing renewable‑energy projects and therefore supporting SDG 7 (Affordable and Clean Energy) and SDG 13 (Climate Action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          174
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "13.5 13.5",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 13.5,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          18,
+          96
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          47
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          47
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 8,
+        "page_numbers": [
+          47,
+          93,
+          175,
+          176,
+          177,
+          192
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 10,
+        "page_numbers": [
+          26,
+          32,
+          154,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          182
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 13,
+        "page_numbers": [
+          15,
+          32,
+          36,
+          38,
+          47,
+          149,
+          174,
+          182
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 16,
+        "page_numbers": [
+          19,
+          31,
+          32,
+          47,
+          90,
+          91,
+          93,
+          94,
+          95,
+          139,
+          175,
+          176,
+          177,
+          178,
+          179,
+          183
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          17,
+          36,
+          38
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 4,
+        "page_numbers": [
+          47
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 4,
+        "page_numbers": [
+          31,
+          32,
+          47,
+          183
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 33,
+        "page_numbers": [
+          12,
+          15,
+          25,
+          31,
+          32,
+          37,
+          38,
+          47,
+          86,
+          139,
+          149,
+          150,
+          154,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          172,
+          173,
+          174,
+          183
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 86,
+        "page_numbers": [
+          8,
+          9,
+          10,
+          12,
+          18,
+          19,
+          20,
+          24,
+          25,
+          26,
+          27,
+          28,
+          30,
+          31,
+          32,
+          35,
+          37,
+          38,
+          47,
+          48,
+          69,
+          85,
+          86,
+          87,
+          115,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          154,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          174,
+          182,
+          184,
+          201
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 14,
+        "page_numbers": [
+          3,
+          5,
+          32,
+          38,
+          154,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          184
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 11,
+        "page_numbers": [
+          32,
+          38,
+          154,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          184
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          19,
+          20,
+          86,
+          192,
+          193,
+          195
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 10,
+        "page_numbers": [
+          17,
+          18,
+          21,
+          48,
+          87,
+          139
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

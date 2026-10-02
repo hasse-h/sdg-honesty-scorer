@@ -1,0 +1,214 @@
+{
+  "bank": "Ukraine_Sense Bank_2021",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 3104.64,
+        "category": "Social investment",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.03234,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "«у 2021 році – 143 дитини ... отримали шкільний одяг, портфелі та канцелярію на загальну суму 96 тисяч гривень»",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "Spent on school supplies for children in social institutions, explicitly linked to SDG 1 ‘No Poverty’.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          32
+        ],
+        "relevant_sdgs": [
+          1
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "96 тисяч гривень",
+        "source_currency": "UAH",
+        "source_unit": "thousand",
+        "source_value": 96.0,
+        "subcategories": [
+          "education",
+          "poverty alleviation"
+        ]
+      },
+      {
+        "amount_eur": 55394.49,
+        "category": "Social investment",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.03234,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "«у 2021 році за програмою ‘Допоможемо разом’ витрачено 1 712 878,40 гривень»",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "Program ‘Help together’ expenditures, directly tied to SDG 3 ‘Good Health and Well‑being’.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          32
+        ],
+        "relevant_sdgs": [
+          3
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "1 712 878,40 гривень",
+        "source_currency": "UAH",
+        "source_unit": "actual",
+        "source_value": 1712878.4,
+        "subcategories": [
+          "health",
+          "well‑being"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          68
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          6
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          5,
+          6,
+          7,
+          23,
+          24,
+          112,
+          113,
+          114
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          5,
+          6,
+          7
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          114
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          7,
+          8,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          112,
+          113,
+          114,
+          115
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          5,
+          6,
+          114
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

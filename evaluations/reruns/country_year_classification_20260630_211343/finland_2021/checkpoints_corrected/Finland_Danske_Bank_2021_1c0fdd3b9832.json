@@ -1,0 +1,377 @@
+{
+  "bank": "Finland_Danske Bank_2021",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 10592760000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.88273,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "In 2021, we arranged sustainable bonds in the amount of USD 12 billion for our customers.",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainable bond",
+        "justification": "The report states that Danske Bank arranged sustainable bonds amounting to USD 12 billion, indicating disclosed sustainable finance but without explicit SDG linkage.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          12
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "USD 12 billion",
+        "source_currency": "USD",
+        "source_unit": "billion",
+        "source_value": 12.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 76110020000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "Our Green investment offerings … DKK 566 billion invested",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states DKK 566 billion invested in green investment offerings, indicating sustainable finance activity but without explicit SDG reference.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          18
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 566 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 566.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 8740550000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "our funds with a sustainable objective … had DKK 65 billion invested at the end of the year",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report notes DKK 65 billion invested in funds with a sustainable objective (Article 9 SFDR), showing sustainable finance but no explicit SDG linkage.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          18
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 65 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 65.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 25818240000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "through sustainable bonds arranged for customers to DKK 192 billion in 2021",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report mentions DKK 192 billion of sustainable bonds arranged for customers in 2021, reflecting sustainable finance activity without explicit SDG tagging.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          18
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 192 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 192.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 25818240000.0,
+        "construct_type": "facilitated_on_behalf_of_customers",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "DKK 192 billion ... in green bonds issued on behalf of customers Article 8 and ... Article 9 funds",
+        "exclusion_reason": "context_construct:facilitated_on_behalf_of_customers",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states that DKK 192 billion of green bonds were issued on behalf of customers and links them to EU Article 8 and Article 9 funds, which are explicitly tied to climate‑related SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          6
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "DKK 192 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 192.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 134470000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "… Danica Pension’s improved health and accident result … DKK 1 billion investment in an impact fund managed by BlackRock. The companies in which the fund invests work actively to promote one or more of the UN Sustainable Development Goals.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Impact fund",
+        "justification": "The report states a DKK 1 billion investment in an impact fund whose companies actively promote one or more UN Sustainable Development Goals, directly linking the finance to SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          33
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "explicit",
+        "source_amount_text": "DKK 1 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 1.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 1000053390.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "The Group has issued non‑preferred senior bonds in accordance with the Group’s green bond framework. At the end of 2021, the nominal value of green non‑preferred senior bonds amounted to DKK 7,437 million.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The bank states that non‑preferred senior bonds were issued under its green bond framework, which is a disclosed SDG‑linked finance instrument.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          124
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "DKK 7,437 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 7437.0,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 1344700000.0,
+        "category": "Green mortgage loans",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 0.13447,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2021",
+        "evidence": "green mortgage loans for properties in Denmark passed the DKK 10 billion mark.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The report states that green mortgage loans in Denmark exceeded DKK 10 billion, indicating a sizable sustainable‑finance portfolio, but it does not reference specific SDG numbers.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          26
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 10 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 10.0,
+        "subcategories": [
+          "mortgage"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          16,
+          17,
+          33
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 2,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          10,
+          16
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 6,
+        "page_numbers": [
+          12,
+          13,
+          17,
+          159
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          10,
+          12,
+          13,
+          17
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          13,
+          16
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 4,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          10,
+          11,
+          14,
+          16,
+          17,
+          18
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 26,
+        "page_numbers": [
+          10,
+          11,
+          16,
+          17,
+          18,
+          34,
+          35,
+          104,
+          159,
+          160
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 18,
+        "page_numbers": [
+          10,
+          11,
+          16,
+          17,
+          133,
+          134,
+          135,
+          136,
+          159,
+          214,
+          215,
+          216
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [
+          10,
+          11,
+          16,
+          17
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

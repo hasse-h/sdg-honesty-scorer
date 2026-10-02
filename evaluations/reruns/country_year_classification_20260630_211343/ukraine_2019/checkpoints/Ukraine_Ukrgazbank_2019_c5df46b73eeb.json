@@ -1,0 +1,195 @@
+{
+  "bank": "Ukraine_Ukrgazbank_2019",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 83100000.0,
+        "category": "Renewable energy",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "limits for financing of 30 projects in terms of renewable energy sources ... for 83.1 mln. Euro",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The bank approved financing for 30 renewable‑energy projects (solar, wind, biogas, hydro) totalling 83.1 mln Euro, which directly supports clean energy (SDG 7) and climate action (SDG 13).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          5
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "83.1 mln. Euro",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 83.1,
+        "subcategories": [
+          "solar",
+          "wind",
+          "biogas",
+          "hydro"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 30000000.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 3,
+        "page_numbers": [
+          70,
+          159
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 1.5,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 3,
+        "page_numbers": [
+          71,
+          72
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 7,
+        "page_numbers": [
+          71,
+          86
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          24,
+          25,
+          26,
+          71,
+          159
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 7,
+        "page_numbers": [],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 1,
+        "page_numbers": [
+          71,
+          72
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          29,
+          70,
+          86
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 9,
+        "page_numbers": [
+          29,
+          71,
+          86
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          70
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 10,
+        "page_numbers": [
+          24,
+          25,
+          26,
+          27,
+          36,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          72
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          29,
+          40,
+          159
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

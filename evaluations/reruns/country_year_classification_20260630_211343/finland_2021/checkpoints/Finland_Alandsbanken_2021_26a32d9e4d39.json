@@ -1,0 +1,248 @@
+{
+  "bank": "Finland_Ålandsbanken_2021",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 13350000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 0.089,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "the Bank of Åland issued a green Tier 2 (T2) supplementary capital instrument totalling SEK 150 M.",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states the Bank of Åland issued a green Tier 2 (T2) supplementary capital instrument totalling SEK 150 M, indicating sustainable finance but without explicit SDG reference.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          4
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "SEK 150 M",
+        "source_currency": "SEK",
+        "source_unit": "million",
+        "source_value": 150.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 13350000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.089,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "green Tier 2 (T2) supplementary capital instrument, totalling SEK 150 M. ... used for financing and refinancing wind power projects",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The green Tier 2 capital instrument is a green bond‑like issuance dedicated to wind power projects, providing a clear SDG link.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          40
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "SEK 150 M",
+        "source_currency": "SEK",
+        "source_unit": "million",
+        "source_value": 150.0,
+        "subcategories": [
+          "wind power"
+        ]
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 3300000.0,
+        "category": "Environmental protection",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Over the years, the Bank has donated EUR 3,300,000 for the benefit of the environment.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The report states a total donation of EUR 3,300,000 for environmental benefit but does not reference specific SDG numbers or label the financing as SDG‑linked.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          10
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 3,300,000",
+        "source_currency": "EUR",
+        "source_unit": "actual",
+        "source_value": 3300000.0,
+        "subcategories": [
+          "wetland restoration",
+          "water protection"
+        ]
+      },
+      {
+        "amount_eur": 13350000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.089,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "green Tier 2 (T2) supplementary capital instrument, totalling SEK 150 M. ... used for financing and refinancing wind power projects",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The green Tier 2 capital instrument is explicitly earmarked for financing and refinancing wind power projects, linking it directly to SDG 7 (clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": true,
+        "page_numbers": [
+          40
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "SEK 150 M",
+        "source_currency": "SEK",
+        "source_unit": "million",
+        "source_value": 150.0,
+        "subcategories": [
+          "wind"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 3316222.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          81,
+          132
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          14,
+          16,
+          34
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          14
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          80,
+          81
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 3,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 33,
+        "page_numbers": [
+          14,
+          16,
+          17,
+          18,
+          34,
+          35,
+          36
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          11,
+          18
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          11,
+          16,
+          18
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 6,
+        "page_numbers": [],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "after": {
+      "banks": 6,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 8520138.0,
+      "finance_rows": 11,
+      "gross_context_total": 4550959313.0,
+      "issues": [],
+      "linked_total": 0.0,
+      "score_eligible_rows": 0,
+      "stem": "finland_2019"
+    },
+    "before": {
+      "banks": 6,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 11850.0,
+      "finance_rows": 11,
+      "gross_context_total": 4676414521.0,
+      "issues": [],
+      "linked_total": 0.0,
+      "score_eligible_rows": 0,
+      "stem": "finland_2019"
+    },
+    "stem": "finland_2019"
+  },
+  {
+    "after": {
+      "banks": 12,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 46865528000.0,
+      "finance_rows": 40,
+      "gross_context_total": 2970570747000.0,
+      "issues": [],
+      "linked_total": 1320005000.0,
+      "score_eligible_rows": 4,
+      "stem": "finland_2020"
+    },
+    "before": {
+      "banks": 12,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 32600923000.0,
+      "finance_rows": 40,
+      "gross_context_total": 3356997345000.0,
+      "issues": [],
+      "linked_total": 1316300000.0,
+      "score_eligible_rows": 4,
+      "stem": "finland_2020"
+    },
+    "stem": "finland_2020"
+  },
+  {
+    "after": {
+      "banks": 12,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 1762634000.0,
+      "finance_rows": 34,
+      "gross_context_total": 185274187390.0,
+      "issues": [],
+      "linked_total": 43934000.0,
+      "score_eligible_rows": 3,
+      "stem": "finland_2021"
+    },
+    "before": {
+      "banks": 12,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 1343300000.0,
+      "finance_rows": 34,
+      "gross_context_total": 159511128000.0,
+      "issues": [],
+      "linked_total": 26184000000.0,
+      "score_eligible_rows": 6,
+      "stem": "finland_2021"
+    },
+    "stem": "finland_2021"
+  },
+  {
+    "after": {
+      "banks": 12,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 44342515000.0,
+      "finance_rows": 38,
+      "gross_context_total": 308692588510.0,
+      "issues": [],
+      "linked_total": 2581486500.0,
+      "score_eligible_rows": 5,
+      "stem": "finland_2022"
+    },
+    "before": {
+      "banks": 12,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 43001515000.0,
+      "finance_rows": 38,
+      "gross_context_total": 309005622000.0,
+      "issues": [],
+      "linked_total": 3081350000.0,
+      "score_eligible_rows": 6,
+      "stem": "finland_2022"
+    },
+    "stem": "finland_2022"
+  },
+  {
+    "after": {
+      "banks": 11,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 265163012000.0,
+      "finance_rows": 56,
+      "gross_context_total": 792729275960.0,
+      "issues": [],
+      "linked_total": 6355342260.0,
+      "score_eligible_rows": 9,
+      "stem": "finland_2023"
+    },
+    "before": {
+      "banks": 11,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 200392200000.0,
+      "finance_rows": 56,
+      "gross_context_total": 832600516000.0,
+      "issues": [],
+      "linked_total": 30919338000.0,
+      "score_eligible_rows": 18,
+      "stem": "finland_2023"
+    },
+    "stem": "finland_2023"
+  },
+  {
+    "after": {
+      "banks": 11,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 398826260264.0,
+      "finance_rows": 22,
+      "gross_context_total": 1335103590.0,
+      "issues": [],
+      "linked_total": 4723667980.0,
+      "score_eligible_rows": 5,
+      "stem": "finland_2024"
+    },
+    "before": {
+      "banks": 11,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 389726779264.0,
+      "finance_rows": 22,
+      "gross_context_total": 1335363090.0,
+      "issues": [],
+      "linked_total": 13821004250.0,
+      "score_eligible_rows": 7,
+      "stem": "finland_2024"
+    },
+    "stem": "finland_2024"
+  },
+  {
+    "after": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 527147120.0,
+      "finance_rows": 7,
+      "gross_context_total": 227900000.0,
+      "issues": [],
+      "linked_total": 0.0,
+      "score_eligible_rows": 0,
+      "stem": "ukraine_2019"
+    },
+    "before": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 386716800.0,
+      "finance_rows": 7,
+      "gross_context_total": 227900000.0,
+      "issues": [],
+      "linked_total": 80000000.0,
+      "score_eligible_rows": 1,
+      "stem": "ukraine_2019"
+    },
+    "stem": "ukraine_2019"
+  },
+  {
+    "after": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 536887091.22,
+      "finance_rows": 9,
+      "gross_context_total": 35000000.0,
+      "issues": [],
+      "linked_total": 174800000.0,
+      "score_eligible_rows": 2,
+      "stem": "ukraine_2020"
+    },
+    "before": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 394030000.0,
+      "finance_rows": 9,
+      "gross_context_total": 136669232.0,
+      "issues": [],
+      "linked_total": 174800000.0,
+      "score_eligible_rows": 2,
+      "stem": "ukraine_2020"
+    },
+    "stem": "ukraine_2020"
+  },
+  {
+    "after": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 130000000.0,
+      "finance_rows": 10,
+      "gross_context_total": 1512406278.0,
+      "issues": [],
+      "linked_total": 176358499.13,
+      "score_eligible_rows": 3,
+      "stem": "ukraine_2021"
+    },
+    "before": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 70000000.0,
+      "finance_rows": 10,
+      "gross_context_total": 31120800.0,
+      "issues": [],
+      "linked_total": 1346943413.08,
+      "score_eligible_rows": 7,
+      "stem": "ukraine_2021"
+    },
+    "stem": "ukraine_2021"
+  },
+  {
+    "after": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 134236670.07,
+      "finance_rows": 6,
+      "gross_context_total": 240000000.0,
+      "issues": [],
+      "linked_total": 44770.38,
+      "score_eligible_rows": 1,
+      "stem": "ukraine_2022"
+    },
+    "before": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 0.0,
+      "finance_rows": 6,
+      "gross_context_total": 240000000.0,
+      "issues": [],
+      "linked_total": 125545561.77,
+      "score_eligible_rows": 3,
+      "stem": "ukraine_2022"
+    },
+    "stem": "ukraine_2022"
+  },
+  {
+    "after": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 5106118.91,
+      "finance_rows": 5,
+      "gross_context_total": 0.0,
+      "issues": [],
+      "linked_total": 71134057.76,
+      "score_eligible_rows": 3,
+      "stem": "ukraine_2023"
+    },
+    "before": {
+      "banks": 15,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 15840.0,
+      "finance_rows": 5,
+      "gross_context_total": 5157096.0,
+      "issues": [],
+      "linked_total": 72064896.0,
+      "score_eligible_rows": 3,
+      "stem": "ukraine_2023"
+    },
+    "stem": "ukraine_2023"
+  },
+  {
+    "after": {
+      "banks": 13,
+      "checkpoint_subdir": "checkpoints_corrected",
+      "excluded_total": 22760000.0,
+      "finance_rows": 11,
+      "gross_context_total": 872592592.0,
+      "issues": [],
+      "linked_total": 0.0,
+      "score_eligible_rows": 0,
+      "stem": "ukraine_2024"
+    },
+    "before": {
+      "banks": 13,
+      "checkpoint_subdir": "checkpoints",
+      "excluded_total": 24000000.0,
+      "finance_rows": 11,
+      "gross_context_total": 879200800.0,
+      "issues": [],
+      "linked_total": 0.0,
+      "score_eligible_rows": 0,
+      "stem": "ukraine_2024"
+    },
+    "stem": "ukraine_2024"
+  }
+]

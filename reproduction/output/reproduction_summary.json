@@ -1,0 +1,2509 @@
+{
+  "bank_analysis": {
+    "bank_years": 142,
+    "canonical_bank_years_before_source_audit": 152,
+    "canonical_source_entries_before_source_audit": 181,
+    "source_audited_primary": true,
+    "excluded_bank_years": [
+      [
+        "finland",
+        2019,
+        "Aktia Pankki"
+      ],
+      [
+        "finland",
+        2019,
+        "Fellow Pankki"
+      ],
+      [
+        "finland",
+        2020,
+        "Fellow Pankki"
+      ],
+      [
+        "finland",
+        2021,
+        "Alisa Pankki"
+      ],
+      [
+        "finland",
+        2021,
+        "Evli Pankki"
+      ],
+      [
+        "finland",
+        2021,
+        "Fellow Pankki"
+      ],
+      [
+        "finland",
+        2022,
+        "Fellow Pankki"
+      ],
+      [
+        "ukraine",
+        2020,
+        "Oschadbank"
+      ],
+      [
+        "ukraine",
+        2023,
+        "Raiffeisen Bank JSC"
+      ],
+      [
+        "ukraine",
+        2023,
+        "Universal Bank"
+      ]
+    ],
+    "source_file_count": 166,
+    "original_153_score_rows_outdated": true,
+    "historical_raw_eligible_unique_amount_eur": 77121346120.85,
+    "corrected_historical_eligible_unique_amount_eur": 15446773067.27,
+    "primary": {
+      "retained_mentions": 16063,
+      "financial_items": 238,
+      "eligible_rows": 2,
+      "eligible_unique_amount_eur": 7031.77,
+      "tagged_exposure_total_eur": 7813.54,
+      "mean_M_all": 35.26478873239437,
+      "mean_AS_all": 0.5851201325600663,
+      "mean_AS_non_silent": 0.5699785315586089,
+      "pearson_AS_retained_mentions_non_silent": -0.7534657164715942,
+      "pearson_n": 137,
+      "bank_years": 142,
+      "non_silent_bank_years": 137,
+      "silent_bank_years": 5,
+      "distinct_manifest_banks": 27
+    },
+    "by_country": {
+      "finland": {
+        "retained_mentions": 10539,
+        "financial_items": 194,
+        "eligible_rows": 1,
+        "eligible_unique_amount_eur": 6250.0,
+        "tagged_exposure_total_eur": 6250.0,
+        "mean_M_all": 46.463157894736845,
+        "mean_AS_all": 0.453374613003096,
+        "mean_AS_non_silent": 0.4334973262032086,
+        "pearson_AS_retained_mentions_non_silent": -0.7043805528206939,
+        "pearson_n": 55,
+        "bank_years": 57,
+        "non_silent_bank_years": 55,
+        "silent_bank_years": 2,
+        "distinct_manifest_banks": 12
+      },
+      "ukraine": {
+        "retained_mentions": 5524,
+        "financial_items": 44,
+        "eligible_rows": 1,
+        "eligible_unique_amount_eur": 781.77,
+        "tagged_exposure_total_eur": 1563.54,
+        "mean_M_all": 27.755294117647058,
+        "mean_AS_all": 0.6734671280276816,
+        "mean_AS_non_silent": 0.6615208034433285,
+        "pearson_AS_retained_mentions_non_silent": -0.802713763863768,
+        "pearson_n": 82,
+        "bank_years": 85,
+        "non_silent_bank_years": 82,
+        "silent_bank_years": 3,
+        "distinct_manifest_banks": 15
+      }
+    },
+    "undrawn_rows": 1,
+    "strict_undrawn_impacted_rows": 0,
+    "strict_undrawn_removed_unique_eur": 0.0,
+    "eligible_credit_limit_evidence_rows_preserved": [],
+    "complete_panel_banks": {
+      "finland": [
+        "Danske Bank",
+        "Nordea Bank",
+        "Oma Säästöpankki"
+      ],
+      "ukraine": [
+        "A-bank",
+        "Credit Agricole Bank",
+        "Credobank",
+        "FUIB",
+        "OTP Bank",
+        "Privatbank",
+        "Sense Bank",
+        "Tascombank",
+        "Ukreximbank",
+        "Ukrgazbank",
+        "Ukrsibbank"
+      ]
+    },
+    "country_year_bank_counts": {
+      "finland_2019": 4,
+      "finland_2020": 11,
+      "finland_2021": 9,
+      "finland_2022": 11,
+      "finland_2023": 11,
+      "finland_2024": 11,
+      "ukraine_2019": 15,
+      "ukraine_2020": 14,
+      "ukraine_2021": 15,
+      "ukraine_2022": 15,
+      "ukraine_2023": 13,
+      "ukraine_2024": 13
+    },
+    "finland_predecessor_manifest_identities": {
+      "Alisa Pankki": [
+        2022,
+        2023,
+        2024
+      ],
+      "Evli Pankki": [
+        2019,
+        2020
+      ]
+    },
+    "zero_finance_country_years": [
+      "finland_2019",
+      "finland_2020",
+      "finland_2021",
+      "finland_2022",
+      "finland_2023",
+      "ukraine_2019",
+      "ukraine_2020",
+      "ukraine_2021",
+      "ukraine_2022",
+      "ukraine_2024"
+    ],
+    "manuscript_discrepancies": [
+      "Canonical checkpoints contain 152 exact-identity bank-years; the primary source-audited subset contains 142. The original 153-row workbook-derived score panel is superseded, not a validation target.",
+      "Finland has 12 manifest banks in 2020-2022 and 11 in 2023-2024 (6 in 2019). Fellow remains a separate label through 2022 and is absent in 2023-2024; Alisa appears from 2021 and Evli through 2021. The 12-to-11 change is coverage, not permission to consolidate predecessors. Inspect manifest_coverage.csv report names.",
+      "Canonical manifests contain 181 source report entries; the status document's 184 staged files is not the analyzed source-file denominator.",
+      "The cached-construct-only exclusion is insufficient. The main driver requires finance and tag adjudications; credit-limit wording is resolved through source decisions, not a verb override.",
+      "Silent AS=1 is mechanical and must not be described as demonstrated narrative-finance alignment.",
+      "The prior score-withholding statement is superseded by this deterministic recomputation. Historical Figure 5 composition is validated separately from bank-year M/AS.",
+      "Tagged finance exposures can exceed unique row money; normalized display allocations are synthetic. Primary AS and symmetric normalized alignment use different scales and must not be compared as levels."
+    ],
+    "validation_passed": true,
+    "artifacts": [
+      "bank_coverage.csv",
+      "bank_sdg.csv",
+      "bank_year.csv",
+      "bank_year_manuscript_display.csv",
+      "country_sdg_profiles_pooled_2019_2024.csv",
+      "country_year.csv",
+      "country_year_manuscript_display.csv",
+      "country_year_sdg_profiles.csv",
+      "credit_limit_evidence_review.csv",
+      "definitions.json",
+      "eligibility_audit.csv",
+      "historical_country_sdg_profiles_pooled_2019_2024.csv",
+      "historical_country_year_sdg_profiles.csv",
+      "input_provenance.csv",
+      "manifest_coverage.csv",
+      "matched_panel_bank_year.csv",
+      "matched_panel_country_year.csv",
+      "sensitivity_bank_year.csv",
+      "sensitivity_country_year.csv",
+      "summary.json",
+      "undrawn_impacted_rows.csv",
+      "undrawn_rows.csv",
+      "validation.json"
+    ]
+  },
+  "source_adjudication": {
+    "reviewed_positive_claims": 35,
+    "approved_positive_claims_before_bank_year_exclusions": 2,
+    "excluded_positive_claims": 33,
+    "approved_unique_eur_before_bank_year_exclusions": 7031.77,
+    "bank_year_exclusions": [
+      {
+        "country": "ukraine",
+        "year": 2020,
+        "bank": "Oschadbank",
+        "reason_code": "wrong_report_year",
+        "reason": "The only assigned report is for the preceding year; cached narrative and finance cannot be attributed to the manifest year.",
+        "source_entries": [
+          109
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Ukrainian banks/2020/Oshchadbank_annual report_2020.pdf"
+        ],
+        "source_sha256": [
+          "059a39e36d1bba5572ef781bfbb15c3a31961e681c48285ebfd8ea5f60d80728"
+        ]
+      },
+      {
+        "country": "ukraine",
+        "year": 2023,
+        "bank": "Raiffeisen Bank JSC",
+        "reason_code": "wrong_report_year",
+        "reason": "The only assigned report is for the preceding year; cached narrative and finance cannot be attributed to the manifest year.",
+        "source_entries": [
+          160
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Ukrainian banks/2023/Raiffeisen_annual report_2023.pdf"
+        ],
+        "source_sha256": [
+          "e5668d5cba28b77bdfaf5be27d63e199568ec26ce15c2dc17b1e0ada9b36b004"
+        ]
+      },
+      {
+        "country": "ukraine",
+        "year": 2023,
+        "bank": "Universal Bank",
+        "reason_code": "wrong_report_year",
+        "reason": "The only assigned report is for the preceding year; cached narrative and finance cannot be attributed to the manifest year.",
+        "source_entries": [
+          166
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Ukrainian banks/2023/Universal bank_management report_fin statement and audit_2023.pdf"
+        ],
+        "source_sha256": [
+          "b035db128d10581aeadbe1e267a5629012a766c48cdbbe241d605c1faa4ec2c2"
+        ]
+      },
+      {
+        "country": "finland",
+        "year": 2019,
+        "bank": "Aktia Pankki",
+        "reason_code": "duplicate_source_within_bank_year",
+        "reason": "Two manifest reports have identical PDF bytes. The pipeline concatenated both reports before extraction; narrative counts cannot be deduplicated from the aggregated checkpoint without re-extraction.",
+        "source_entries": [
+          1,
+          2
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Finnish banks/2019/Aktia_Annual_review_Sustainabilty+Financial_2019.pdf",
+          "data/bank_reports/reports/Finnish banks/2019/Aktia_Financial_Statements_2019.pdf"
+        ],
+        "source_sha256": [
+          "3c5d9f1cd5a71140057068e344d83debfbc849e496ad97c8d22f76add555450d",
+          "3c5d9f1cd5a71140057068e344d83debfbc849e496ad97c8d22f76add555450d"
+        ]
+      },
+      {
+        "country": "finland",
+        "year": 2019,
+        "bank": "Fellow Pankki",
+        "reason_code": "pre_bank_entity",
+        "reason": "The sources identify Fellow Finance, the pre-bank crowdfunding/peer-to-peer lending platform. Fellow Bank was formed in 2022; the retrospective bank label is outside this banking-panel definition.",
+        "source_entries": [
+          5,
+          6
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Finnish banks/2019/Alisa_Fellow_Annual Review_2019.pdf",
+          "data/bank_reports/reports/Finnish banks/2019/Alisa_Fellow_Financial statement_2019.pdf"
+        ],
+        "source_sha256": [
+          "13b3356bb6acf3533ec54d77b39d246bbcb747259dd14e26efcb99a84105f7c8",
+          "6bda801131df4216a273abee791d2bd3caa77b688001fb99b83d662349721b30"
+        ]
+      },
+      {
+        "country": "finland",
+        "year": 2020,
+        "bank": "Fellow Pankki",
+        "reason_code": "pre_bank_entity",
+        "reason": "The sources identify Fellow Finance, the pre-bank crowdfunding/peer-to-peer lending platform. Fellow Bank was formed in 2022; the retrospective bank label is outside this banking-panel definition.",
+        "source_entries": [
+          13,
+          14
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Finnish banks/2020/Alisa_Fellow_Annual Review_2020.pdf",
+          "data/bank_reports/reports/Finnish banks/2020/Alisa_Fellow_Financial statement_2020.pdf"
+        ],
+        "source_sha256": [
+          "3a5e76a5303b4370a69758b9d2c24087a2e49d500d90dd0b77077d3d4e2b12e9",
+          "cd61b9492220377d8ef3b2855adec36ceb660f3353d679c097504548b153e876"
+        ]
+      },
+      {
+        "country": "finland",
+        "year": 2021,
+        "bank": "Fellow Pankki",
+        "reason_code": "pre_bank_entity",
+        "reason": "The sources identify Fellow Finance, the pre-bank crowdfunding/peer-to-peer lending platform. Fellow Bank was formed in 2022; the retrospective bank label is outside this banking-panel definition.",
+        "source_entries": [
+          32,
+          33
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Finnish banks/2021/Alisa_Fellow_Financial statement_2021.pdf",
+          "data/bank_reports/reports/Finnish banks/2021/Alisa_Felow_Annual Review_2021.pdf"
+        ],
+        "source_sha256": [
+          "921b9cb7ebb114241f6a069e66987e6155e0c2a005e83d2a1e805f4fa70f2f7c",
+          "c58c6c9449884327322acfbb5a209213d70627521bf133d7699eeebf80cf0082"
+        ]
+      },
+      {
+        "country": "finland",
+        "year": 2021,
+        "bank": "Alisa Pankki",
+        "reason_code": "duplicate_pre_bank_entity",
+        "reason": "The report is Fellow Finance 2021 and is byte-identical to the report assigned to Fellow Pankki; this is not a distinct Alisa bank-year.",
+        "source_entries": [
+          29
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Finnish banks/2021/Alisa_Annual Review_2021.pdf"
+        ],
+        "source_sha256": [
+          "c58c6c9449884327322acfbb5a209213d70627521bf133d7699eeebf80cf0082"
+        ]
+      },
+      {
+        "country": "finland",
+        "year": 2021,
+        "bank": "Evli Pankki",
+        "reason_code": "mixed_entity_bundle",
+        "reason": "The cached bundle mixes an Evli annual report with a Fellow Finance financial statement. Aggregated narrative cannot be separated safely without re-extraction.",
+        "source_entries": [
+          30,
+          31
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Finnish banks/2021/Alisa_Evil_Financial Statement_2021.pdf",
+          "data/bank_reports/reports/Finnish banks/2021/Alisa_Evli_Annual Review_2021.pdf"
+        ],
+        "source_sha256": [
+          "921b9cb7ebb114241f6a069e66987e6155e0c2a005e83d2a1e805f4fa70f2f7c",
+          "35d0f053559b299de6eb521cfbaa20bc3297f2402410cdf8ab8d29f12aa5adbe"
+        ]
+      },
+      {
+        "country": "finland",
+        "year": 2022,
+        "bank": "Fellow Pankki",
+        "reason_code": "overlapping_reporting_entity",
+        "reason": "This financial-statement bundle and the annual report under the Alisa 2022 label describe the same Fellow Bank reporting entity. Retain the full annual-report bundle (label Alisa Pankki, source Fellow Bank) once; omit this overlapping separately classified bundle.",
+        "source_entries": [
+          47
+        ],
+        "source_reports": [
+          "data/bank_reports/reports/Finnish banks/2022/Alisa_Fellow_Financial statement_2022.pdf"
+        ],
+        "source_sha256": [
+          "d6c34f0613c728dc6e3eaaaa6fe1f5509f7071832f2d6a6ab0b8d8d022c94bf8"
+        ]
+      }
+    ],
+    "scope": "Source review of cached positive claims, not an exhaustive search for missing disclosures or external transaction verification."
+  },
+  "benchmark": {
+    "status": "matched",
+    "comparison": "Fixed cached generic-domain SDG predictions; no fresh extraction or model calls.",
+    "counts": {
+      "rows": 1251,
+      "unique_ids": 1251,
+      "unique_texts": 1247,
+      "positive": 616,
+      "negative": 635,
+      "text_cluster_size_counts": {
+        "1": 1243,
+        "2": 4
+      }
+    },
+    "validation": {
+      "row_joins": "passed",
+      "cache_score_consistency": "passed",
+      "saved_metrics": "matched",
+      "absolute_tolerance": 1e-12,
+      "mismatches": []
+    },
+    "primary": {
+      "threshold": 3,
+      "gpt_micro": {
+        "accuracy": 0.8529176658673061,
+        "precision": 0.8673469387755102,
+        "recall": 0.827922077922078,
+        "f1": 0.8471760797342193,
+        "tp": 510,
+        "fp": 78,
+        "tn": 557,
+        "fn": 106
+      },
+      "jrc_micro": {
+        "accuracy": 0.7753796962430056,
+        "precision": 0.928388746803069,
+        "recall": 0.5892857142857143,
+        "f1": 0.7209533267130089,
+        "tp": 363,
+        "fp": 28,
+        "tn": 607,
+        "fn": 253
+      },
+      "observed_f1_difference": 0.12622275302121033,
+      "row_bootstrap": {
+        "mean_diff": 0.1259742803472102,
+        "ci95_low": 0.09141360476899163,
+        "ci95_high": 0.1616734815778963,
+        "p_diff_le_0": 0.0
+      },
+      "cluster_bootstrap": {
+        "mean_diff": 0.12653051147759967,
+        "ci95_low": 0.09210865387531286,
+        "ci95_high": 0.16192335619668907,
+        "p_diff_le_0": 0.0
+      }
+    },
+    "thresholds": [
+      {
+        "model": "gpt_oss_120b",
+        "threshold": 1,
+        "accuracy": 0.8609112709832134,
+        "precision": 0.8221574344023324,
+        "recall": 0.9155844155844156,
+        "f1": 0.8663594470046083,
+        "tp": 564,
+        "fp": 122,
+        "tn": 513,
+        "fn": 52,
+        "average_precision_continuous_score": 0.8952978473508704,
+        "average_precision_binary_prediction": 0.7943212806983599
+      },
+      {
+        "model": "gpt_oss_120b",
+        "threshold": 2,
+        "accuracy": 0.8689048760991207,
+        "precision": 0.834319526627219,
+        "recall": 0.9155844155844156,
+        "f1": 0.8730650154798761,
+        "tp": 564,
+        "fp": 112,
+        "tn": 523,
+        "fn": 52,
+        "average_precision_continuous_score": 0.8952978473508704,
+        "average_precision_binary_prediction": 0.8054567028003664
+      },
+      {
+        "model": "gpt_oss_120b",
+        "threshold": 3,
+        "accuracy": 0.8529176658673061,
+        "precision": 0.8673469387755102,
+        "recall": 0.827922077922078,
+        "f1": 0.8471760797342193,
+        "tp": 510,
+        "fp": 78,
+        "tn": 557,
+        "fn": 106,
+        "average_precision_continuous_score": 0.8952978473508704,
+        "average_precision_binary_prediction": 0.8028278940589908
+      },
+      {
+        "model": "gpt_oss_120b",
+        "threshold": 4,
+        "accuracy": 0.8385291766586731,
+        "precision": 0.9107142857142857,
+        "recall": 0.7451298701298701,
+        "f1": 0.8196428571428571,
+        "tp": 459,
+        "fp": 45,
+        "tn": 590,
+        "fn": 157,
+        "average_precision_continuous_score": 0.8952978473508704,
+        "average_precision_binary_prediction": 0.8041000177594474
+      },
+      {
+        "model": "gpt_oss_120b",
+        "threshold": 5,
+        "accuracy": 0.6874500399680256,
+        "precision": 0.9746835443037974,
+        "recall": 0.375,
+        "f1": 0.541617819460727,
+        "tp": 231,
+        "fp": 6,
+        "tn": 629,
+        "fn": 385,
+        "average_precision_continuous_score": 0.8952978473508704,
+        "average_precision_binary_prediction": 0.6732601260763542
+      },
+      {
+        "model": "jrc_sdg_mapper",
+        "threshold": "binary",
+        "accuracy": 0.7753796962430056,
+        "precision": 0.928388746803069,
+        "recall": 0.5892857142857143,
+        "f1": 0.7209533267130089,
+        "tp": 363,
+        "fp": 28,
+        "tn": 607,
+        "fn": 253,
+        "average_precision_continuous_score": "",
+        "average_precision_binary_prediction": 0.7493244352271197
+      }
+    ],
+    "rounded_centrality_precision_historical": {
+      "1": {
+        "n": 10,
+        "precision_at_exact_score": 0.0
+      },
+      "2": {
+        "n": 88,
+        "precision_at_exact_score": 0.6136363636363636
+      },
+      "3": {
+        "n": 80,
+        "precision_at_exact_score": 0.6
+      },
+      "4": {
+        "n": 271,
+        "precision_at_exact_score": 0.8523985239852399
+      },
+      "5": {
+        "n": 237,
+        "precision_at_exact_score": 0.9746835443037974
+      }
+    },
+    "exact_centrality_precision": [
+      {
+        "score": 0.0,
+        "n": 565,
+        "positive": 52,
+        "precision": 0.0920353982300885
+      },
+      {
+        "score": 1.0,
+        "n": 10,
+        "positive": 0,
+        "precision": 0.0
+      },
+      {
+        "score": 2.0,
+        "n": 62,
+        "positive": 35,
+        "precision": 0.5645161290322581
+      },
+      {
+        "score": 2.5,
+        "n": 26,
+        "positive": 19,
+        "precision": 0.7307692307692307
+      },
+      {
+        "score": 3.0,
+        "n": 80,
+        "positive": 48,
+        "precision": 0.6
+      },
+      {
+        "score": 3.5,
+        "n": 4,
+        "positive": 3,
+        "precision": 0.75
+      },
+      {
+        "score": 4.0,
+        "n": 202,
+        "positive": 168,
+        "precision": 0.8316831683168316
+      },
+      {
+        "score": 4.5,
+        "n": 65,
+        "positive": 60,
+        "precision": 0.9230769230769231
+      },
+      {
+        "score": 5.0,
+        "n": 237,
+        "positive": 231,
+        "precision": 0.9746835443037974
+      }
+    ],
+    "missed_positives": {
+      "target_score_zero": 52,
+      "below_threshold": {
+        "1": 52,
+        "2": 52,
+        "3": 106,
+        "4": 157,
+        "5": 385
+      },
+      "jrc": 253
+    },
+    "historical_metrics_recomputed": {
+      "n_rows": 1251,
+      "n_positive": 616,
+      "n_negative": 635,
+      "jrc_sdg_mapper": {
+        "micro": {
+          "accuracy": 0.7753796962430056,
+          "precision": 0.928388746803069,
+          "recall": 0.5892857142857143,
+          "f1": 0.7209533267130089,
+          "tp": 363,
+          "fp": 28,
+          "tn": 607,
+          "fn": 253
+        },
+        "per_sdg": [
+          {
+            "sdg": 1,
+            "n": 77,
+            "accuracy": 0.8181818181818182,
+            "precision": 0.8095238095238095,
+            "recall": 0.6296296296296297,
+            "f1": 0.7083333333333334,
+            "tp": 17,
+            "fp": 4,
+            "tn": 46,
+            "fn": 10
+          },
+          {
+            "sdg": 2,
+            "n": 69,
+            "accuracy": 0.7101449275362319,
+            "precision": 0.9629629629629629,
+            "recall": 0.5777777777777777,
+            "f1": 0.7222222222222221,
+            "tp": 26,
+            "fp": 1,
+            "tn": 23,
+            "fn": 19
+          },
+          {
+            "sdg": 3,
+            "n": 76,
+            "accuracy": 0.8421052631578947,
+            "precision": 0.8076923076923077,
+            "recall": 0.75,
+            "f1": 0.7777777777777779,
+            "tp": 21,
+            "fp": 5,
+            "tn": 43,
+            "fn": 7
+          },
+          {
+            "sdg": 4,
+            "n": 82,
+            "accuracy": 0.6951219512195121,
+            "precision": 0.9090909090909091,
+            "recall": 0.46511627906976744,
+            "f1": 0.6153846153846153,
+            "tp": 20,
+            "fp": 2,
+            "tn": 37,
+            "fn": 23
+          },
+          {
+            "sdg": 5,
+            "n": 69,
+            "accuracy": 0.7536231884057971,
+            "precision": 1.0,
+            "recall": 0.5142857142857142,
+            "f1": 0.6792452830188679,
+            "tp": 18,
+            "fp": 0,
+            "tn": 34,
+            "fn": 17
+          },
+          {
+            "sdg": 6,
+            "n": 85,
+            "accuracy": 0.7294117647058823,
+            "precision": 1.0,
+            "recall": 0.5208333333333334,
+            "f1": 0.684931506849315,
+            "tp": 25,
+            "fp": 0,
+            "tn": 37,
+            "fn": 23
+          },
+          {
+            "sdg": 7,
+            "n": 100,
+            "accuracy": 0.86,
+            "precision": 0.9736842105263158,
+            "recall": 0.74,
+            "f1": 0.8409090909090909,
+            "tp": 37,
+            "fp": 1,
+            "tn": 49,
+            "fn": 13
+          },
+          {
+            "sdg": 8,
+            "n": 74,
+            "accuracy": 0.7702702702702703,
+            "precision": 0.92,
+            "recall": 0.6052631578947368,
+            "f1": 0.7301587301587301,
+            "tp": 23,
+            "fp": 2,
+            "tn": 34,
+            "fn": 15
+          },
+          {
+            "sdg": 9,
+            "n": 57,
+            "accuracy": 0.7719298245614035,
+            "precision": 1.0,
+            "recall": 0.5357142857142857,
+            "f1": 0.6976744186046512,
+            "tp": 15,
+            "fp": 0,
+            "tn": 29,
+            "fn": 13
+          },
+          {
+            "sdg": 10,
+            "n": 61,
+            "accuracy": 0.7049180327868853,
+            "precision": 1.0,
+            "recall": 0.3793103448275862,
+            "f1": 0.5499999999999999,
+            "tp": 11,
+            "fp": 0,
+            "tn": 32,
+            "fn": 18
+          },
+          {
+            "sdg": 11,
+            "n": 69,
+            "accuracy": 0.7536231884057971,
+            "precision": 0.7777777777777778,
+            "recall": 0.5185185185185185,
+            "f1": 0.6222222222222222,
+            "tp": 14,
+            "fp": 4,
+            "tn": 38,
+            "fn": 13
+          },
+          {
+            "sdg": 12,
+            "n": 80,
+            "accuracy": 0.7875,
+            "precision": 0.9642857142857143,
+            "recall": 0.627906976744186,
+            "f1": 0.7605633802816901,
+            "tp": 27,
+            "fp": 1,
+            "tn": 36,
+            "fn": 16
+          },
+          {
+            "sdg": 13,
+            "n": 65,
+            "accuracy": 0.8307692307692308,
+            "precision": 0.9230769230769231,
+            "recall": 0.7272727272727273,
+            "f1": 0.8135593220338984,
+            "tp": 24,
+            "fp": 2,
+            "tn": 30,
+            "fn": 9
+          },
+          {
+            "sdg": 14,
+            "n": 84,
+            "accuracy": 0.8214285714285714,
+            "precision": 0.9166666666666666,
+            "recall": 0.6285714285714286,
+            "f1": 0.7457627118644068,
+            "tp": 22,
+            "fp": 2,
+            "tn": 47,
+            "fn": 13
+          },
+          {
+            "sdg": 15,
+            "n": 71,
+            "accuracy": 0.8169014084507042,
+            "precision": 0.9666666666666667,
+            "recall": 0.7073170731707317,
+            "f1": 0.8169014084507042,
+            "tp": 29,
+            "fp": 1,
+            "tn": 29,
+            "fn": 12
+          },
+          {
+            "sdg": 16,
+            "n": 68,
+            "accuracy": 0.75,
+            "precision": 0.95,
+            "recall": 0.5428571428571428,
+            "f1": 0.6909090909090908,
+            "tp": 19,
+            "fp": 1,
+            "tn": 32,
+            "fn": 16
+          },
+          {
+            "sdg": 17,
+            "n": 64,
+            "accuracy": 0.71875,
+            "precision": 0.8823529411764706,
+            "recall": 0.4838709677419355,
+            "f1": 0.625,
+            "tp": 15,
+            "fp": 2,
+            "tn": 31,
+            "fn": 16
+          }
+        ],
+        "macro": {
+          "accuracy": 0.7726282023458824,
+          "precision": 0.927281228790972,
+          "recall": 0.5855438445535001,
+          "f1": 0.7106797125894481,
+          "tp": 21.352941176470587,
+          "fp": 1.6470588235294117,
+          "tn": 35.705882352941174,
+          "fn": 14.882352941176471
+        }
+      },
+      "gpt_oss_120b": {
+        "gpt_priority_ge_1": {
+          "micro": {
+            "accuracy": 0.8609112709832134,
+            "precision": 0.8221574344023324,
+            "recall": 0.9155844155844156,
+            "f1": 0.8663594470046083,
+            "tp": 564,
+            "fp": 122,
+            "tn": 513,
+            "fn": 52
+          },
+          "per_sdg": [
+            {
+              "sdg": 1,
+              "n": 77,
+              "accuracy": 0.8441558441558441,
+              "precision": 0.6923076923076923,
+              "recall": 1.0,
+              "f1": 0.8181818181818181,
+              "tp": 27,
+              "fp": 12,
+              "tn": 38,
+              "fn": 0
+            },
+            {
+              "sdg": 2,
+              "n": 69,
+              "accuracy": 0.927536231884058,
+              "precision": 0.9545454545454546,
+              "recall": 0.9333333333333333,
+              "f1": 0.9438202247191012,
+              "tp": 42,
+              "fp": 2,
+              "tn": 22,
+              "fn": 3
+            },
+            {
+              "sdg": 3,
+              "n": 76,
+              "accuracy": 0.7894736842105263,
+              "precision": 0.6363636363636364,
+              "recall": 1.0,
+              "f1": 0.7777777777777778,
+              "tp": 28,
+              "fp": 16,
+              "tn": 32,
+              "fn": 0
+            },
+            {
+              "sdg": 4,
+              "n": 82,
+              "accuracy": 0.8536585365853658,
+              "precision": 0.7924528301886793,
+              "recall": 0.9767441860465116,
+              "f1": 0.875,
+              "tp": 42,
+              "fp": 11,
+              "tn": 28,
+              "fn": 1
+            },
+            {
+              "sdg": 5,
+              "n": 69,
+              "accuracy": 0.927536231884058,
+              "precision": 0.9166666666666666,
+              "recall": 0.9428571428571428,
+              "f1": 0.9295774647887323,
+              "tp": 33,
+              "fp": 3,
+              "tn": 31,
+              "fn": 2
+            },
+            {
+              "sdg": 6,
+              "n": 85,
+              "accuracy": 0.9529411764705882,
+              "precision": 0.94,
+              "recall": 0.9791666666666666,
+              "f1": 0.9591836734693877,
+              "tp": 47,
+              "fp": 3,
+              "tn": 34,
+              "fn": 1
+            },
+            {
+              "sdg": 7,
+              "n": 100,
+              "accuracy": 0.93,
+              "precision": 0.8771929824561403,
+              "recall": 1.0,
+              "f1": 0.9345794392523363,
+              "tp": 50,
+              "fp": 7,
+              "tn": 43,
+              "fn": 0
+            },
+            {
+              "sdg": 8,
+              "n": 74,
+              "accuracy": 0.7972972972972973,
+              "precision": 0.7674418604651163,
+              "recall": 0.868421052631579,
+              "f1": 0.8148148148148148,
+              "tp": 33,
+              "fp": 10,
+              "tn": 26,
+              "fn": 5
+            },
+            {
+              "sdg": 9,
+              "n": 57,
+              "accuracy": 0.8771929824561403,
+              "precision": 0.8181818181818182,
+              "recall": 0.9642857142857143,
+              "f1": 0.8852459016393442,
+              "tp": 27,
+              "fp": 6,
+              "tn": 23,
+              "fn": 1
+            },
+            {
+              "sdg": 10,
+              "n": 61,
+              "accuracy": 0.9508196721311475,
+              "precision": 0.9642857142857143,
+              "recall": 0.9310344827586207,
+              "f1": 0.9473684210526316,
+              "tp": 27,
+              "fp": 1,
+              "tn": 31,
+              "fn": 2
+            },
+            {
+              "sdg": 11,
+              "n": 69,
+              "accuracy": 0.8260869565217391,
+              "precision": 0.7419354838709677,
+              "recall": 0.8518518518518519,
+              "f1": 0.7931034482758621,
+              "tp": 23,
+              "fp": 8,
+              "tn": 34,
+              "fn": 4
+            },
+            {
+              "sdg": 12,
+              "n": 80,
+              "accuracy": 0.8125,
+              "precision": 0.8181818181818182,
+              "recall": 0.8372093023255814,
+              "f1": 0.8275862068965518,
+              "tp": 36,
+              "fp": 8,
+              "tn": 29,
+              "fn": 7
+            },
+            {
+              "sdg": 13,
+              "n": 65,
+              "accuracy": 0.8769230769230769,
+              "precision": 0.8378378378378378,
+              "recall": 0.9393939393939394,
+              "f1": 0.8857142857142858,
+              "tp": 31,
+              "fp": 6,
+              "tn": 26,
+              "fn": 2
+            },
+            {
+              "sdg": 14,
+              "n": 84,
+              "accuracy": 0.8095238095238095,
+              "precision": 0.7021276595744681,
+              "recall": 0.9428571428571428,
+              "f1": 0.8048780487804879,
+              "tp": 33,
+              "fp": 14,
+              "tn": 35,
+              "fn": 2
+            },
+            {
+              "sdg": 15,
+              "n": 71,
+              "accuracy": 0.8450704225352113,
+              "precision": 0.9166666666666666,
+              "recall": 0.8048780487804879,
+              "f1": 0.8571428571428571,
+              "tp": 33,
+              "fp": 3,
+              "tn": 27,
+              "fn": 8
+            },
+            {
+              "sdg": 16,
+              "n": 68,
+              "accuracy": 0.8382352941176471,
+              "precision": 0.7857142857142857,
+              "recall": 0.9428571428571428,
+              "f1": 0.8571428571428571,
+              "tp": 33,
+              "fp": 9,
+              "tn": 24,
+              "fn": 2
+            },
+            {
+              "sdg": 17,
+              "n": 64,
+              "accuracy": 0.765625,
+              "precision": 0.8636363636363636,
+              "recall": 0.6129032258064516,
+              "f1": 0.7169811320754716,
+              "tp": 19,
+              "fp": 3,
+              "tn": 30,
+              "fn": 12
+            }
+          ],
+          "macro": {
+            "accuracy": 0.8602691892174418,
+            "precision": 0.825031692408431,
+            "recall": 0.913399601908951,
+            "f1": 0.8604763748073128,
+            "tp": 33.1764705882353,
+            "fp": 7.176470588235294,
+            "tn": 30.176470588235293,
+            "fn": 3.0588235294117645
+          }
+        },
+        "gpt_priority_ge_2": {
+          "micro": {
+            "accuracy": 0.8689048760991207,
+            "precision": 0.834319526627219,
+            "recall": 0.9155844155844156,
+            "f1": 0.8730650154798761,
+            "tp": 564,
+            "fp": 112,
+            "tn": 523,
+            "fn": 52
+          },
+          "per_sdg": [
+            {
+              "sdg": 1,
+              "n": 77,
+              "accuracy": 0.8571428571428571,
+              "precision": 0.7105263157894737,
+              "recall": 1.0,
+              "f1": 0.8307692307692308,
+              "tp": 27,
+              "fp": 11,
+              "tn": 39,
+              "fn": 0
+            },
+            {
+              "sdg": 2,
+              "n": 69,
+              "accuracy": 0.927536231884058,
+              "precision": 0.9545454545454546,
+              "recall": 0.9333333333333333,
+              "f1": 0.9438202247191012,
+              "tp": 42,
+              "fp": 2,
+              "tn": 22,
+              "fn": 3
+            },
+            {
+              "sdg": 3,
+              "n": 76,
+              "accuracy": 0.7894736842105263,
+              "precision": 0.6363636363636364,
+              "recall": 1.0,
+              "f1": 0.7777777777777778,
+              "tp": 28,
+              "fp": 16,
+              "tn": 32,
+              "fn": 0
+            },
+            {
+              "sdg": 4,
+              "n": 82,
+              "accuracy": 0.8658536585365854,
+              "precision": 0.8076923076923077,
+              "recall": 0.9767441860465116,
+              "f1": 0.8842105263157894,
+              "tp": 42,
+              "fp": 10,
+              "tn": 29,
+              "fn": 1
+            },
+            {
+              "sdg": 5,
+              "n": 69,
+              "accuracy": 0.9420289855072463,
+              "precision": 0.9428571428571428,
+              "recall": 0.9428571428571428,
+              "f1": 0.9428571428571428,
+              "tp": 33,
+              "fp": 2,
+              "tn": 32,
+              "fn": 2
+            },
+            {
+              "sdg": 6,
+              "n": 85,
+              "accuracy": 0.9529411764705882,
+              "precision": 0.94,
+              "recall": 0.9791666666666666,
+              "f1": 0.9591836734693877,
+              "tp": 47,
+              "fp": 3,
+              "tn": 34,
+              "fn": 1
+            },
+            {
+              "sdg": 7,
+              "n": 100,
+              "accuracy": 0.95,
+              "precision": 0.9090909090909091,
+              "recall": 1.0,
+              "f1": 0.9523809523809523,
+              "tp": 50,
+              "fp": 5,
+              "tn": 45,
+              "fn": 0
+            },
+            {
+              "sdg": 8,
+              "n": 74,
+              "accuracy": 0.7972972972972973,
+              "precision": 0.7674418604651163,
+              "recall": 0.868421052631579,
+              "f1": 0.8148148148148148,
+              "tp": 33,
+              "fp": 10,
+              "tn": 26,
+              "fn": 5
+            },
+            {
+              "sdg": 9,
+              "n": 57,
+              "accuracy": 0.8947368421052632,
+              "precision": 0.84375,
+              "recall": 0.9642857142857143,
+              "f1": 0.8999999999999999,
+              "tp": 27,
+              "fp": 5,
+              "tn": 24,
+              "fn": 1
+            },
+            {
+              "sdg": 10,
+              "n": 61,
+              "accuracy": 0.9508196721311475,
+              "precision": 0.9642857142857143,
+              "recall": 0.9310344827586207,
+              "f1": 0.9473684210526316,
+              "tp": 27,
+              "fp": 1,
+              "tn": 31,
+              "fn": 2
+            },
+            {
+              "sdg": 11,
+              "n": 69,
+              "accuracy": 0.8260869565217391,
+              "precision": 0.7419354838709677,
+              "recall": 0.8518518518518519,
+              "f1": 0.7931034482758621,
+              "tp": 23,
+              "fp": 8,
+              "tn": 34,
+              "fn": 4
+            },
+            {
+              "sdg": 12,
+              "n": 80,
+              "accuracy": 0.825,
+              "precision": 0.8372093023255814,
+              "recall": 0.8372093023255814,
+              "f1": 0.8372093023255814,
+              "tp": 36,
+              "fp": 7,
+              "tn": 30,
+              "fn": 7
+            },
+            {
+              "sdg": 13,
+              "n": 65,
+              "accuracy": 0.8923076923076924,
+              "precision": 0.8611111111111112,
+              "recall": 0.9393939393939394,
+              "f1": 0.8985507246376813,
+              "tp": 31,
+              "fp": 5,
+              "tn": 27,
+              "fn": 2
+            },
+            {
+              "sdg": 14,
+              "n": 84,
+              "accuracy": 0.8095238095238095,
+              "precision": 0.7021276595744681,
+              "recall": 0.9428571428571428,
+              "f1": 0.8048780487804879,
+              "tp": 33,
+              "fp": 14,
+              "tn": 35,
+              "fn": 2
+            },
+            {
+              "sdg": 15,
+              "n": 71,
+              "accuracy": 0.8591549295774648,
+              "precision": 0.9428571428571428,
+              "recall": 0.8048780487804879,
+              "f1": 0.868421052631579,
+              "tp": 33,
+              "fp": 2,
+              "tn": 28,
+              "fn": 8
+            },
+            {
+              "sdg": 16,
+              "n": 68,
+              "accuracy": 0.8529411764705882,
+              "precision": 0.8048780487804879,
+              "recall": 0.9428571428571428,
+              "f1": 0.868421052631579,
+              "tp": 33,
+              "fp": 8,
+              "tn": 25,
+              "fn": 2
+            },
+            {
+              "sdg": 17,
+              "n": 64,
+              "accuracy": 0.765625,
+              "precision": 0.8636363636363636,
+              "recall": 0.6129032258064516,
+              "f1": 0.7169811320754716,
+              "tp": 19,
+              "fp": 3,
+              "tn": 30,
+              "fn": 12
+            }
+          ],
+          "macro": {
+            "accuracy": 0.8681452923345214,
+            "precision": 0.8370769678379928,
+            "recall": 0.913399601908951,
+            "f1": 0.8671027956185334,
+            "tp": 33.1764705882353,
+            "fp": 6.588235294117647,
+            "tn": 30.764705882352942,
+            "fn": 3.0588235294117645
+          }
+        },
+        "gpt_priority_ge_3": {
+          "micro": {
+            "accuracy": 0.8529176658673061,
+            "precision": 0.8673469387755102,
+            "recall": 0.827922077922078,
+            "f1": 0.8471760797342193,
+            "tp": 510,
+            "fp": 78,
+            "tn": 557,
+            "fn": 106
+          },
+          "per_sdg": [
+            {
+              "sdg": 1,
+              "n": 77,
+              "accuracy": 0.8831168831168831,
+              "precision": 0.78125,
+              "recall": 0.9259259259259259,
+              "f1": 0.847457627118644,
+              "tp": 25,
+              "fp": 7,
+              "tn": 43,
+              "fn": 2
+            },
+            {
+              "sdg": 2,
+              "n": 69,
+              "accuracy": 0.8985507246376812,
+              "precision": 0.9523809523809523,
+              "recall": 0.8888888888888888,
+              "f1": 0.9195402298850575,
+              "tp": 40,
+              "fp": 2,
+              "tn": 22,
+              "fn": 5
+            },
+            {
+              "sdg": 3,
+              "n": 76,
+              "accuracy": 0.8289473684210527,
+              "precision": 0.7142857142857143,
+              "recall": 0.8928571428571429,
+              "f1": 0.7936507936507937,
+              "tp": 25,
+              "fp": 10,
+              "tn": 38,
+              "fn": 3
+            },
+            {
+              "sdg": 4,
+              "n": 82,
+              "accuracy": 0.8658536585365854,
+              "precision": 0.8809523809523809,
+              "recall": 0.8604651162790697,
+              "f1": 0.8705882352941177,
+              "tp": 37,
+              "fp": 5,
+              "tn": 34,
+              "fn": 6
+            },
+            {
+              "sdg": 5,
+              "n": 69,
+              "accuracy": 0.8840579710144928,
+              "precision": 0.9354838709677419,
+              "recall": 0.8285714285714286,
+              "f1": 0.8787878787878788,
+              "tp": 29,
+              "fp": 2,
+              "tn": 32,
+              "fn": 6
+            },
+            {
+              "sdg": 6,
+              "n": 85,
+              "accuracy": 0.9294117647058824,
+              "precision": 0.9375,
+              "recall": 0.9375,
+              "f1": 0.9375,
+              "tp": 45,
+              "fp": 3,
+              "tn": 34,
+              "fn": 3
+            },
+            {
+              "sdg": 7,
+              "n": 100,
+              "accuracy": 0.92,
+              "precision": 0.9375,
+              "recall": 0.9,
+              "f1": 0.9183673469387755,
+              "tp": 45,
+              "fp": 3,
+              "tn": 47,
+              "fn": 5
+            },
+            {
+              "sdg": 8,
+              "n": 74,
+              "accuracy": 0.7972972972972973,
+              "precision": 0.7804878048780488,
+              "recall": 0.8421052631578947,
+              "f1": 0.810126582278481,
+              "tp": 32,
+              "fp": 9,
+              "tn": 27,
+              "fn": 6
+            },
+            {
+              "sdg": 9,
+              "n": 57,
+              "accuracy": 0.8421052631578947,
+              "precision": 0.8275862068965517,
+              "recall": 0.8571428571428571,
+              "f1": 0.8421052631578947,
+              "tp": 24,
+              "fp": 5,
+              "tn": 24,
+              "fn": 4
+            },
+            {
+              "sdg": 10,
+              "n": 61,
+              "accuracy": 0.8688524590163934,
+              "precision": 1.0,
+              "recall": 0.7241379310344828,
+              "f1": 0.8400000000000001,
+              "tp": 21,
+              "fp": 0,
+              "tn": 32,
+              "fn": 8
+            },
+            {
+              "sdg": 11,
+              "n": 69,
+              "accuracy": 0.8115942028985508,
+              "precision": 0.7916666666666666,
+              "recall": 0.7037037037037037,
+              "f1": 0.7450980392156864,
+              "tp": 19,
+              "fp": 5,
+              "tn": 37,
+              "fn": 8
+            },
+            {
+              "sdg": 12,
+              "n": 80,
+              "accuracy": 0.8125,
+              "precision": 0.868421052631579,
+              "recall": 0.7674418604651163,
+              "f1": 0.8148148148148148,
+              "tp": 33,
+              "fp": 5,
+              "tn": 32,
+              "fn": 10
+            },
+            {
+              "sdg": 13,
+              "n": 65,
+              "accuracy": 0.8769230769230769,
+              "precision": 0.9032258064516129,
+              "recall": 0.8484848484848485,
+              "f1": 0.875,
+              "tp": 28,
+              "fp": 3,
+              "tn": 29,
+              "fn": 5
+            },
+            {
+              "sdg": 14,
+              "n": 84,
+              "accuracy": 0.8214285714285714,
+              "precision": 0.75,
+              "recall": 0.8571428571428571,
+              "f1": 0.7999999999999999,
+              "tp": 30,
+              "fp": 10,
+              "tn": 39,
+              "fn": 5
+            },
+            {
+              "sdg": 15,
+              "n": 71,
+              "accuracy": 0.8450704225352113,
+              "precision": 0.9411764705882353,
+              "recall": 0.7804878048780488,
+              "f1": 0.8533333333333334,
+              "tp": 32,
+              "fp": 2,
+              "tn": 28,
+              "fn": 9
+            },
+            {
+              "sdg": 16,
+              "n": 68,
+              "accuracy": 0.8529411764705882,
+              "precision": 0.8571428571428571,
+              "recall": 0.8571428571428571,
+              "f1": 0.8571428571428571,
+              "tp": 30,
+              "fp": 5,
+              "tn": 28,
+              "fn": 5
+            },
+            {
+              "sdg": 17,
+              "n": 64,
+              "accuracy": 0.71875,
+              "precision": 0.8823529411764706,
+              "recall": 0.4838709677419355,
+              "f1": 0.625,
+              "tp": 15,
+              "fp": 2,
+              "tn": 31,
+              "fn": 16
+            }
+          ],
+          "macro": {
+            "accuracy": 0.850435343538833,
+            "precision": 0.8671419250011065,
+            "recall": 0.820933497259827,
+            "f1": 0.8369713530363727,
+            "tp": 30.0,
+            "fp": 4.588235294117647,
+            "tn": 32.76470588235294,
+            "fn": 6.235294117647059
+          }
+        },
+        "gpt_priority_ge_4": {
+          "micro": {
+            "accuracy": 0.8385291766586731,
+            "precision": 0.9107142857142857,
+            "recall": 0.7451298701298701,
+            "f1": 0.8196428571428571,
+            "tp": 459,
+            "fp": 45,
+            "tn": 590,
+            "fn": 157
+          },
+          "per_sdg": [
+            {
+              "sdg": 1,
+              "n": 77,
+              "accuracy": 0.922077922077922,
+              "precision": 0.8620689655172413,
+              "recall": 0.9259259259259259,
+              "f1": 0.8928571428571429,
+              "tp": 25,
+              "fp": 4,
+              "tn": 46,
+              "fn": 2
+            },
+            {
+              "sdg": 2,
+              "n": 69,
+              "accuracy": 0.8840579710144928,
+              "precision": 1.0,
+              "recall": 0.8222222222222222,
+              "f1": 0.9024390243902439,
+              "tp": 37,
+              "fp": 0,
+              "tn": 24,
+              "fn": 8
+            },
+            {
+              "sdg": 3,
+              "n": 76,
+              "accuracy": 0.868421052631579,
+              "precision": 0.8214285714285714,
+              "recall": 0.8214285714285714,
+              "f1": 0.8214285714285714,
+              "tp": 23,
+              "fp": 5,
+              "tn": 43,
+              "fn": 5
+            },
+            {
+              "sdg": 4,
+              "n": 82,
+              "accuracy": 0.8780487804878049,
+              "precision": 0.9459459459459459,
+              "recall": 0.813953488372093,
+              "f1": 0.875,
+              "tp": 35,
+              "fp": 2,
+              "tn": 37,
+              "fn": 8
+            },
+            {
+              "sdg": 5,
+              "n": 69,
+              "accuracy": 0.8115942028985508,
+              "precision": 0.9230769230769231,
+              "recall": 0.6857142857142857,
+              "f1": 0.7868852459016394,
+              "tp": 24,
+              "fp": 2,
+              "tn": 32,
+              "fn": 11
+            },
+            {
+              "sdg": 6,
+              "n": 85,
+              "accuracy": 0.9176470588235294,
+              "precision": 0.9767441860465116,
+              "recall": 0.875,
+              "f1": 0.923076923076923,
+              "tp": 42,
+              "fp": 1,
+              "tn": 36,
+              "fn": 6
+            },
+            {
+              "sdg": 7,
+              "n": 100,
+              "accuracy": 0.93,
+              "precision": 0.9777777777777777,
+              "recall": 0.88,
+              "f1": 0.9263157894736842,
+              "tp": 44,
+              "fp": 1,
+              "tn": 49,
+              "fn": 6
+            },
+            {
+              "sdg": 8,
+              "n": 74,
+              "accuracy": 0.7837837837837838,
+              "precision": 0.8235294117647058,
+              "recall": 0.7368421052631579,
+              "f1": 0.7777777777777778,
+              "tp": 28,
+              "fp": 6,
+              "tn": 30,
+              "fn": 10
+            },
+            {
+              "sdg": 9,
+              "n": 57,
+              "accuracy": 0.8421052631578947,
+              "precision": 0.88,
+              "recall": 0.7857142857142857,
+              "f1": 0.830188679245283,
+              "tp": 22,
+              "fp": 3,
+              "tn": 26,
+              "fn": 6
+            },
+            {
+              "sdg": 10,
+              "n": 61,
+              "accuracy": 0.7377049180327869,
+              "precision": 1.0,
+              "recall": 0.4482758620689655,
+              "f1": 0.6190476190476191,
+              "tp": 13,
+              "fp": 0,
+              "tn": 32,
+              "fn": 16
+            },
+            {
+              "sdg": 11,
+              "n": 69,
+              "accuracy": 0.8115942028985508,
+              "precision": 0.85,
+              "recall": 0.6296296296296297,
+              "f1": 0.723404255319149,
+              "tp": 17,
+              "fp": 3,
+              "tn": 39,
+              "fn": 10
+            },
+            {
+              "sdg": 12,
+              "n": 80,
+              "accuracy": 0.775,
+              "precision": 0.9032258064516129,
+              "recall": 0.6511627906976745,
+              "f1": 0.7567567567567568,
+              "tp": 28,
+              "fp": 3,
+              "tn": 34,
+              "fn": 15
+            },
+            {
+              "sdg": 13,
+              "n": 65,
+              "accuracy": 0.8923076923076924,
+              "precision": 0.9333333333333333,
+              "recall": 0.8484848484848485,
+              "f1": 0.888888888888889,
+              "tp": 28,
+              "fp": 2,
+              "tn": 30,
+              "fn": 5
+            },
+            {
+              "sdg": 14,
+              "n": 84,
+              "accuracy": 0.8333333333333334,
+              "precision": 0.8,
+              "recall": 0.8,
+              "f1": 0.8000000000000002,
+              "tp": 28,
+              "fp": 7,
+              "tn": 42,
+              "fn": 7
+            },
+            {
+              "sdg": 15,
+              "n": 71,
+              "accuracy": 0.8169014084507042,
+              "precision": 0.9666666666666667,
+              "recall": 0.7073170731707317,
+              "f1": 0.8169014084507042,
+              "tp": 29,
+              "fp": 1,
+              "tn": 29,
+              "fn": 12
+            },
+            {
+              "sdg": 16,
+              "n": 68,
+              "accuracy": 0.8088235294117647,
+              "precision": 0.84375,
+              "recall": 0.7714285714285715,
+              "f1": 0.8059701492537314,
+              "tp": 27,
+              "fp": 5,
+              "tn": 28,
+              "fn": 8
+            },
+            {
+              "sdg": 17,
+              "n": 64,
+              "accuracy": 0.65625,
+              "precision": 1.0,
+              "recall": 0.2903225806451613,
+              "f1": 0.45000000000000007,
+              "tp": 9,
+              "fp": 0,
+              "tn": 33,
+              "fn": 22
+            }
+          ],
+          "macro": {
+            "accuracy": 0.8335088893711994,
+            "precision": 0.9122086816476053,
+            "recall": 0.7349071906333015,
+            "f1": 0.7998198959922421,
+            "tp": 27.0,
+            "fp": 2.6470588235294117,
+            "tn": 34.705882352941174,
+            "fn": 9.235294117647058
+          }
+        },
+        "gpt_priority_ge_5": {
+          "micro": {
+            "accuracy": 0.6874500399680256,
+            "precision": 0.9746835443037974,
+            "recall": 0.375,
+            "f1": 0.541617819460727,
+            "tp": 231,
+            "fp": 6,
+            "tn": 629,
+            "fn": 385
+          },
+          "per_sdg": [
+            {
+              "sdg": 1,
+              "n": 77,
+              "accuracy": 0.8701298701298701,
+              "precision": 0.9473684210526315,
+              "recall": 0.6666666666666666,
+              "f1": 0.782608695652174,
+              "tp": 18,
+              "fp": 1,
+              "tn": 49,
+              "fn": 9
+            },
+            {
+              "sdg": 2,
+              "n": 69,
+              "accuracy": 0.5507246376811594,
+              "precision": 1.0,
+              "recall": 0.3111111111111111,
+              "f1": 0.4745762711864407,
+              "tp": 14,
+              "fp": 0,
+              "tn": 24,
+              "fn": 31
+            },
+            {
+              "sdg": 3,
+              "n": 76,
+              "accuracy": 0.7894736842105263,
+              "precision": 0.9285714285714286,
+              "recall": 0.4642857142857143,
+              "f1": 0.6190476190476191,
+              "tp": 13,
+              "fp": 1,
+              "tn": 47,
+              "fn": 15
+            },
+            {
+              "sdg": 4,
+              "n": 82,
+              "accuracy": 0.6951219512195121,
+              "precision": 1.0,
+              "recall": 0.4186046511627907,
+              "f1": 0.5901639344262295,
+              "tp": 18,
+              "fp": 0,
+              "tn": 39,
+              "fn": 25
+            },
+            {
+              "sdg": 5,
+              "n": 69,
+              "accuracy": 0.7101449275362319,
+              "precision": 1.0,
+              "recall": 0.42857142857142855,
+              "f1": 0.6,
+              "tp": 15,
+              "fp": 0,
+              "tn": 34,
+              "fn": 20
+            },
+            {
+              "sdg": 6,
+              "n": 85,
+              "accuracy": 0.6705882352941176,
+              "precision": 1.0,
+              "recall": 0.4166666666666667,
+              "f1": 0.5882352941176471,
+              "tp": 20,
+              "fp": 0,
+              "tn": 37,
+              "fn": 28
+            },
+            {
+              "sdg": 7,
+              "n": 100,
+              "accuracy": 0.75,
+              "precision": 0.9629629629629629,
+              "recall": 0.52,
+              "f1": 0.6753246753246753,
+              "tp": 26,
+              "fp": 1,
+              "tn": 49,
+              "fn": 24
+            },
+            {
+              "sdg": 8,
+              "n": 74,
+              "accuracy": 0.5945945945945946,
+              "precision": 1.0,
+              "recall": 0.21052631578947367,
+              "f1": 0.34782608695652173,
+              "tp": 8,
+              "fp": 0,
+              "tn": 36,
+              "fn": 30
+            },
+            {
+              "sdg": 9,
+              "n": 57,
+              "accuracy": 0.6140350877192983,
+              "precision": 1.0,
+              "recall": 0.21428571428571427,
+              "f1": 0.35294117647058826,
+              "tp": 6,
+              "fp": 0,
+              "tn": 29,
+              "fn": 22
+            },
+            {
+              "sdg": 10,
+              "n": 61,
+              "accuracy": 0.639344262295082,
+              "precision": 1.0,
+              "recall": 0.2413793103448276,
+              "f1": 0.3888888888888889,
+              "tp": 7,
+              "fp": 0,
+              "tn": 32,
+              "fn": 22
+            },
+            {
+              "sdg": 11,
+              "n": 69,
+              "accuracy": 0.7101449275362319,
+              "precision": 1.0,
+              "recall": 0.25925925925925924,
+              "f1": 0.4117647058823529,
+              "tp": 7,
+              "fp": 0,
+              "tn": 42,
+              "fn": 20
+            },
+            {
+              "sdg": 12,
+              "n": 80,
+              "accuracy": 0.6625,
+              "precision": 1.0,
+              "recall": 0.37209302325581395,
+              "f1": 0.5423728813559322,
+              "tp": 16,
+              "fp": 0,
+              "tn": 37,
+              "fn": 27
+            },
+            {
+              "sdg": 13,
+              "n": 65,
+              "accuracy": 0.7538461538461538,
+              "precision": 1.0,
+              "recall": 0.5151515151515151,
+              "f1": 0.6799999999999999,
+              "tp": 17,
+              "fp": 0,
+              "tn": 32,
+              "fn": 16
+            },
+            {
+              "sdg": 14,
+              "n": 84,
+              "accuracy": 0.7380952380952381,
+              "precision": 0.8823529411764706,
+              "recall": 0.42857142857142855,
+              "f1": 0.5769230769230769,
+              "tp": 15,
+              "fp": 2,
+              "tn": 47,
+              "fn": 20
+            },
+            {
+              "sdg": 15,
+              "n": 71,
+              "accuracy": 0.5915492957746479,
+              "precision": 1.0,
+              "recall": 0.2926829268292683,
+              "f1": 0.45283018867924524,
+              "tp": 12,
+              "fp": 0,
+              "tn": 30,
+              "fn": 29
+            },
+            {
+              "sdg": 16,
+              "n": 68,
+              "accuracy": 0.7205882352941176,
+              "precision": 0.9444444444444444,
+              "recall": 0.4857142857142857,
+              "f1": 0.6415094339622641,
+              "tp": 17,
+              "fp": 1,
+              "tn": 32,
+              "fn": 18
+            },
+            {
+              "sdg": 17,
+              "n": 64,
+              "accuracy": 0.546875,
+              "precision": 1.0,
+              "recall": 0.06451612903225806,
+              "f1": 0.12121212121212122,
+              "tp": 2,
+              "fp": 0,
+              "tn": 33,
+              "fn": 29
+            }
+          ],
+          "macro": {
+            "accuracy": 0.6828091824251048,
+            "precision": 0.9803353057769374,
+            "recall": 0.3711815380410719,
+            "f1": 0.5203661794168104,
+            "tp": 13.588235294117647,
+            "fp": 0.35294117647058826,
+            "tn": 37.0,
+            "fn": 22.647058823529413
+          }
+        }
+      },
+      "priority_exact_score_precision": {
+        "1": {
+          "n": 10,
+          "precision_at_exact_score": 0.0
+        },
+        "2": {
+          "n": 88,
+          "precision_at_exact_score": 0.6136363636363636
+        },
+        "3": {
+          "n": 80,
+          "precision_at_exact_score": 0.6
+        },
+        "4": {
+          "n": 271,
+          "precision_at_exact_score": 0.8523985239852399
+        },
+        "5": {
+          "n": 237,
+          "precision_at_exact_score": 0.9746835443037974
+        }
+      },
+      "average_precision_priority_score": 0.8952978473508704,
+      "jrc_average_precision_binary_score": 0.7493244352271197,
+      "topk_positive_capture": {
+        "top_1": 0.6931818181818182,
+        "top_3": 0.8944805194805194,
+        "top_5": 0.9155844155844156
+      },
+      "paired_bootstrap_f1_gpt_ge_1_minus_jrc": {
+        "mean_diff": 0.145189850946009,
+        "ci95_low": 0.11156121501490532,
+        "ci95_high": 0.18025780173059575,
+        "p_diff_le_0": 0.0
+      },
+      "paired_bootstrap_f1_gpt_ge_3_minus_jrc": {
+        "mean_diff": 0.1259742803472102,
+        "ci95_low": 0.09141360476899163,
+        "ci95_high": 0.1616734815778963,
+        "p_diff_le_0": 0.0
+      },
+      "mcnemar_correctness_gpt_ge_1_vs_jrc": {
+        "only_a_correct": 229,
+        "only_b_correct": 122,
+        "chi2_cc": 32.01139601139601,
+        "p_approx": 1.5327079838135267e-08
+      }
+    },
+    "procedures": {
+      "joins": "Require unique (id, sdg) keys and identical full coverage, texts and labels across all CSVs; verify JRC list membership/correctness, cache ID coverage/config hashes, all score maps, target scores (absent SDG = 0), and five saved threshold flags. Use benchmark.csv row order.",
+      "metrics": "Pool all text-SDG rows for micro accuracy, precision, recall and harmonic-mean F1; zero denominators return 0. Predict positive for raw centrality >= each threshold 1..5. AP weights precision at each tied-score cutoff by positives at that score / all positives, including score zero. Continuous-score AP is threshold independent; binary-prediction AP is also supplied for each threshold. It is not trapezoidal PR area.",
+      "centrality": "Historical exact-score precision uses nearest-integer rounding with half ties to even (2.5 -> 2, 3.5 -> 4, 4.5 -> 4). Literal unrounded score precision, including zero, is separately reported. Missed positives are labelled-positive rows below each threshold.",
+      "bootstrap": {
+        "draws": 10000,
+        "seed": 20260504,
+        "generator": "numpy.random.default_rng (PCG64), freshly seeded for each comparison",
+        "quantiles": [
+          0.025,
+          0.975
+        ],
+        "quantile_method": "linear (numpy default)",
+        "row": "Primary historical procedure: N integer indices sampled uniformly with replacement from N rows per draw; same indices for labels and both models; F1(A) minus F1(JRC).",
+        "cluster": "Sensitivity: K integer indices sampled uniformly with replacement from K unique texts per draw; include all rows of every selected cluster with multiplicity for both models; compute pooled row-weighted micro F1, not mean cluster F1. The number of sampled rows can vary. Use raw centrality >=3 versus JRC.",
+        "text_equality": "Exact equality of decoded UTF-8 CSV text field strings, including case, whitespace, embedded line endings and Unicode code points; no stripping, case folding, Unicode normalization, hashing-based grouping or deduplication. Clusters are ordered by first appearance in benchmark.csv, regardless of row ID or SDG.",
+        "p_diff_le_0": "Empirical fraction of bootstrap differences <=0, not a calibrated p-value."
+      },
+      "verification": "Compare every numeric historical field: counts, micro/macro/per-SDG metrics, rounded centrality precision, AP, top-k capture, row bootstrap at >=1 and >=3, and McNemar."
+    },
+    "limitations": [
+      "Thresholds 1-5 were explored on this same benchmark; >=3 is the reported operating point, not an independently selected or held-out optimum. The CIs do not account for threshold-selection uncertainty.",
+      "The generic prompt removes bank-report framing. These results concern generic UN/policy text and do not establish bank-finance extraction validity, monetary-amount accuracy or Honesty Score validity.",
+      "Both intervals condition on fixed cached predictions and this labelled sample. They omit model rerun variability, annotation error, training-data overlap and dependence beyond exact duplicate text. Cluster resampling assumes independence between unique texts; near duplicates and common sources can remain.",
+      "Prediction JSONL contains only IDs, normalized SDG scores and run-config hashes; raw provider responses, request timestamps and a resolved backend snapshot are unavailable. Model metadata is a recorded declaration. Current source hashes are provenance, not proof that all current implementation bytes ran historically."
+    ],
+    "provenance": {
+      "files": {
+        "benchmark": {
+          "path": "evaluations/sdg_benchmark/benchmark.csv",
+          "sha256": "0ce3226365d7a5aa2c2bab251eda1edbd9347dfc23f759108baec1ae2a825292",
+          "bytes": 780503
+        },
+        "baseline": {
+          "path": "evaluations/sdg_benchmark/sdg_mapper_results.csv",
+          "sha256": "aa2759e8f3de3cbc4bcf497ac254f06a70a96ff135619d672391523932ac7053",
+          "bytes": 800483
+        },
+        "results": {
+          "path": "evaluations/sdg_benchmark/gpt_oss_120b_generic_results.csv",
+          "sha256": "f3b86ba2ec22f5f8a7155218f618ea1c04860427d7475265aafea5c61d8bb3c9",
+          "bytes": 854609
+        },
+        "predictions": {
+          "path": "evaluations/sdg_benchmark/gpt_oss_120b_generic_predictions.jsonl",
+          "sha256": "f8d332bfc66a0bc2813952ce97f0331e52ceca83165ecdf014b1209d9f5b3aaa",
+          "bytes": 181125
+        },
+        "metrics": {
+          "path": "evaluations/sdg_benchmark/gpt_oss_120b_vs_jrc_generic_metrics.json",
+          "sha256": "7881a3e0c04ddee112fc892ec09b3e183e0c5aa16143da4be5068d9e8a6ba79d",
+          "bytes": 34439
+        },
+        "harness_source": {
+          "path": "evaluations/sdg_benchmark/run_honesty_classifier_sdg_benchmark.py",
+          "sha256": "f50d74b1195d91a55c939abe49df73c1811100ecbc857bc44350df60b7499d3f",
+          "bytes": 20349
+        },
+        "constants_source": {
+          "path": "honesty_scorer/constants.py",
+          "sha256": "42bf9a0708ee2b81d33e04f7b958db74bd0fb8abf38fb0275e109e608e043bd3",
+          "bytes": 9193
+        },
+        "client_source": {
+          "path": "honesty_scorer/client.py",
+          "sha256": "64ceb1d30645952247a9e0275628ecc9700f13f7dd3f654412f4bfc05592eea7",
+          "bytes": 11397
+        },
+        "normalization_source": {
+          "path": "honesty_scorer/models.py",
+          "sha256": "60270a3d031d15f0a539126989344cf92d0f1ed7a5712088338732b6d957c625",
+          "bytes": 10788
+        }
+      },
+      "cached_metadata": {
+        "model": "openai/gpt-oss-120b",
+        "framing": "generic",
+        "run_config_hash": "da059d6439bab38b688fe51768c0c2ae52af6a812849b3e462354505215a8e2b",
+        "classifier_source": "honesty_scorer.client.AIClient._chat_json with SDG_MENTIONS_*_GENERIC prompts (same call path, bank-report framing removed; see honesty_scorer/constants.py BANK_REPORT_LABEL)",
+        "sample_size": null,
+        "sample_seed": null
+      },
+      "runtime": {
+        "python": "3.9.6",
+        "numpy": "2.0.2"
+      },
+      "source_config": {
+        "status": "matched",
+        "declared_model_matches_saved": true,
+        "payload": {
+          "model": "openai/gpt-oss-120b",
+          "framing": "generic",
+          "system_prompt_sha256": "58cca8e60d7d998590b560dc58e4558f422d515223b53a7d953e1726bf14db51",
+          "user_template_sha256": "affe4a3ae8dd6b4442c69c992d8af730472da4c44e89230690cad423f7e4ce09",
+          "benchmark_sha256": "0ce3226365d7a5aa2c2bab251eda1edbd9347dfc23f759108baec1ae2a825292",
+          "response_schema": "honesty_scorer.models.SdgMentionRecord (sdg_number, mention_count, importance_score, page_numbers)",
+          "harness": "run_honesty_classifier_sdg_benchmark.py:v2"
+        },
+        "reconstructed_run_config_hash": "da059d6439bab38b688fe51768c0c2ae52af6a812849b3e462354505215a8e2b",
+        "system_prompt": "You extract Sustainable Development Goal themes from the supplied text.\nReturn only valid JSON. Use the page labels provided in the text when reporting page_numbers.\nimportance_score is 0-5: 0 means absent, 5 means central to the text.\nDo not invent page numbers or SDG themes that are not supported by the supplied text.\n",
+        "user_template": "Analyze this text excerpt and return JSON with this exact shape:\n{\n  \"sdg_data\": [\n    {\n      \"sdg_number\": 1,\n      \"mention_count\": 0,\n      \"importance_score\": 0.0,\n      \"page_numbers\": []\n    }\n  ]\n}\n\nInclude SDGs 1 through 17 when they are mentioned or materially discussed. Omit SDGs with no evidence.\nText:\n{report_text}\n",
+        "method": "AST literal extraction; reconstruct historical v2 sorted-key JSON hash without executing source.",
+        "caveat": "Source files are current local snapshots. A matching config hash binds the prompt/model declaration and benchmark bytes, but does not verify the provider backend or an environment model override."
+      },
+      "source_request_settings": {
+        "literal_settings": {
+          "temperature": 0,
+          "response_format": {
+            "type": "json_object"
+          }
+        },
+        "scope": "Current client source declarations only; not archived request metadata. Resolved max_tokens and runtime model overrides are not recorded in the cache."
+      }
+    },
+    "artifacts": {
+      "summary": "benchmark_summary.json",
+      "thresholds": "benchmark_thresholds.csv",
+      "centrality": "benchmark_centrality.csv",
+      "missed_positives": "benchmark_missed_positives.csv"
+    }
+  },
+  "environment": {
+    "python": "3.9.6",
+    "packages": {
+      "numpy": "2.0.2",
+      "pandas": "2.3.3",
+      "matplotlib": "3.9.4"
+    }
+  },
+  "input_sha256": {
+    "data/bank_reports/manifests/bank_reports_all.csv": "5e74df8c8a3145c25686a4a49cb5832b9d8acc6dd389a0dda0b7b608fb32f24c",
+    "data/bank_reports/manifests/bank_reports_finland_2019.csv": "0eb1d4b48cbb4cd92485e86cedf6cc3541579ebb1757a0eec1579d5998a9e25a",
+    "data/bank_reports/manifests/bank_reports_finland_2020.csv": "85f72e105b002736a5c0d5365cd23c007f8535c869834573ccf3f01225ef0216",
+    "data/bank_reports/manifests/bank_reports_finland_2021.csv": "6d87a30680fadabb3c5525cab236bcac73bfb9747e7189ba97273ce0e8ee18ce",
+    "data/bank_reports/manifests/bank_reports_finland_2022.csv": "1e7e27d410b198afd71cdab1f635d0b1001b629b8e9ca14534cdaa44f10ffc92",
+    "data/bank_reports/manifests/bank_reports_finland_2023.csv": "cfeb2c72e73094e9aab51a99e736a6506667277c7d614d7b3d072897ff870741",
+    "data/bank_reports/manifests/bank_reports_finland_2024.csv": "672761be3073340be4be9a4386942fa7ba8f82059c0de72cfdd2859673dd7c69",
+    "data/bank_reports/manifests/bank_reports_ukraine_2019.csv": "57d8c86f74c502f3b55b4825d22de7197c42896f6042313a66c48a83e1e585d2",
+    "data/bank_reports/manifests/bank_reports_ukraine_2020.csv": "d6c48ccc47a116243e0fae0404d3f2c1b3a4cdf154513cf8b6232b957eec0a94",
+    "data/bank_reports/manifests/bank_reports_ukraine_2021.csv": "3ac1f05e7d138f95f2ba057cea1da0870949a2e44e99e43fd7c42d87cfbd3cbb",
+    "data/bank_reports/manifests/bank_reports_ukraine_2022.csv": "2c0e94e70848feef837d9a759222f90c87ae34271e58c760b16b3d6275d5c209",
+    "data/bank_reports/manifests/bank_reports_ukraine_2023.csv": "24f87794ebb004683e17580bae4818656392f76f6f46a83ab00131795eb756cd",
+    "data/bank_reports/manifests/bank_reports_ukraine_2024.csv": "ad6233cfbbb1d96f4c4edb7142927a16bc8d4e11df1b628313524ff7c0e5387b",
+    "evaluations/fusion_open_items_adjudication_20260701/before_after_totals.json": "c2c9063af74d63da7269c89c88702bb5ca1209f105958de5c0591e80f65fb9de",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints/Finland_Aktia_Pankki_2019_c444aa324027.json": "d0ded0fa45b161710017ee7f8b066a0da819d24401622f510ab3bb0854afbdea",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints/Finland_Danske_Bank_2019_eb253047513f.json": "9c790de2f1146e50abe68955f778c4c5a68251c34cc26abe31bf9e64b695adc1",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints/Finland_Evli_Pankki_2019_a41d6568cdf1.json": "406b7234cb28c37a151f7d6184c50ac8a4506ff2a8bbc049793d35f3a0e8f3bc",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints/Finland_Fellow_Pankki_2019_a338b5e37837.json": "db001ef2d9acb3033b54a9b90e08550970f8c54bbea6a0c8dd2f6d85d2925d70",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints/Finland_Nordea_Bank_2019_d46b794443cd.json": "65bbd86618eb3ee646a7a6ca500f8c88d7635e5088899ac89df9927318053bab",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints/Finland_Oma_Saastopankki_2019_a0ccb5814b3a.json": "9e596ca2dcae05c6c8cc5bc94563e62c306cbd7cf467e8601046505ed146f6dd",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints_corrected/Finland_Aktia_Pankki_2019_c444aa324027.json": "635fbd21d4823f4f04f2c75716b390a11bce812ba52b230b80d5f957832243d6",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints_corrected/Finland_Danske_Bank_2019_eb253047513f.json": "611bcbde645629158d1abfa271ecce64ab5ae532a2026a72f028ae5a4232c3f3",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints_corrected/Finland_Evli_Pankki_2019_a41d6568cdf1.json": "406b7234cb28c37a151f7d6184c50ac8a4506ff2a8bbc049793d35f3a0e8f3bc",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints_corrected/Finland_Fellow_Pankki_2019_a338b5e37837.json": "db001ef2d9acb3033b54a9b90e08550970f8c54bbea6a0c8dd2f6d85d2925d70",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints_corrected/Finland_Nordea_Bank_2019_d46b794443cd.json": "99ec2d69cc4f1832fa54291598cb375204b0edc18ad176af4789af683fcf8298",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2019/checkpoints_corrected/Finland_Oma_Saastopankki_2019_a0ccb5814b3a.json": "9e596ca2dcae05c6c8cc5bc94563e62c306cbd7cf467e8601046505ed146f6dd",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Aktia_Pankki_2020_70eb21f9dfd3.json": "7d094d9099fe9d38a9c7ec29d390751fe78b321f6890f648087b075fc0574e82",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Alandsbanken_2020_b55d26084dfb.json": "44f0109175799643d1586dc16543beff801137530366a44f0a31aba7c86ffdea",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Bonum_Pankki_2020_a3676084b43e.json": "3334e639936b8878c13440a5cc12b4439d4df39e8bff5aae09cde866209f21a3",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Danske_Bank_2020_55763a821214.json": "5b2186fd50b137bfbd1e3c41c2188c94ff4bd2ffce55e9260869ef6bf40e35c3",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Evli_Pankki_2020_38982e8cf0db.json": "c5035353efddf141a85faa41788699b3358681e0d1ec5f9ace7faab44d3ce517",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Fellow_Pankki_2020_567d7c0c025e.json": "7a93aa39db23b10a07afafd08ef3cf08478bc8fec56dfd7e8231cbf1344a9fd2",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Nordea_Bank_2020_88fbd9974dee.json": "910fb24c9b3fedff7d67ecdf8ed226f26edae4a99da4f84b0d7078691c72bd29",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_OP_Yrityspankki_2020_9d64e50efca6.json": "a29dccd1c7bd01546ad3cbdff0cfa94208dd7ab161d7c9b7ee3ff72ccc1b91e8",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Oma_Saastopankki_2020_128a79983c73.json": "03ff862506d45b804e6699311ab57260ea5efd0fa5faf131a677ef6d76536c98",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_S_Pankki_2020_ffaa96688f75.json": "87f9359f01d45ff7c32d4ff2d26afc3c9be657edbaebee295ab5d1ec7af7c54b",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Saastopankkien_Keskuspankki_2020_a0a6de562338.json": "ac40677e4b6350fbf14638ce1da96885367de5d937de5be96b5d8d6fbed68ce5",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints/Finland_Suomen_Asuntohypopankki_2020_a20aeb660a00.json": "3dd0dd4fb6a45ff33750a9357a7e8903277b0ee1c0fb1e5d1a27bb80ca835cf9",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Aktia_Pankki_2020_70eb21f9dfd3.json": "7d094d9099fe9d38a9c7ec29d390751fe78b321f6890f648087b075fc0574e82",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Alandsbanken_2020_b55d26084dfb.json": "44f0109175799643d1586dc16543beff801137530366a44f0a31aba7c86ffdea",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Bonum_Pankki_2020_a3676084b43e.json": "3334e639936b8878c13440a5cc12b4439d4df39e8bff5aae09cde866209f21a3",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Danske_Bank_2020_55763a821214.json": "68bf7f8ee5fce8e7cfb07f74ab85319575afcb6ef19ede16e3a665d74efcb2ef",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Evli_Pankki_2020_38982e8cf0db.json": "c5035353efddf141a85faa41788699b3358681e0d1ec5f9ace7faab44d3ce517",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Fellow_Pankki_2020_567d7c0c025e.json": "7a93aa39db23b10a07afafd08ef3cf08478bc8fec56dfd7e8231cbf1344a9fd2",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Nordea_Bank_2020_88fbd9974dee.json": "7af22332685e8718a513dec67cc063a5d3de65975439bca11099010e504ae691",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_OP_Yrityspankki_2020_9d64e50efca6.json": "6120ccb5b218be21ae4860fad0a797e165a9b0f24f109b019e88ce905a141c34",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Oma_Saastopankki_2020_128a79983c73.json": "03ff862506d45b804e6699311ab57260ea5efd0fa5faf131a677ef6d76536c98",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_S_Pankki_2020_ffaa96688f75.json": "87f9359f01d45ff7c32d4ff2d26afc3c9be657edbaebee295ab5d1ec7af7c54b",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Saastopankkien_Keskuspankki_2020_a0a6de562338.json": "ac40677e4b6350fbf14638ce1da96885367de5d937de5be96b5d8d6fbed68ce5",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2020/checkpoints_corrected/Finland_Suomen_Asuntohypopankki_2020_a20aeb660a00.json": "3dd0dd4fb6a45ff33750a9357a7e8903277b0ee1c0fb1e5d1a27bb80ca835cf9",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Aktia_Pankki_2021_5e6f4faac463.json": "06bf6705a8a1486821b7e70a5e4be1dcbdc215c68c2e00fccd5ce7ece336deed",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Alandsbanken_2021_26a32d9e4d39.json": "15f03b620dd89579284fc484b3955369e65dd6a6d99c3ce8de35e02a39faccde",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Alisa_Pankki_2021_59a44057e1a3.json": "158b7249c4b964ae970cafe6144f13fb8bf7eb909fd4c38aedf5e8e5b7419279",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Danske_Bank_2021_1c0fdd3b9832.json": "7ad39d309f78429f6553277ea6fc0e71ba8646e89bd01a078329356fffab4bdb",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Evli_Pankki_2021_56cecd7357ec.json": "527718d52c97b7b7254aed7e1badf0ecf03a3347ed54e993fc9ca2b840f45c9c",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Fellow_Pankki_2021_ad4ef04b7142.json": "dcf5310a219e2f4c21bc858282f6fd98709bd5a77af8894fd8cc1be7c5fc4258",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Nordea_Bank_2021_cea7f28bf70b.json": "f7f7a9d3a3a878018f2b9f31b58916028bb44988e6cb29c6ad5efab7cb18c8f6",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_OP_Yrityspankki_2021_9a3a5014c14b.json": "9fb2244851a7a0ea456a804aba24b95b7b4f518761ca183ba203d75956e72132",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Oma_Saastopankki_2021_64db404dd053.json": "25e1addf2ea4b18f2ccfb0735fc70e7057b564b29d13bc132f87f64cdf9d3887",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_S_Pankki_2021_6bfeb6194ea5.json": "6bd2a4e4d86fea845f4449ece086bc35e8d34d2ae1bdc7e7d00617df35e0c585",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Saastopankkien_Keskuspankki_2021_2fe88d2e07b5.json": "6362455116864c7ffe3000ea9c43ce223317607cab4829690e4cd33d6628cd3c",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints/Finland_Suomen_Asuntohypopankki_2021_227067c160cd.json": "4b47f7e5795c8a6374b548705cfb0ae7878508744b2c3205bc6b3c9acd10ad83",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Aktia_Pankki_2021_5e6f4faac463.json": "06bf6705a8a1486821b7e70a5e4be1dcbdc215c68c2e00fccd5ce7ece336deed",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Alandsbanken_2021_26a32d9e4d39.json": "76b32d7c99b4f21f1944afbd0a367c48e90cace22c52610c9c2e3bcb619c75dc",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Alisa_Pankki_2021_59a44057e1a3.json": "158b7249c4b964ae970cafe6144f13fb8bf7eb909fd4c38aedf5e8e5b7419279",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Danske_Bank_2021_1c0fdd3b9832.json": "ab4852cc0631ab6426b1dfcc2989fc4de2076a1e720ec75c16612e89cbb724a0",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Evli_Pankki_2021_56cecd7357ec.json": "527718d52c97b7b7254aed7e1badf0ecf03a3347ed54e993fc9ca2b840f45c9c",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Fellow_Pankki_2021_ad4ef04b7142.json": "dcf5310a219e2f4c21bc858282f6fd98709bd5a77af8894fd8cc1be7c5fc4258",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Nordea_Bank_2021_cea7f28bf70b.json": "e6c4ef0f339db27a6a1f4e2c46c883ad5d5e3d3883ef239e63c5a0f5de4ee24e",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_OP_Yrityspankki_2021_9a3a5014c14b.json": "9fb2244851a7a0ea456a804aba24b95b7b4f518761ca183ba203d75956e72132",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Oma_Saastopankki_2021_64db404dd053.json": "25e1addf2ea4b18f2ccfb0735fc70e7057b564b29d13bc132f87f64cdf9d3887",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_S_Pankki_2021_6bfeb6194ea5.json": "6bd2a4e4d86fea845f4449ece086bc35e8d34d2ae1bdc7e7d00617df35e0c585",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Saastopankkien_Keskuspankki_2021_2fe88d2e07b5.json": "6362455116864c7ffe3000ea9c43ce223317607cab4829690e4cd33d6628cd3c",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2021/checkpoints_corrected/Finland_Suomen_Asuntohypopankki_2021_227067c160cd.json": "4b47f7e5795c8a6374b548705cfb0ae7878508744b2c3205bc6b3c9acd10ad83",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Aktia_Pankki_2022_8c712c617c0b.json": "6fb8152ad006f486c86ff804ad26757524c24934838fa4d93df8892a9de577ca",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Alandsbanken_2022_6dd6ddeb1ac1.json": "d3edcb7f04b58ac19aae88f90a2cd23b7689f182623c86eca139b799a00b0dc8",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Alisa_Pankki_2022_a980255b2d3d.json": "22e386f46ff61dcb918cff1fee094deec77c03b1531fe8ca67f5d8afb333a17a",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Bonum_Pankki_2022_ba9049333343.json": "e8b361657137bcd3c4957f6cc882cc4ab5d9a00233a69c6321f2119bfc02aa3d",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Danske_Bank_2022_8d7bdaa2258c.json": "78aaa9bb13e0244b3aa72a64630d7ddf6ffdeec9a60fe34c191d23ffae4bce53",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Fellow_Pankki_2022_0473e94ee30c.json": "19100ff5f1fe705d87f425174a62c1dd25569c5d6a970a2c0e8d44d55190696b",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Nordea_Bank_2022_b7ca39cc064e.json": "600769e87fefeba61b73178198dbfe753a20d9c63bb2645faa3d9e474058c0f2",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_OP_Yrityspankki_2022_a68f6b13b6c6.json": "00e8bfdc32c727ac39ede9529cb94f43f9aad05a6424cd604d0ce319f9eca003",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Oma_Saastopankki_2022_a762a365031b.json": "d8fc652dce1e932053692ec8e3a082bc2163bd28d639752029b0b4b6e05b6363",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_S_Pankki_2022_28b4e355e24f.json": "020acd02ad594ff6d3b18f021fb9560b0aa6ecc6b9cfa965b499b879f9b48bbd",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Saastopankkien_Keskuspankki_2022_578e2685430f.json": "d66a216f536db4eeb98b9035637bf500f90bd3daa5a89665a8c4c383d16633f5",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints/Finland_Suomen_Asuntohypopankki_2022_6eb62b46a69f.json": "a3e8080ac7d8a218b834c41acf743fd0e5cf21df6ab1864ea41e63dd67e5f2b1",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Aktia_Pankki_2022_8c712c617c0b.json": "6fb8152ad006f486c86ff804ad26757524c24934838fa4d93df8892a9de577ca",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Alandsbanken_2022_6dd6ddeb1ac1.json": "c2a907bf41602c553804635ec48d84adc20a159fc22d55b85839e565f5eb22d7",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Alisa_Pankki_2022_a980255b2d3d.json": "22e386f46ff61dcb918cff1fee094deec77c03b1531fe8ca67f5d8afb333a17a",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Bonum_Pankki_2022_ba9049333343.json": "e8b361657137bcd3c4957f6cc882cc4ab5d9a00233a69c6321f2119bfc02aa3d",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Danske_Bank_2022_8d7bdaa2258c.json": "689cd43949b48a9bb6b131233deda3f336b4f38e69478f1fa189c85e005b8958",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Fellow_Pankki_2022_0473e94ee30c.json": "19100ff5f1fe705d87f425174a62c1dd25569c5d6a970a2c0e8d44d55190696b",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Nordea_Bank_2022_b7ca39cc064e.json": "600769e87fefeba61b73178198dbfe753a20d9c63bb2645faa3d9e474058c0f2",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_OP_Yrityspankki_2022_a68f6b13b6c6.json": "73de7f806a7cc8f1e2e81fb3ced5c7585bff503bae2cc906d7fcdc8aace592ee",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Oma_Saastopankki_2022_a762a365031b.json": "d8fc652dce1e932053692ec8e3a082bc2163bd28d639752029b0b4b6e05b6363",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_S_Pankki_2022_28b4e355e24f.json": "020acd02ad594ff6d3b18f021fb9560b0aa6ecc6b9cfa965b499b879f9b48bbd",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Saastopankkien_Keskuspankki_2022_578e2685430f.json": "d66a216f536db4eeb98b9035637bf500f90bd3daa5a89665a8c4c383d16633f5",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2022/checkpoints_corrected/Finland_Suomen_Asuntohypopankki_2022_6eb62b46a69f.json": "a3e8080ac7d8a218b834c41acf743fd0e5cf21df6ab1864ea41e63dd67e5f2b1",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Aktia_Pankki_2023_114062953d15.json": "7a1718c95411dfa09a125a6ee0450e16c488fa7ff5a35d948aa92ddc00369e96",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Alandsbanken_2023_3c91f681aeee.json": "4fcd76ee5a5b261bafced75ddf07adbea8b9da1dc1c72174108a649bc16a58c7",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Alisa_Pankki_2023_45e76c165cf0.json": "de4801b3bc913bf6d6d0bc6e2a606fa76b570afdd5cd76283a3df21027614184",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Bonum_Pankki_2023_38cc1f468399.json": "fa4075a13078d05a125a065e5b5a8422bf4256fb108033b38ba8a253fabdb66f",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Danske_Bank_2023_906c4fa04dc6.json": "66210e46c7d16951e48871b11c085f082faa4e733415c262bce33d290ffa70c4",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Nordea_Bank_2023_213f8e961fff.json": "50a83bfd7abcf6c1c847eb52da1c3de3535652115849d204484f7dc6cc6a28c2",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_OP_Yrityspankki_2023_ef7ae0564fd4.json": "3dd140a2f340ef15dc499469ec4cc7b4925eef8b2217beeeae6bf8a8e96af7ff",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Oma_Saastopankki_2023_10f19bccf497.json": "515417ed551bf8ad310c4d8895466b5d41dd2615ee99992474d1f6fa8490de6f",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_S_Pankki_2023_16bb167577d4.json": "fb8c8f32e651b0595dbf059d281d788b0b3ac21efeef2334e0956668522ce1e9",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Saastopankkien_Keskuspankki_2023_7a92af68e355.json": "11d8cdc278e52bd28f623a40665f27addd6441e030e9af2ea345d56de6047e59",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints/Finland_Suomen_Asuntohypopankki_2023_5ffe98a36bea.json": "7062fb536fab0983e587dcd2091c58e7382e00a359baa7713c4f2dadab787d6f",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Aktia_Pankki_2023_114062953d15.json": "7a1718c95411dfa09a125a6ee0450e16c488fa7ff5a35d948aa92ddc00369e96",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Alandsbanken_2023_3c91f681aeee.json": "110631be2c8c39d637c8f0cc306efdecb48559cfcf51035dffc7baa545b164db",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Alisa_Pankki_2023_45e76c165cf0.json": "de4801b3bc913bf6d6d0bc6e2a606fa76b570afdd5cd76283a3df21027614184",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Bonum_Pankki_2023_38cc1f468399.json": "fa4075a13078d05a125a065e5b5a8422bf4256fb108033b38ba8a253fabdb66f",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Danske_Bank_2023_906c4fa04dc6.json": "02861ef1e7af84d549dad3e2681d8ac6f802286aa3e5a46ee1e2a0a0b6cfc6b2",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Nordea_Bank_2023_213f8e961fff.json": "50a83bfd7abcf6c1c847eb52da1c3de3535652115849d204484f7dc6cc6a28c2",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_OP_Yrityspankki_2023_ef7ae0564fd4.json": "139a2dfa7f81d3327035c8b00eed5723567cae6cac6d5104dd7c8ff18cbc18e9",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Oma_Saastopankki_2023_10f19bccf497.json": "515417ed551bf8ad310c4d8895466b5d41dd2615ee99992474d1f6fa8490de6f",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_S_Pankki_2023_16bb167577d4.json": "fb8c8f32e651b0595dbf059d281d788b0b3ac21efeef2334e0956668522ce1e9",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Saastopankkien_Keskuspankki_2023_7a92af68e355.json": "11d8cdc278e52bd28f623a40665f27addd6441e030e9af2ea345d56de6047e59",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2023/checkpoints_corrected/Finland_Suomen_Asuntohypopankki_2023_5ffe98a36bea.json": "7062fb536fab0983e587dcd2091c58e7382e00a359baa7713c4f2dadab787d6f",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Aktia_Pankki_2024_45cc7d5cb88f.json": "7d9e8dd966bc48d9507595c35343a564be7fc72be7a69d0b4cd72ac939710b31",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Alandsbanken_2024_9655fef12275.json": "4fb518dc3ae784540ef0973cf1d5d3777b21ae2aa680d2dc9ebba2319602e922",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Alisa_Pankki_2024_dcb84f716d33.json": "79f22ed91a3b448db6412f67b879ea520ec30314afa6749ddc1d8019b38e8899",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Bonum_Pankki_2024_69e4b2613b94.json": "1fe51f0abf6bd22075cd05989604facaba7c1e12dff05d8dc435734033250880",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Danske_Bank_2024_8381f710ffb6.json": "8a48e3f6fb146ad545fcd22a5fa817d9cd4a356fb65a6790c4f1998b0aa73c37",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Nordea_Bank_2024_fc7e60246401.json": "7079522de66a1001d450d73f1f6fc1d6508c0ae16c3a4c50e6ecd33119003870",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_OP_Yrityspankki_2024_69dd83a089f3.json": "8c54a6258c87e945c7239d6c2ac77e615447f67b6a9fe93440f4d2a889f28612",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Oma_Saastopankki_2024_41c5cad0a3b3.json": "06b56d6d7f75ff9f015468ec160450697efbf3418621fa46b73f63fe36ab2fcd",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_S_Pankki_2024_edb1095086ca.json": "8e4e4674fa6958b1f43385902b48578e4f972ce65bf1ebcaee24e7889bcfb126",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Saastopankkien_Keskuspankki_2024_abc05fa2a92e.json": "caf6d628603641adc069a5c44a46fdadeb66b5997ed83721165cf76bd84480f7",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints/Finland_Suomen_Asuntohypopankki_2024_caa23cedf328.json": "69eac81ca1b2e2e651b05ef8b24ae2189b5fbbb90b81e4d628e4499ff51644e4",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Aktia_Pankki_2024_45cc7d5cb88f.json": "7d9e8dd966bc48d9507595c35343a564be7fc72be7a69d0b4cd72ac939710b31",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Alandsbanken_2024_9655fef12275.json": "3fe44135b54147f4296f0a49ef83e86073dc3645e4f4376174af1ac98f3ffc48",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Alisa_Pankki_2024_dcb84f716d33.json": "79f22ed91a3b448db6412f67b879ea520ec30314afa6749ddc1d8019b38e8899",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Bonum_Pankki_2024_69e4b2613b94.json": "1fe51f0abf6bd22075cd05989604facaba7c1e12dff05d8dc435734033250880",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Danske_Bank_2024_8381f710ffb6.json": "cbbeefae9a427be07ea27e9a56188b8902d02d801c9a1239006bde139b43d47d",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Nordea_Bank_2024_fc7e60246401.json": "7079522de66a1001d450d73f1f6fc1d6508c0ae16c3a4c50e6ecd33119003870",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_OP_Yrityspankki_2024_69dd83a089f3.json": "697d7870236b6eee0d4d0044906cfef5ecfab6a5b9b7d07842e5b7882727b9da",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Oma_Saastopankki_2024_41c5cad0a3b3.json": "06b56d6d7f75ff9f015468ec160450697efbf3418621fa46b73f63fe36ab2fcd",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_S_Pankki_2024_edb1095086ca.json": "8e4e4674fa6958b1f43385902b48578e4f972ce65bf1ebcaee24e7889bcfb126",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Saastopankkien_Keskuspankki_2024_abc05fa2a92e.json": "caf6d628603641adc069a5c44a46fdadeb66b5997ed83721165cf76bd84480f7",
+    "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Suomen_Asuntohypopankki_2024_caa23cedf328.json": "69eac81ca1b2e2e651b05ef8b24ae2189b5fbbb90b81e4d628e4499ff51644e4",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_A_bank_2019_5e556d579c8c.json": "cb22f7b093adcd211c691343aa947b63e8ae22bafb66a8842505707d8ea85c8a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Credit_Agricole_Bank_2019_ac5beaa76657.json": "bd1b9c9a5e9547519bf58441c68aaeb96e5fefa3120ae87c30dc94c0df575497",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Credobank_2019_3e9f9d42f532.json": "b2affd654edafd45e2464b7481b70892b8b8f5f1a4bf04b17b46bd47aecc4b85",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_FUIB_2019_94567fa78d45.json": "51f3e806b95e09d696ade2908b3bbecad6aa3cfd92d2c4423e2443303dd0bcf9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_OTP_Bank_2019_5d1f8e6a47c1.json": "d96cefcdc0e577aa8fee1ea4578be31b0909cd6f7d5cc2041ca5e80283e684b3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Oschadbank_2019_6ce28375bf21.json": "32e8cbbecd8bad6e965996c65b1568176bc8020b9a2df85f265b1a15d30ca2f8",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Pivdenny_2019_5b328d69941b.json": "1b3030e9575805de46a50a768dfb4f6f20c7e7ff8aa1e4d8605cb3c9a58683ac",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Privatbank_2019_2d0336d56d5e.json": "43615d185a7e28426438e180c19ea8fcba8dd808a38f09ca8df0144b3bc7d8fb",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Raiffeisen_Bank_JSC_2019_58cec46b3401.json": "ca7d22992f4e4e47188dfe737eaef5e30defa526567b123fc789c841526fdbe9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Sense_Bank_2019_59ef04bb01aa.json": "8a6c299a147bbe77fdff3787894eda7e31275f543e6e3347e25009d4cf07ba0f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Tascombank_2019_d5a0db1ec116.json": "3de6a069fdc5557cd144c065866e77c159ca88497455d10fee649db0b64a7934",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Ukreximbank_2019_7313e607502d.json": "d0526755ca08e285cb78c2abc05b0a726dbd14ad398936cff6c87a2e549a1bb7",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Ukrgazbank_2019_c5df46b73eeb.json": "9b4d15142ade4a70f3eb8acc779386b15e01f4d4bb96b369418ed49f7588f83d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Ukrsibbank_2019_090fd457db80.json": "71437871a58b1cf437459f66c2d688d1dad6592e9f0e1e8ee0b1f0540ce940be",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints/Ukraine_Universal_Bank_2019_b5a57810af87.json": "f400150518f0ae3bb05d09bf9f50c2125a85db0cecd23cc505f0d87891f8d47e",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_A_bank_2019_5e556d579c8c.json": "cb22f7b093adcd211c691343aa947b63e8ae22bafb66a8842505707d8ea85c8a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Credit_Agricole_Bank_2019_ac5beaa76657.json": "bd1b9c9a5e9547519bf58441c68aaeb96e5fefa3120ae87c30dc94c0df575497",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Credobank_2019_3e9f9d42f532.json": "b2affd654edafd45e2464b7481b70892b8b8f5f1a4bf04b17b46bd47aecc4b85",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_FUIB_2019_94567fa78d45.json": "51f3e806b95e09d696ade2908b3bbecad6aa3cfd92d2c4423e2443303dd0bcf9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_OTP_Bank_2019_5d1f8e6a47c1.json": "d96cefcdc0e577aa8fee1ea4578be31b0909cd6f7d5cc2041ca5e80283e684b3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Oschadbank_2019_6ce28375bf21.json": "ee9ac4335fc1a23a8ade92ecaf8e0d560265ae09dbff4d715dd11eb70bd90175",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Pivdenny_2019_5b328d69941b.json": "1b3030e9575805de46a50a768dfb4f6f20c7e7ff8aa1e4d8605cb3c9a58683ac",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Privatbank_2019_2d0336d56d5e.json": "43615d185a7e28426438e180c19ea8fcba8dd808a38f09ca8df0144b3bc7d8fb",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Raiffeisen_Bank_JSC_2019_58cec46b3401.json": "ca7d22992f4e4e47188dfe737eaef5e30defa526567b123fc789c841526fdbe9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Sense_Bank_2019_59ef04bb01aa.json": "8a6c299a147bbe77fdff3787894eda7e31275f543e6e3347e25009d4cf07ba0f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Tascombank_2019_d5a0db1ec116.json": "3de6a069fdc5557cd144c065866e77c159ca88497455d10fee649db0b64a7934",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Ukreximbank_2019_7313e607502d.json": "1e925bfcc7c3cc2a7417288aeadb1be34745b4f0e53bb7dc60cb157acc2be342",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Ukrgazbank_2019_c5df46b73eeb.json": "9b4d15142ade4a70f3eb8acc779386b15e01f4d4bb96b369418ed49f7588f83d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Ukrsibbank_2019_090fd457db80.json": "71437871a58b1cf437459f66c2d688d1dad6592e9f0e1e8ee0b1f0540ce940be",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2019/checkpoints_corrected/Ukraine_Universal_Bank_2019_b5a57810af87.json": "f400150518f0ae3bb05d09bf9f50c2125a85db0cecd23cc505f0d87891f8d47e",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_A_bank_2020_00c877d9ebbb.json": "a82cd5bf27ca545d8bd28d15b4f761ad7d5a714a5a50ca5c5c92512b358e5288",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Credit_Agricole_Bank_2020_07a4898211b4.json": "04a85e1638e1664209195f49d5b1370e3c72c238bdcd9ab612a275b0959cf991",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Credobank_2020_0944f275d94b.json": "838d972979eb1d7bb8f8b54367b14149fe2a4272c5d2e36de95a3794ead0fa7a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_FUIB_2020_1e5da15310d8.json": "79db9a06826365e48f695d292b32f8329af2da0280f12c047e8fa10d869c4530",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_OTP_Bank_2020_8aec23ace03c.json": "626d4f552bee1aebc2df24185a6402cad8b22612d71734e8e0144d72ec2e62e9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Oschadbank_2020_78cace021442.json": "6876a0b95676a9f6b0126037359c093f35e119a1f619ad6487cec2d9acea399e",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Pivdenny_2020_3a30a298a02a.json": "ecc845b9f299b9da1cb96032521abb6f12d889df2890c72dc661b3473efec12d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Privatbank_2020_4fde3f72a27b.json": "17ba0ebe1e8a8c8020d2c79af77b790973413248d7ccad3fcb872bb4418748ac",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Raiffeisen_Bank_JSC_2020_c986a084b410.json": "44d90196cf6982fd20e76ddcf8a563516c1a8bf4b7aca27c8157c7287693f9d3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Sense_Bank_2020_0336277606fe.json": "318a7f360cb502c097a50c8f52fb24b0d781abbb3217c5dda38eadd2ca4d0173",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Tascombank_2020_f79ae738907f.json": "4f086cb09db494c1000d85e1154d2be45fdf70cf81fd26daad14669400f0877a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Ukreximbank_2020_d91b65af2fdc.json": "5bfa877665c2ab0c1422224f30bd9aebbffa50e39b3f753a471e9047d379c46e",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Ukrgazbank_2020_6602b6335bc4.json": "c69dbec386bef6954d94d9fbcd13e5dad5be701890da32f3ef042d4b8304fb6a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Ukrsibbank_2020_073a1d022e35.json": "6efc4b6b5d358bb88b2201bc0a78810fd90e5da6f70baa260012ef6a33fea34f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints/Ukraine_Universal_Bank_2020_559a39616cea.json": "3bbca71963bd5028d0373992151b5228a4e5197f89bb0e7b00d2137e0baf1fcf",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_A_bank_2020_00c877d9ebbb.json": "a82cd5bf27ca545d8bd28d15b4f761ad7d5a714a5a50ca5c5c92512b358e5288",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Credit_Agricole_Bank_2020_07a4898211b4.json": "04a85e1638e1664209195f49d5b1370e3c72c238bdcd9ab612a275b0959cf991",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Credobank_2020_0944f275d94b.json": "838d972979eb1d7bb8f8b54367b14149fe2a4272c5d2e36de95a3794ead0fa7a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_FUIB_2020_1e5da15310d8.json": "79db9a06826365e48f695d292b32f8329af2da0280f12c047e8fa10d869c4530",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_OTP_Bank_2020_8aec23ace03c.json": "626d4f552bee1aebc2df24185a6402cad8b22612d71734e8e0144d72ec2e62e9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Oschadbank_2020_78cace021442.json": "464e29616a3b28cea31037fa057761756945e182b7761b77f120c6b04a472dde",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Pivdenny_2020_3a30a298a02a.json": "ecc845b9f299b9da1cb96032521abb6f12d889df2890c72dc661b3473efec12d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Privatbank_2020_4fde3f72a27b.json": "17ba0ebe1e8a8c8020d2c79af77b790973413248d7ccad3fcb872bb4418748ac",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Raiffeisen_Bank_JSC_2020_c986a084b410.json": "44d90196cf6982fd20e76ddcf8a563516c1a8bf4b7aca27c8157c7287693f9d3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Sense_Bank_2020_0336277606fe.json": "318a7f360cb502c097a50c8f52fb24b0d781abbb3217c5dda38eadd2ca4d0173",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Tascombank_2020_f79ae738907f.json": "4f086cb09db494c1000d85e1154d2be45fdf70cf81fd26daad14669400f0877a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Ukreximbank_2020_d91b65af2fdc.json": "6da3f24f2e241e76d81e79f41761ee6ff1c95a2332d99df5ae1e52ee64725416",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Ukrgazbank_2020_6602b6335bc4.json": "c69dbec386bef6954d94d9fbcd13e5dad5be701890da32f3ef042d4b8304fb6a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Ukrsibbank_2020_073a1d022e35.json": "6efc4b6b5d358bb88b2201bc0a78810fd90e5da6f70baa260012ef6a33fea34f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2020/checkpoints_corrected/Ukraine_Universal_Bank_2020_559a39616cea.json": "3bbca71963bd5028d0373992151b5228a4e5197f89bb0e7b00d2137e0baf1fcf",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_A_bank_2021_9cfbf583a155.json": "972a316d0c89a8462da14b0123a5ccdc3a1a90ff45acc93aa0550b9fb7c45b5f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Credit_Agricole_Bank_2021_61f28bbb122a.json": "bc0146d3179f53c1b42f00f64800e3a7a9fb3b4425e8a289b99214564129d7fd",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Credobank_2021_92750cf6e52d.json": "72fbe1a8f33c061f466486ec6cdc2e2e95e4b08bb71bf0522abfb948027fb036",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_FUIB_2021_8c8842965ab1.json": "8b9d6c9113cb0e6d60ac9e33651eb34001fb7e2a6442d17e7f9b3c1131ade27b",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_OTP_Bank_2021_e2037aa8fe0a.json": "6e7ad4ebfb8f5d36d4175c6fa6dddff6a3f7ad6697b517931beefe56442bc3ee",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Oschadbank_2021_a1a5f80a126c.json": "38968de38101553fca358b878ba035ee22b04062fd9f657531e4dc87120ba8c3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Pivdenny_2021_8070bcc3594f.json": "fb18c265de4aa39188b324cd6ab4ae0e87d13930acf6e1ab93497ccf49223cec",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Privatbank_2021_3589d03984a4.json": "eec2531bdaa496a0461708526963484289afbec5c6e3f58516a29768f7392f07",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Raiffeisen_Bank_JSC_2021_769a8c75a33f.json": "7c84da292dd151428003b9ff347004b68ac5a984d4bcdb0096362d83fe948228",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Sense_Bank_2021_d3f60438609d.json": "fe17fc39b7f5dca2938bb9cb71c214e4241d20672fffc401cc86d6c1ee966d16",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Tascombank_2021_30df69091e1e.json": "fb644760adc96370edcde67119217190d53baa1f20b889bfc6680e9eabb0557d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Ukreximbank_2021_f68690d4b7d8.json": "b6b5d81e47a5843794721fc68533c72760b903a64a9092e9ad7c02858c4ea97d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Ukrgazbank_2021_def6b26420b5.json": "77ee9eb6e73c7d23c1c932bd29783fffcfdf3263e4cdfae3f3070fd35380a4fc",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Ukrsibbank_2021_dce7fa26bb7a.json": "0feafe54f789311bacc65702cbeb308b92b3d009f515caf0afed7bea80927a8f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints/Ukraine_Universal_Bank_2021_9dfbccbf5cda.json": "f660a935e2353bb14c2931bb9aede53bf1e91d877872000aa957428666546439",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_A_bank_2021_9cfbf583a155.json": "972a316d0c89a8462da14b0123a5ccdc3a1a90ff45acc93aa0550b9fb7c45b5f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Credit_Agricole_Bank_2021_61f28bbb122a.json": "bc0146d3179f53c1b42f00f64800e3a7a9fb3b4425e8a289b99214564129d7fd",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Credobank_2021_92750cf6e52d.json": "72fbe1a8f33c061f466486ec6cdc2e2e95e4b08bb71bf0522abfb948027fb036",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_FUIB_2021_8c8842965ab1.json": "8b9d6c9113cb0e6d60ac9e33651eb34001fb7e2a6442d17e7f9b3c1131ade27b",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_OTP_Bank_2021_e2037aa8fe0a.json": "6e7ad4ebfb8f5d36d4175c6fa6dddff6a3f7ad6697b517931beefe56442bc3ee",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Oschadbank_2021_a1a5f80a126c.json": "f27bfdd6eda245d5e1992af42c5424fd8a5bb00ba7a8ec9cd91baf29ed8024b8",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Pivdenny_2021_8070bcc3594f.json": "fb18c265de4aa39188b324cd6ab4ae0e87d13930acf6e1ab93497ccf49223cec",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Privatbank_2021_3589d03984a4.json": "eec2531bdaa496a0461708526963484289afbec5c6e3f58516a29768f7392f07",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Raiffeisen_Bank_JSC_2021_769a8c75a33f.json": "741193dc394bbe7e8118510435d4968ebf02adf6f901c16350c38c6a26cd6bca",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Sense_Bank_2021_d3f60438609d.json": "b2283f3c7d8290f86a7d104e226dca088c742e3168c28643041a5550d20f875b",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Tascombank_2021_30df69091e1e.json": "fb644760adc96370edcde67119217190d53baa1f20b889bfc6680e9eabb0557d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Ukreximbank_2021_f68690d4b7d8.json": "b6b5d81e47a5843794721fc68533c72760b903a64a9092e9ad7c02858c4ea97d",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Ukrgazbank_2021_def6b26420b5.json": "f998406ceab5c02e3355ee418348ea4237f23457dae6ec1470d31ab222813231",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Ukrsibbank_2021_dce7fa26bb7a.json": "0feafe54f789311bacc65702cbeb308b92b3d009f515caf0afed7bea80927a8f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2021/checkpoints_corrected/Ukraine_Universal_Bank_2021_9dfbccbf5cda.json": "f660a935e2353bb14c2931bb9aede53bf1e91d877872000aa957428666546439",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_A_bank_2022_f4646ec7af20.json": "887319bb7de20abe82a8baec562ad71df6200f3f5b2937e9a6fb2d7619887a52",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Credit_Agricole_Bank_2022_12f01592aa99.json": "661652a19e140bfd8210c745a9b22e20f840b9b04b36f2c9e10c7d7a44ff72bd",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Credobank_2022_5c2177484b36.json": "1ffcaee2b1555f6e14add96a9d18a4405fd8211b27fba23fa2bc446d3ab360f3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_FUIB_2022_d72a53103c68.json": "9cb146139ba4609f2f6a8e066506cc1458f93c0df5b20966ee27379fed5c42fb",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_OTP_Bank_2022_afdc477917bc.json": "25be57e4cbae293a32a65c7008ea319bf383a0f2e38f2ae5620db67a18551704",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Oschadbank_2022_ace3b6f27c25.json": "9757ea046f70a845730d8f8c9e5a6e638986093df90455d12fd26afb958295a2",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Pivdenny_2022_2727bcade74f.json": "1f6eeb1602230300a14859e76143b504b2f8803fbcf4497d9e88d48010983f9a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Privatbank_2022_1908ee146f43.json": "40811e00c28e50050b66317ba6fa05f4213d3c126fd6360c8f42ae909bb370ec",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Raiffeisen_Bank_JSC_2022_76a3259eaf0d.json": "7a88d1cdc27386edb8e51fd3c208941e5297d49fc5b521a8f9d1eb96adc7cbbc",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Sense_Bank_2022_8bdd3d0ee1d3.json": "690eb78e2485521dc21e19a35ead6596f5271aaba27a928fe3dc4a474ff4131f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Tascombank_2022_f6add08b0448.json": "a4d57fc1ca694a2b34d115e98ad2e39172a99f2e5a7d403c473265a2db2bc394",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Ukreximbank_2022_adeecd6d4fda.json": "9b6202c0ac552680a8d4fdf11093378417166f0ba0d97c50556ef3832e3fd68b",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Ukrgazbank_2022_08a439331c72.json": "2e22e27bb1fa498d59ec1b01d01cb77c2471dc76c6c8c222516a3128a03b19dc",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Ukrsibbank_2022_c232147c1a1c.json": "027ebf9d8958f69a311f5628459ca08feadad2ea70470e96d85b88dc984429b9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints/Ukraine_Universal_Bank_2022_010b9ec013f5.json": "cc978c0e2d993a011617e2a9117f72ffef214cf8203c084126790069c1f9811f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_A_bank_2022_f4646ec7af20.json": "887319bb7de20abe82a8baec562ad71df6200f3f5b2937e9a6fb2d7619887a52",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Credit_Agricole_Bank_2022_12f01592aa99.json": "661652a19e140bfd8210c745a9b22e20f840b9b04b36f2c9e10c7d7a44ff72bd",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Credobank_2022_5c2177484b36.json": "1ffcaee2b1555f6e14add96a9d18a4405fd8211b27fba23fa2bc446d3ab360f3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_FUIB_2022_d72a53103c68.json": "9cb146139ba4609f2f6a8e066506cc1458f93c0df5b20966ee27379fed5c42fb",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_OTP_Bank_2022_afdc477917bc.json": "25be57e4cbae293a32a65c7008ea319bf383a0f2e38f2ae5620db67a18551704",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Oschadbank_2022_ace3b6f27c25.json": "9757ea046f70a845730d8f8c9e5a6e638986093df90455d12fd26afb958295a2",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Pivdenny_2022_2727bcade74f.json": "1f6eeb1602230300a14859e76143b504b2f8803fbcf4497d9e88d48010983f9a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Privatbank_2022_1908ee146f43.json": "40811e00c28e50050b66317ba6fa05f4213d3c126fd6360c8f42ae909bb370ec",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Raiffeisen_Bank_JSC_2022_76a3259eaf0d.json": "7a88d1cdc27386edb8e51fd3c208941e5297d49fc5b521a8f9d1eb96adc7cbbc",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Sense_Bank_2022_8bdd3d0ee1d3.json": "cea2f82c8d2ac69d0b0480508038a234533be6cd0e0f1117c20a86977bed2870",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Tascombank_2022_f6add08b0448.json": "a4d57fc1ca694a2b34d115e98ad2e39172a99f2e5a7d403c473265a2db2bc394",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Ukreximbank_2022_adeecd6d4fda.json": "dad5cf448e8e30725bb032d5aad3530b49ec5c4b58c7c07339e96611e94e9207",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Ukrgazbank_2022_08a439331c72.json": "2e22e27bb1fa498d59ec1b01d01cb77c2471dc76c6c8c222516a3128a03b19dc",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Ukrsibbank_2022_c232147c1a1c.json": "027ebf9d8958f69a311f5628459ca08feadad2ea70470e96d85b88dc984429b9",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2022/checkpoints_corrected/Ukraine_Universal_Bank_2022_010b9ec013f5.json": "cc978c0e2d993a011617e2a9117f72ffef214cf8203c084126790069c1f9811f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_A_bank_2023_22ab43953fd8.json": "1495d832b82112897817e0a27778fa5dec340ada20e9fd5af75934fede0ee36c",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Credit_Agricole_Bank_2023_38edaa4912dd.json": "269feed46af79899632bc8d61f5259268172f0e0fea41a25cea5b52e9e0057e4",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Credobank_2023_52009b319004.json": "0ba6cb02603dca3db277317a1e2aa31aa291e5fa04e0cc5d1169e861d4ceb863",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_FUIB_2023_0edb3adc84e7.json": "af0ac241437f3825837c9f00362c335c47a66cc6c8bf0d1aa675160234897299",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_OTP_Bank_2023_bab70f0d7080.json": "dd18894b6aec48517ea94c83a327d824b78c7e482f9f3ed887ee571c3ff42d76",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Oschadbank_2023_045843685980.json": "3aa5b274c97bf1e3acaec4c7c54282f5e8750d2e46e0c1d6385029cc9acaf482",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Pivdenny_2023_de453ee2bba5.json": "dc82c19f4986f799c9393acf1336343e2f982928fcdd292bdb81b84f44b85309",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Privatbank_2023_c781274e7ed9.json": "05326a2e50f67d61a7584fe1d578bc3fee86254ce42a9dec209e900bddbc7b70",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Raiffeisen_Bank_JSC_2023_6e2e1211e985.json": "ab97b8864fa7bd611400fcfad0a0ebd6d85d2b0f76f6cbc21e5108a3734cca89",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Sense_Bank_2023_2beaac8df163.json": "ca3176c1f35e3e15588324bb37570637051bc22db37b64bddfaed139eae825b0",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Tascombank_2023_f4434c4f64c6.json": "fcbf194f53f75d6ba89682049cb30b4ed51f4a622b8e053ef5b2b54bc0937562",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Ukreximbank_2023_d0d9f263e3a8.json": "57020d7e6c9a0bb01dbcd42cdef55a9c1e52870a288795d5cf1d5a912c55c38c",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Ukrgazbank_2023_62d06560bcdb.json": "a9a4b23136518d32f60f52e92ce425bb29b2815f3654238ef489e4da0a1c27ef",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Ukrsibbank_2023_a246ee84a629.json": "494bcf46884ee092342a0fba06b181a79d49975ae4ce1d020c6197638f03039f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints/Ukraine_Universal_Bank_2023_eb972e2401d6.json": "3970a6c7640d71e31d9ea460efad5ede89ce568db001c46e801a5a7a279c0138",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_A_bank_2023_22ab43953fd8.json": "1495d832b82112897817e0a27778fa5dec340ada20e9fd5af75934fede0ee36c",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Credit_Agricole_Bank_2023_38edaa4912dd.json": "269feed46af79899632bc8d61f5259268172f0e0fea41a25cea5b52e9e0057e4",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Credobank_2023_52009b319004.json": "0ba6cb02603dca3db277317a1e2aa31aa291e5fa04e0cc5d1169e861d4ceb863",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_FUIB_2023_0edb3adc84e7.json": "af0ac241437f3825837c9f00362c335c47a66cc6c8bf0d1aa675160234897299",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_OTP_Bank_2023_bab70f0d7080.json": "dd18894b6aec48517ea94c83a327d824b78c7e482f9f3ed887ee571c3ff42d76",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Oschadbank_2023_045843685980.json": "3aa5b274c97bf1e3acaec4c7c54282f5e8750d2e46e0c1d6385029cc9acaf482",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Pivdenny_2023_de453ee2bba5.json": "dc82c19f4986f799c9393acf1336343e2f982928fcdd292bdb81b84f44b85309",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Privatbank_2023_c781274e7ed9.json": "05326a2e50f67d61a7584fe1d578bc3fee86254ce42a9dec209e900bddbc7b70",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Raiffeisen_Bank_JSC_2023_6e2e1211e985.json": "ab97b8864fa7bd611400fcfad0a0ebd6d85d2b0f76f6cbc21e5108a3734cca89",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Sense_Bank_2023_2beaac8df163.json": "9b4a416c287c959e550757e8b753cd78617ecd0b6dd61ce2279b0192c4b48830",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Tascombank_2023_f4434c4f64c6.json": "fcbf194f53f75d6ba89682049cb30b4ed51f4a622b8e053ef5b2b54bc0937562",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Ukreximbank_2023_d0d9f263e3a8.json": "27c2a3d295c991d53babca662565f479828077ac245e8714e4e2726a2b4c7dc6",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Ukrgazbank_2023_62d06560bcdb.json": "bbe4b00e649d45baa56b4cc6cb43bd100a4c4f8649e4109fea94fd30f68c956c",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Ukrsibbank_2023_a246ee84a629.json": "494bcf46884ee092342a0fba06b181a79d49975ae4ce1d020c6197638f03039f",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Universal_Bank_2023_eb972e2401d6.json": "3970a6c7640d71e31d9ea460efad5ede89ce568db001c46e801a5a7a279c0138",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_A_bank_2024_ef994714e671.json": "5fafcb2706ac0b72f608c5a74d8abac135852b677a1d3c8a4d9ab6a15997b3c2",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Credit_Agricole_Bank_2024_fb5a2d3629d7.json": "9ba447dca226550b3d05befd05732013b43287fa77d8a760406c57f4f423cfbc",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Credobank_2024_54d05641be9e.json": "79aec1de98029037888e21ddebcb330227524034eb76c8e00e087ab78acf6b0a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_FUIB_2024_78f63cebf526.json": "27e1642b6e01e693abe6ea85c95c381d95f218be0bb8d12e8cbfcfc9281f54b8",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_OTP_Bank_2024_d69a7450caf3.json": "3cd0db07f324285815a5d9a281a10d6accaa1551c14e8d252852fa8f6953a6d3",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Oschadbank_2024_e83dd966f527.json": "ef1c0d56e64e4fee0c5f6b21b5fdcd880e289941a5c7e1860103b8295034e4e7",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Privatbank_2024_4992178b88c3.json": "90b416cdf57f8a845b3d2aabb49f6f538a94f826f80e864903e4aeb0bdd5a458",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Raiffeisen_Bank_JSC_2024_5fd57cbcbc94.json": "0dec365ddb5213bd2eeaf715f40a0a0b8f2830d48183422b749cb41e8e50ad0b",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Sense_Bank_2024_33d90c40458f.json": "64bde26300c90a41af007e11eb4dbc950da88d180b9d252758a3b7e7221f9961",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Tascombank_2024_ef6fc058532d.json": "c5feda038484a27b5645cd7ffda86b51fd5390e597e710cde7829383bddb9ed2",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Ukreximbank_2024_65db74042185.json": "219e7029ee210d9e61b391cbe4fa3d4fe30c5bd1af937de917bd14c673bfb24c",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Ukrgazbank_2024_16e4f0ce2ada.json": "c405a634a9dbdb40ddfc68dc3ac60358329bb855f1397bb84fa1677e06b2ce6e",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints/Ukraine_Ukrsibbank_2024_4b92be1e0732.json": "d95032df0d6ddb51c86931c55c37c96166c2e3cf09bd36f5d9bf13fe4624d877",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_A_bank_2024_ef994714e671.json": "5fafcb2706ac0b72f608c5a74d8abac135852b677a1d3c8a4d9ab6a15997b3c2",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Credit_Agricole_Bank_2024_fb5a2d3629d7.json": "9ba447dca226550b3d05befd05732013b43287fa77d8a760406c57f4f423cfbc",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Credobank_2024_54d05641be9e.json": "79aec1de98029037888e21ddebcb330227524034eb76c8e00e087ab78acf6b0a",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_FUIB_2024_78f63cebf526.json": "27e1642b6e01e693abe6ea85c95c381d95f218be0bb8d12e8cbfcfc9281f54b8",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_OTP_Bank_2024_d69a7450caf3.json": "c6d8988d0e9c75ad7f73abf4f396ca82db7d1d9fb9be16bdedcd2df2fbacfc34",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Oschadbank_2024_e83dd966f527.json": "ebfa630c9d286b8d30e04d4a3bceb8c12c56fa4910b934ff79cd5e033abe0d72",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Privatbank_2024_4992178b88c3.json": "90b416cdf57f8a845b3d2aabb49f6f538a94f826f80e864903e4aeb0bdd5a458",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Raiffeisen_Bank_JSC_2024_5fd57cbcbc94.json": "9b52ffddbb7d178e1cd1eaf839280e9ac2f4cfaa26f52de55e812c946159a61b",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Sense_Bank_2024_33d90c40458f.json": "64bde26300c90a41af007e11eb4dbc950da88d180b9d252758a3b7e7221f9961",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Tascombank_2024_ef6fc058532d.json": "c5feda038484a27b5645cd7ffda86b51fd5390e597e710cde7829383bddb9ed2",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Ukreximbank_2024_65db74042185.json": "219e7029ee210d9e61b391cbe4fa3d4fe30c5bd1af937de917bd14c673bfb24c",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Ukrgazbank_2024_16e4f0ce2ada.json": "06729b05ba9a5a53b454fb5758d6435558c8aecd364f12f3ca88415da0e85edb",
+    "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2024/checkpoints_corrected/Ukraine_Ukrsibbank_2024_4b92be1e0732.json": "d95032df0d6ddb51c86931c55c37c96166c2e3cf09bd36f5d9bf13fe4624d877",
+    "evaluations/sdg_benchmark/benchmark.csv": "0ce3226365d7a5aa2c2bab251eda1edbd9347dfc23f759108baec1ae2a825292",
+    "evaluations/sdg_benchmark/gpt_oss_120b_generic_predictions.jsonl": "f8d332bfc66a0bc2813952ce97f0331e52ceca83165ecdf014b1209d9f5b3aaa",
+    "evaluations/sdg_benchmark/gpt_oss_120b_generic_results.csv": "f3b86ba2ec22f5f8a7155218f618ea1c04860427d7475265aafea5c61d8bb3c9",
+    "evaluations/sdg_benchmark/gpt_oss_120b_vs_jrc_generic_metrics.json": "7881a3e0c04ddee112fc892ec09b3e183e0c5aa16143da4be5068d9e8a6ba79d",
+    "evaluations/sdg_benchmark/sdg_mapper_results.csv": "aa2759e8f3de3cbc4bcf497ac254f06a70a96ff135619d672391523932ac7053",
+    "evaluations/section45_full_window_20260708/sdg_profiles_by_country_year.csv": "53a50dc03256ad78483fd495e7fd0581accced6e95841f8d0d5a981214f25928",
+    "evaluations/section45_full_window_20260708/sdg_profiles_pooled_2019_2024.csv": "66db2d11ac2d12922cb2ae6f3d6f5f9f7df9d5dcedf2bf7420704a18c7ea7e83",
+    "reproduction/bank_year_exclusions.json": "3378ff2be29e154b8444b27e4a515a37b2fddf6d731165f5d087972261095a85",
+    "reproduction/finance_adjudications.json": "f6364bcb3dd471a0c4d9d91e777aa9532a4d5b95781680d1a8ad11c33d18cfe2",
+    "reproduction/finance_tag_adjudications.json": "17d6d3a777441455df8fb9eb1292626252a08c9164da1fe94234d4def8434821",
+    "reproduction/source_year_audit.json": "db74b3034b9bb99d85a16761c9ad498a59c9189674d9dc08156a046403425db8"
+  },
+  "network": "disabled; no API credentials or model calls are used"
+}

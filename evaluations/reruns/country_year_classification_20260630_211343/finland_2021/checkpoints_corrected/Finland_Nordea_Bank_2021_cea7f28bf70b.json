@@ -1,0 +1,427 @@
+{
+  "bank": "Finland_Nordea Bank_2021",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 3500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "“the end of the fourth quarter sustainability‑linked loans amounted to EUR 3.5bn”",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainability‑linked loan",
+        "justification": "The report states that sustainability‑linked loans amounted to EUR 3.5 bn, indicating a disclosed sustainable finance amount but without explicit SDG references.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          22
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 3.5bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 3.5,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 400000000.0,
+        "construct_type": "forward_commitment",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "“We have committed to issuing up to EUR 400m in such loans within the next three years.”",
+        "exclusion_reason": "excluded_construct:forward_commitment",
+        "inclusion_policy": "excluded",
+        "instrument": "Green loan",
+        "justification": "The bank commits to issuing up to EUR 400 m of green corporate loans, a clearly climate‑related finance instrument that aligns with SDG 7 (affordable clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          22
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 400m",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 400.0,
+        "subcategories": [
+          "corporate"
+        ]
+      },
+      {
+        "amount_eur": 2000000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "sustainability-linked revolving credit facility of EUR 2bn",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainability-linked revolving credit facility",
+        "justification": "The facility is described as sustainability‑linked, indicating it is intended to finance green projects such as Ørsted's renewable energy activities, though no specific SDG numbers are cited.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          37
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 2bn",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 2.0,
+        "subcategories": [
+          "renewable energy"
+        ]
+      },
+      {
+        "amount_eur": 5830000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Total apportioned deal value bonds in EURbn 5.83",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report lists total apportioned deal value of green bonds, indicating sustainable finance but without explicit SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          331
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EURbn 5.83",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 5.83,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 7520000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Nordea ’s take-and-hold volume in EURm 7,520",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainability‑linked loan",
+        "justification": "The volume of sustainability‑linked loans is disclosed, showing a sustainable finance product without explicit SDG tagging.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          331
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EURm 7,520",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 7520.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 5229000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Volume of green loans in EURm 5,229",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green corporate loan",
+        "justification": "Green corporate loan volume is reported, indicating environmentally‑focused financing but no direct SDG citation.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          331
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EURm 5,229",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 5229.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 547000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Volume of green mortgages in EURm 547",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green mortgage",
+        "justification": "Green mortgage volume is disclosed as sustainable financing, without explicit SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          331
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EURm 547",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 547.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 17400000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Volume of green car loans in EURm 17.4",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green car loan",
+        "justification": "Green car loan volume is presented as a sustainable product, but the text does not link it to specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          331
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EURm 17.4",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 17.4,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 5520000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Volume of green car lease agreements in EURm5 5.52",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green car lease",
+        "justification": "Green car lease agreements are reported as sustainable finance, lacking explicit SDG attribution.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          331
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EURm5 5.52",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 5.52,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          74,
+          125
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          9,
+          14,
+          38,
+          332
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 25,
+        "page_numbers": [
+          9,
+          13,
+          40,
+          70,
+          71,
+          75,
+          85,
+          86,
+          179,
+          332
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          323
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          37,
+          323,
+          324,
+          332
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 29,
+        "page_numbers": [
+          9,
+          38,
+          40,
+          85,
+          86,
+          87,
+          127,
+          162,
+          294,
+          332
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          332
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          75,
+          85,
+          86,
+          332
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 24,
+        "page_numbers": [
+          36,
+          38,
+          323,
+          324,
+          332
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 61,
+        "page_numbers": [
+          7,
+          8,
+          11,
+          13,
+          14,
+          31,
+          34,
+          35,
+          36,
+          72,
+          75,
+          91,
+          162,
+          209,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          332
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          332
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          332
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 36,
+        "page_numbers": [
+          38,
+          41,
+          68,
+          69,
+          70,
+          75,
+          76,
+          77,
+          85,
+          86,
+          87,
+          162,
+          294,
+          332
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          37,
+          91,
+          332
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

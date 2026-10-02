@@ -1,0 +1,260 @@
+{
+  "bank": "Ukraine_Oschadbank_2019",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 162755000.0,
+        "category": "Energy efficiency",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 0.03785,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2019",
+        "evidence": "…the bank has issued 221 thous. “warm” loans for the total amount of UAH 4.3 bn.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The report mentions \"warm\" loans for housewarming aimed at energy‑efficiency improvements, but does not explicitly link the financing to SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          26
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "UAH 4.3 bn",
+        "source_currency": "UAH",
+        "source_unit": "billion",
+        "source_value": 4.3,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 2365625.0,
+        "category": "Renewable energy",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 0.03785,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2019",
+        "evidence": "Oschadbank’s product named “Green Energy” … overall amount of relevant loans issued made up UAH 62.5 mln.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The \"Green Energy\" product provides credit for equipment that generates electricity from sun, wind, biomass, yet the text does not state an SDG linkage.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          26
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "UAH 62.5 mln",
+        "source_currency": "UAH",
+        "source_unit": "million",
+        "source_value": 62.5,
+        "subcategories": [
+          "solar",
+          "wind",
+          "biomass"
+        ]
+      },
+      {
+        "amount_eur": 282000000.0,
+        "category": "Renewable energy",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In total, as of the end of 2019, Oschadbank had financed various projects of alternative energy facilities construction for EUR 282 mln.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "Financing of alternative‑energy facilities is described, but no explicit SDG reference is provided.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          26
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 282 mln",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 282.0,
+        "subcategories": [
+          "solar",
+          "wind",
+          "biomass"
+        ]
+      },
+      {
+        "amount_eur": 26495.0,
+        "category": "Health",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 0.03785,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2019",
+        "evidence": "Over year 2019, Oschadbank’s employees and customers made money transfers in favor of “Tabletochki” for the total amount of UAH 700 thous.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The report states that Oschadbank’s employees and customers transferred UAH 700 thousand to the charitable fund “Tabletochki”, which supports children with cancer – a health‑related social contribution.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          27
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "UAH 700 thous",
+        "source_currency": "UAH",
+        "source_unit": "thousand",
+        "source_value": 700.0,
+        "subcategories": [
+          "cancer"
+        ]
+      },
+      {
+        "amount_eur": 144800000.0,
+        "category": "Renewable energy",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "active performance of programs on financing the projects of construction of alternative energy facilities (loan agreements were concluded for the total amount of EUR 144.8 mln).",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The loan of EUR 144.8 mln is explicitly for financing construction of alternative energy facilities, which directly supports renewable energy (SDG 7) and climate action (SDG 13).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          12
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 144.8 mln",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 144.8,
+        "subcategories": [
+          "alternative energy"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          22
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 12,
+        "page_numbers": [
+          24
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 10,
+        "page_numbers": [
+          16
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          16,
+          22
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          16,
+          21,
+          24
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          24
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

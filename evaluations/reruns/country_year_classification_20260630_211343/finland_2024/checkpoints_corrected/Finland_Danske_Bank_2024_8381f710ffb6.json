@@ -1,0 +1,342 @@
+{
+  "bank": "Finland_Danske Bank_2024",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 2750856350.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13409,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2024",
+        "evidence": "The Group has issued non‑preferred senior bonds ... in accordance with the Group’s green bond framework. At the end of 2024, the nominal value of green non‑preferred senior bonds issued amounted to DKK 20,515 million.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The bonds are issued under the Group’s green bond framework, explicitly labelled as green, indicating a direct SDG link.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          181
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "DKK 20,515 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 20515.0,
+        "subcategories": [
+          "non-preferred senior"
+        ]
+      },
+      {
+        "amount_eur": 1217805380.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13409,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2024",
+        "evidence": "The Group has issued ... green preferred senior bonds issued amounted to DKK 9,082 million.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The bonds are issued under the Group’s green bond framework, explicitly labelled as green, indicating a direct SDG link.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          181
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "DKK 9,082 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 9082.0,
+        "subcategories": [
+          "preferred senior"
+        ]
+      }
+    ],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          49,
+          82,
+          83,
+          84
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          75,
+          76,
+          77
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          84,
+          85
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 21,
+        "page_numbers": [
+          41,
+          75,
+          76,
+          78,
+          79,
+          80,
+          81
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          73
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 20,
+        "page_numbers": [
+          15,
+          41,
+          57,
+          60,
+          61,
+          62,
+          74,
+          111,
+          112,
+          113,
+          114,
+          210
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 36,
+        "page_numbers": [
+          41,
+          48,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          85,
+          92,
+          223,
+          224,
+          225,
+          226,
+          239
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 17,
+        "page_numbers": [
+          56,
+          57,
+          59,
+          60,
+          61,
+          62,
+          240
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 19,
+        "page_numbers": [
+          41,
+          48,
+          75,
+          76,
+          78,
+          79,
+          80,
+          81,
+          82,
+          84,
+          91,
+          239
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 8,
+        "page_numbers": [
+          15,
+          56,
+          57,
+          62,
+          83
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 20,
+        "page_numbers": [
+          40,
+          41,
+          54,
+          55,
+          56,
+          57,
+          62,
+          71,
+          73,
+          240
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 137,
+        "page_numbers": [
+          15,
+          41,
+          47,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          71,
+          72,
+          73,
+          81,
+          92,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          130,
+          131,
+          158,
+          159,
+          160,
+          210,
+          211,
+          226
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          56,
+          57,
+          69,
+          73
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 27,
+        "page_numbers": [
+          41,
+          48,
+          57,
+          62,
+          69,
+          73,
+          92
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 42,
+        "page_numbers": [
+          41,
+          50,
+          51,
+          74,
+          75,
+          76,
+          82,
+          85,
+          86,
+          87,
+          88,
+          239
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 11,
+        "page_numbers": [
+          42,
+          52
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

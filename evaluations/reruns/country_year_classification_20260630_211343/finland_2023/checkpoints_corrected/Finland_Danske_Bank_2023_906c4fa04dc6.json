@@ -1,0 +1,655 @@
+{
+  "bank": "Finland_Danske Bank_2023",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 48975700000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "By year-end 2023, we had arranged or granted DKK 365 billion in sustainable financing ... which includes green loans and arranged sustainable bonds.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The sustainable financing amount includes arranged sustainable bonds, qualifying as green‑bond issuance, though no specific SDG is cited.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          12
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 365 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 365.0,
+        "subcategories": [
+          "sustainable bonds"
+        ]
+      },
+      {
+        "amount_eur": 3643389540.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Bonds issued by Realkredit Danmark under the Group’s green finance framework amounted to a nominal value of DKK 27,153 million outstanding at the end of 2023.",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states that bonds issued under the Group’s green finance framework have a nominal value of DKK 27,153 million, indicating a sustainable (green) financing instrument, but no specific SDG linkage is mentioned.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          141
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 27,153 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 27153.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 48975700000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Sustainable financing, liquidity position including granted green loans 365",
+        "exclusion_reason": "duplicate_collapsed:kept_keyword_categories[3]",
+        "inclusion_policy": "excluded",
+        "instrument": "Green loan",
+        "justification": "The disclosed sustainable‑financing figure includes granted green loans of DKK 365 billion, qualifying as a green‑loan instrument.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          4
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 365",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 365.0,
+        "subcategories": [
+          "granted green loans"
+        ]
+      },
+      {
+        "amount_eur": 7111540000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Investments in funds with a sustainable investment objective 53",
+        "exclusion_reason": "duplicate_collapsed:kept_keyword_categories[4]",
+        "inclusion_policy": "excluded",
+        "instrument": "Sustainable investment fund",
+        "justification": "The bank reports DKK 53 billion invested in funds that have a sustainable investment objective, representing a sustainable‑finance instrument.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          4
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 53",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 53.0,
+        "subcategories": [
+          "funds with a sustainable investment objective"
+        ]
+      },
+      {
+        "amount_eur": 7433572000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Investments in the green transition by Danica Pension 55.4",
+        "exclusion_reason": "duplicate_collapsed:kept_keyword_categories[5]",
+        "inclusion_policy": "excluded",
+        "instrument": "Green transition investment",
+        "justification": "Danica Pension’s allocation of DKK 55.4 billion to the green transition is disclosed as a sustainability‑linked investment.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          4
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 55.4",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 55.4,
+        "subcategories": [
+          "Danica Pension"
+        ]
+      },
+      {
+        "amount_eur": 2102466420.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Listed green bonds held for liquidity purposes amounted to DKK 15,669 million at the end of 2023 (2022: 15,775 million).",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report discloses a holding of listed green bonds but does not link them to specific SDGs, so the finance is sustainable but not SDG‑linked.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          112
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 15,669 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 15669.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 3250242140.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "The Group has issued non‑preferred senior bonds and preferred senior bonds in accordance with the Group’s green bond framework. At the end of 2023, the nominal value of green non‑preferred senior bonds issued amounted to DKK 24,223 million...",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The report states that green non‑preferred senior bonds were issued under the Group’s green bond framework, which directly links the financing to clean energy and climate objectives (SDG 7 and SDG 13).",
+        "needs_fx_review": true,
+        "page_numbers": [
+          142
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "DKK 24,223 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 24223.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 1225600120.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "The Group has issued non‑preferred senior bonds and preferred senior bonds in accordance with the Group’s green bond framework. At the end of 2023, the nominal value of green preferred senior bonds issued amounted to DKK 9,134 million...",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The report states that green preferred senior bonds were issued under the Group’s green bond framework, explicitly linking the financing to SDG 7 (affordable and clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": true,
+        "page_numbers": [
+          142
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "DKK 9,134 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 9134.0,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 48975700000.0,
+        "category": "Sustainable financing",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "By year-end 2023, we had arranged or granted DKK 365 billion in sustainable financing (2022: DKK 273 billion), which includes green loans and arranged sustainable bonds, thereby exceeding our 2023 target of DKK 300 billion.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states DKK 365 billion of sustainable financing, covering green loans and sustainable bonds, but does not link to specific SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          12
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 365 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 365.0,
+        "subcategories": [
+          "green loans",
+          "sustainable bonds"
+        ]
+      },
+      {
+        "amount_eur": 7433572000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "With DKK 55.4 billion invested in the green transition by Danica Pension by year-end 2023 (2022: DKK 37.7 billion), we surpassed our 2023 interim target of investing DKK 50 billion.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Investment in the green transition by Danica Pension is reported, indicating renewable‑energy related financing, but no explicit SDG reference is provided.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          12
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 55.4 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 55.4,
+        "subcategories": [
+          "green transition"
+        ]
+      },
+      {
+        "amount_eur": 7379900000.0,
+        "category": "Renewable energy",
+        "construct_type": "portfolio_balance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "…the green transition rose from DKK 38 billion at 31 December 2022 to DKK 55 billion at 31 December 2023, and we thus exceeded our 2023 target. Investments include … activities in renewable energy, … green bonds.",
+        "exclusion_reason": "context_construct:portfolio_balance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states that investments in the green transition, including renewable energy and green bonds, reached DKK 55 billion, showing a strong link to clean energy (SDG 7) and climate action (SDG 13).",
+        "needs_fx_review": true,
+        "page_numbers": [
+          55
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "DKK 55 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 55.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 48975700000.0,
+        "category": "Green loans",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Sustainable financing, liquidity position including granted green loans 365",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report lists a sustainable‑financing figure that includes granted green loans of DKK 365 billion, indicating a sizable green‑loan portfolio.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          4
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 365",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 365.0,
+        "subcategories": [
+          "granted green loans"
+        ]
+      },
+      {
+        "amount_eur": 7111540000.0,
+        "category": "Sustainable investment funds",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Investments in funds with a sustainable investment objective 53",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The bank reports investments in funds that have a sustainable investment objective amounting to DKK 53 billion.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          4
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 53",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 53.0,
+        "subcategories": [
+          "funds with a sustainable investment objective"
+        ]
+      },
+      {
+        "amount_eur": 7433572000.0,
+        "category": "Green transition investments",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13418,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "Investments in the green transition by Danica Pension 55.4",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report notes that Danica Pension invested DKK 55.4 billion in the green transition, reflecting targeted sustainable finance.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          4
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 55.4",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 55.4,
+        "subcategories": [
+          "Danica Pension green transition"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          12,
+          188
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          12
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 6,
+        "page_numbers": [
+          12,
+          20,
+          54
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          12,
+          20,
+          22,
+          65
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 10,
+        "page_numbers": [
+          12,
+          21,
+          22,
+          44,
+          65,
+          250
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          12
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 25,
+        "page_numbers": [
+          10,
+          12,
+          15,
+          16,
+          19,
+          44,
+          47,
+          51,
+          52,
+          55,
+          63,
+          64,
+          281
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 19,
+        "page_numbers": [
+          10,
+          12,
+          20,
+          22,
+          44,
+          47,
+          51,
+          52,
+          65,
+          191,
+          192,
+          193
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 21,
+        "page_numbers": [
+          6,
+          8,
+          9,
+          10,
+          12,
+          15,
+          16,
+          18,
+          44,
+          46,
+          47,
+          52,
+          65
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 6,
+        "page_numbers": [
+          12,
+          21,
+          44,
+          47,
+          57,
+          188
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 4,
+        "page_numbers": [
+          12,
+          15,
+          16
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 32,
+        "page_numbers": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          15,
+          16,
+          17,
+          19,
+          23,
+          44,
+          47,
+          51,
+          52,
+          64,
+          244,
+          246,
+          247
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 86,
+        "page_numbers": [
+          3,
+          6,
+          8,
+          9,
+          10,
+          12,
+          15,
+          18,
+          19,
+          24,
+          44,
+          47,
+          49,
+          51,
+          52,
+          55,
+          56,
+          63,
+          64,
+          76,
+          112,
+          118,
+          141,
+          178,
+          179,
+          191,
+          242,
+          243,
+          247,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 3,
+        "page_numbers": [
+          12,
+          16,
+          18
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          12,
+          18,
+          19,
+          247
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 18,
+        "page_numbers": [
+          6,
+          12,
+          15,
+          18,
+          20,
+          23,
+          31,
+          32,
+          178,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 15,
+        "page_numbers": [
+          6,
+          9,
+          12,
+          15,
+          16,
+          18,
+          19,
+          44,
+          47,
+          49,
+          51,
+          54,
+          55
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

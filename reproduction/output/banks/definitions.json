@@ -1,0 +1,20 @@
+{
+  "primary_eligibility": "Source-adjudicated bank-owned current-year payments; approved amounts and SDG tags override copies of cached rows. Confirmed source-period mismatches are excluded at bank-year level.",
+  "legacy_inclusion": "Cached score_eligible AND linked_scored, preserving historical financing-verb exceptions. Does not rerun today's classify_inclusion.",
+  "eligible_unique_amount_eur": "Sum of eligible cached row amounts, once per row, before SDG expansion. Unique means unexpanded rows, not a new economic-instrument deduplication.",
+  "financial_items": "All extracted rows in keyword_categories and investment_instruments, including excluded and gross-context rows; raw and corrected counts are reported separately.",
+  "source_file_count": "Number of report paths in the canonical country-year manifest; reports are not opened or required for this cached reproduction.",
+  "retained_mentions": "Sum of cached mention_count for SDGs whose maximum cached centrality meets threshold.",
+  "R": "Maximum cached importance_score per bank-year-SDG; values below threshold become zero. Primary threshold is 3. R is not count-weighted.",
+  "A": "Each eligible row's full amount goes to every distinct SDG tag; fractional sensitivity instead divides that row's amount equally among its distinct tags.",
+  "primary_score_scale": "E=5*A/sum(A), or zero when finance is zero; M=sum(abs(R-E)); AS=1-M/85.",
+  "silent": "Both sum(R) and sum(A) are zero. Primary AS=1 mechanically; excluded from non-silent means.",
+  "composition": "Country-year narrative weights=sum(mention_count*centrality) for retained SDGs. Normalize narrative weights and tagged exposures separately; gap_pp=100*(narrative_share-finance_share). These are composition profiles, not the bank-year score's R vector.",
+  "finance_eur": "TAGGED EXPOSURE, NOT CONSERVED MONEY: full amount counted at each distinct SDG tag.",
+  "normalized_allocated_eur_for_display": "DISPLAY-ONLY conserved rescaling: country-year unique eligible row amount * tagged-exposure share; not an instrument-level fractional allocation or an observed SDG amount.",
+  "normalized_score_scale": "R'=5*R/sum(R), or zero if narrative absent; normalized_L1=sum(abs(R'-E)); normalized_alignment=1-normalized_L1/10. Both-zero is undefined/excluded; one-sided-zero alignment is 0.5. This symmetric normalized scale and primary AS have different denominators and are not directly comparable.",
+  "precision": "All calculations and aggregation use unrounded values. Only manuscript display rounds M/AS to four decimals (bank AS display follows scorer's rounded-M conversion), money to cents, and composition gap display to one decimal. CSV/JSON analytical values retain precision.",
+  "correlation": "Pearson correlation between AS and retained_mentions among non-silent bank-years; undefined for fewer than two observations or either constant variable. No p-value is claimed.",
+  "identities": "Exact manifest bank labels; no Alisa/Evli/Fellow consolidation or predecessor inference. Report basenames document predecessor-labelled sources without asserting legal continuity.",
+  "panels": "Complete identities appear in all six years. Excluding both-zero observations from those identities can unbalance the panel; a separate never-both-zero panel stays complete and balanced."
+}

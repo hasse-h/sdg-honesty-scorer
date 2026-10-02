@@ -1,0 +1,304 @@
+{
+  "bank": "Finland_Ålandsbanken_2020",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 40000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Green Bond ESG fund grew by EUR 40 M in new capital during the year.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The green bond ESG fund is a sustainability‑linked instrument, indicating financing for climate‑related projects such as renewable energy and clean energy transition.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          20
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 40 M",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 40.0,
+        "subcategories": [
+          "ESG"
+        ]
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 500000.0,
+        "category": "Life below water",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Via the Baltic Sea Project, we distribute at least EUR 500,000 yearly to projects that promote a cleaner Baltic Sea.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The report states the bank distributes at least EUR 500,000 yearly to Baltic Sea projects, directly linking the financing to SDG 14 (Life below water).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          16
+        ],
+        "relevant_sdgs": [
+          14
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "EUR 500,000",
+        "source_currency": "EUR",
+        "source_unit": "actual",
+        "source_value": 500000.0,
+        "subcategories": [
+          "marine pollution",
+          "clean Baltic Sea"
+        ]
+      },
+      {
+        "amount_eur": 2800000.0,
+        "category": "Life below water",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "We regularly discuss the € 2,800,000 ... Baltic Sea Project and the Baltic Sea Account...",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The report mentions a € 2,800,000 amount in the context of the Baltic Sea Project, indicating disclosed financing linked to SDG 14.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          16
+        ],
+        "relevant_sdgs": [
+          14
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "€ 2,800,000",
+        "source_currency": "EUR",
+        "source_unit": "actual",
+        "source_value": 2800000.0,
+        "subcategories": [
+          "marine pollution",
+          "clean Baltic Sea"
+        ]
+      },
+      {
+        "amount_eur": 445000.0,
+        "category": "Marine environment",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "contributed EUR 445,000 to several projects",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states a direct monetary contribution to projects that protect the Baltic Sea, indicating environmentally‑focused finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          31
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 445,000",
+        "source_currency": "EUR",
+        "source_unit": "actual",
+        "source_value": 445000.0,
+        "subcategories": [
+          "Baltic Sea"
+        ]
+      },
+      {
+        "amount_eur": 2700000.0,
+        "category": "Environmental projects",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "awarded EUR 2.7 M to various environmentally related projects",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The bank awarded a specific euro amount to environmentally related projects, showing disclosed sustainable finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          31
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 2.7 M",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 2.7,
+        "subcategories": [
+          "general"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 445000.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          11
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 1,
+        "page_numbers": [
+          11
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          17,
+          41
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          17,
+          43
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 6,
+        "page_numbers": [
+          17,
+          41,
+          42,
+          126
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          11,
+          13,
+          28,
+          31,
+          40
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [
+          11,
+          14,
+          28,
+          41,
+          43,
+          128
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 15,
+        "page_numbers": [
+          31,
+          34,
+          40
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 21,
+        "page_numbers": [
+          11,
+          15,
+          31,
+          34,
+          40
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          11,
+          16,
+          31
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 11,
+        "page_numbers": [
+          123,
+          125,
+          126,
+          127,
+          128
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 7,
+        "page_numbers": [],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

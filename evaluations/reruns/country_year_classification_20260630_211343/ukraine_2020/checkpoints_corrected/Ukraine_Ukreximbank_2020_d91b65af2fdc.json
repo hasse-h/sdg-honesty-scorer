@@ -1,0 +1,200 @@
+{
+  "bank": "Ukraine_Ukreximbank_2020",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 5000000.0,
+        "category": "Renewable energy",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "\"Financing Energy Efficiency and Renewable Energy Project in the amount of UAH 173,461 thousand ... The amount of loan under the Loan Agreement is equivalent to EUR 5,000 thousand.\"",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Loan explicitly for Energy Efficiency and Renewable Energy project, aligning with SDG 7 (affordable clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          95
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 5,000 thousand",
+        "source_currency": "EUR",
+        "source_unit": "thousand",
+        "source_value": 5000.0,
+        "subcategories": [
+          "energy efficiency",
+          "renewable energy"
+        ]
+      },
+      {
+        "amount_eur": 121960716.22,
+        "category": "Renewable energy",
+        "construct_type": "recipient_side_financing",
+        "conversion_rate_used": 0.02879,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "\"Loans from international financial institutions include the loan from the IBRD under the Project on Energy Efficiency in the amount of UAH 4,236,218 thousand\"",
+        "exclusion_reason": "excluded_construct:recipient_side_financing",
+        "inclusion_policy": "excluded",
+        "justification": "IBRD loan for Project on Energy Efficiency, supporting clean energy objectives (SDG 7,13).",
+        "needs_fx_review": true,
+        "page_numbers": [
+          95
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "UAH 4,236,218 thousand",
+        "source_currency": "UAH",
+        "source_unit": "thousand",
+        "source_value": 4236218.0,
+        "subcategories": [
+          "energy efficiency"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          5
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          4,
+          5
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          4,
+          5
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 17,
+        "page_numbers": [
+          4,
+          5,
+          25,
+          26
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 12,
+        "page_numbers": [
+          5,
+          26
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          5
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 10,
+        "page_numbers": [
+          5,
+          25,
+          26,
+          27,
+          28,
+          29,
+          40
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 9,
+        "page_numbers": [
+          29
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

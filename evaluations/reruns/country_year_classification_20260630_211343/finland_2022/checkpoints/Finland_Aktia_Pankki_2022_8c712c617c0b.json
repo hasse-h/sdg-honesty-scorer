@@ -1,0 +1,320 @@
+{
+  "bank": "Finland_Aktia Pankki_2022",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 100000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "The Article 9 Aktia Sustainable Corporate Bond ... reached a size of over EUR 100 million in December",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report announces an Article 9 Sustainable Corporate Bond with a size of over EUR 100 million, indicating a disclosed SDG‑linked finance instrument.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          7
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "over EUR 100 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 100.0,
+        "subcategories": [
+          "corporate"
+        ]
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 68000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "fund raised around EUR 68 million.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The Aktia Impact Fund is described as an Article 9 aligned sustainability‑linked bond, explicitly linking the EUR 68 million raise to renewable energy (wind and solar) projects, which directly supports SDG 7 and SDG 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          51
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "EUR 68 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 68.0,
+        "subcategories": [
+          "wind",
+          "solar"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 5.0,
+        "mention_count": 4,
+        "page_numbers": [
+          29,
+          30,
+          31
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 4,
+        "page_numbers": [
+          29,
+          30,
+          31
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 12,
+        "page_numbers": [
+          29,
+          30,
+          31,
+          33,
+          43,
+          57,
+          58,
+          59,
+          60
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 8,
+        "page_numbers": [
+          29,
+          30,
+          31,
+          43,
+          57
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 8,
+        "page_numbers": [
+          28,
+          29,
+          30,
+          31,
+          34
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 3,
+        "page_numbers": [
+          29,
+          30,
+          31
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 19,
+        "page_numbers": [
+          18,
+          28,
+          29,
+          30,
+          31,
+          33,
+          35,
+          37
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 19,
+        "page_numbers": [
+          13,
+          28,
+          29,
+          30,
+          31,
+          33,
+          34,
+          41,
+          44,
+          45,
+          58,
+          59,
+          60
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 12,
+        "page_numbers": [
+          18,
+          20,
+          28,
+          29,
+          30,
+          31,
+          41,
+          43
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 11,
+        "page_numbers": [
+          29,
+          30,
+          31,
+          34,
+          43,
+          44,
+          57
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 4,
+        "page_numbers": [
+          29,
+          30,
+          31
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 30,
+        "page_numbers": [
+          13,
+          15,
+          18,
+          28,
+          29,
+          30,
+          31,
+          33,
+          35,
+          37,
+          43,
+          55,
+          56
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 62,
+        "page_numbers": [
+          5,
+          11,
+          13,
+          14,
+          15,
+          18,
+          20,
+          28,
+          29,
+          30,
+          31,
+          33,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          43,
+          57
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 5,
+        "page_numbers": [
+          29,
+          30,
+          31,
+          57
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 7,
+        "page_numbers": [
+          29,
+          30,
+          31,
+          33,
+          43
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 25,
+        "page_numbers": [
+          20,
+          29,
+          30,
+          31,
+          34,
+          35,
+          42,
+          44,
+          45,
+          55,
+          56
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 18,
+        "page_numbers": [
+          8,
+          14,
+          15,
+          18,
+          20,
+          28,
+          29,
+          30,
+          31,
+          34,
+          35,
+          57,
+          59
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

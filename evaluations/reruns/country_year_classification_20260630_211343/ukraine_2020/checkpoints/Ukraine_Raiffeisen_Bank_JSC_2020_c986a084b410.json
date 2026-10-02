@@ -1,0 +1,195 @@
+{
+  "bank": "Ukraine_Raiffeisen Bank JSC_2020",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          52,
+          53
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          26,
+          27,
+          47,
+          49,
+          52
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 17,
+        "page_numbers": [
+          21,
+          42,
+          43,
+          44,
+          53,
+          54,
+          55,
+          58
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 4,
+        "page_numbers": [
+          20,
+          22,
+          55,
+          58
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          20
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 17,
+        "page_numbers": [
+          19,
+          20,
+          26,
+          42,
+          43,
+          45,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          56,
+          59,
+          60,
+          61,
+          186
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 14,
+        "page_numbers": [
+          26,
+          42,
+          44,
+          45,
+          46,
+          48,
+          49,
+          50,
+          51,
+          55,
+          56,
+          57,
+          60,
+          61,
+          186
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          20,
+          56
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          22,
+          44,
+          45
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 1,
+        "page_numbers": [
+          22
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          23,
+          61
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          23,
+          49,
+          50,
+          55
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

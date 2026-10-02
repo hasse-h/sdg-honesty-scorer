@@ -1,0 +1,28 @@
+country,bank,years_present,years_missing,bank_years,source_file_count,complete_2019_2024,complete_and_never_both_zero,identity_note
+finland,Aktia Pankki,"[2020, 2021, 2022, 2023, 2024]",[2019],5,9,False,False,Exact manifest identity; no entity resolution applied.
+finland,Alisa Pankki,"[2022, 2023, 2024]","[2019, 2020, 2021]",3,5,False,False,Exact manifest identity; Alisa/Evli/Fellow predecessor-labelled report names are retained without merging.
+finland,Bonum Pankki,"[2020, 2022, 2023, 2024]","[2019, 2021]",4,4,False,False,Exact manifest identity; no entity resolution applied.
+finland,Danske Bank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+finland,Evli Pankki,"[2019, 2020]","[2021, 2022, 2023, 2024]",2,4,False,False,Exact manifest identity; Alisa/Evli/Fellow predecessor-labelled report names are retained without merging.
+finland,Nordea Bank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+finland,OP Yrityspankki,"[2020, 2021, 2022, 2023, 2024]",[2019],5,9,False,False,Exact manifest identity; no entity resolution applied.
+finland,Oma Säästöpankki,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,9,True,True,Exact manifest identity; no entity resolution applied.
+finland,S-Pankki,"[2020, 2021, 2022, 2023, 2024]",[2019],5,5,False,False,Exact manifest identity; no entity resolution applied.
+finland,Suomen Asuntohypopankki,"[2020, 2021, 2022, 2023, 2024]",[2019],5,5,False,False,Exact manifest identity; no entity resolution applied.
+finland,Säästöpankkien Keskuspankki,"[2020, 2021, 2022, 2023, 2024]",[2019],5,8,False,False,Exact manifest identity; no entity resolution applied.
+finland,Ålandsbanken,"[2020, 2021, 2022, 2023, 2024]",[2019],5,5,False,False,Exact manifest identity; no entity resolution applied.
+ukraine,A-bank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Credit Agricole Bank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Credobank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,False,Exact manifest identity; no entity resolution applied.
+ukraine,FUIB,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,OTP Bank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,False,Exact manifest identity; no entity resolution applied.
+ukraine,Oschadbank,"[2019, 2021, 2022, 2023, 2024]",[2020],5,5,False,False,Exact manifest identity; no entity resolution applied.
+ukraine,Pivdenny,"[2019, 2020, 2021, 2022, 2023]",[2024],5,5,False,False,Exact manifest identity; no entity resolution applied.
+ukraine,Privatbank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Raiffeisen Bank JSC,"[2019, 2020, 2021, 2022, 2024]",[2023],5,5,False,False,Exact manifest identity; no entity resolution applied.
+ukraine,Sense Bank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Tascombank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Ukreximbank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Ukrgazbank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,6,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Ukrsibbank,"[2019, 2020, 2021, 2022, 2023, 2024]",[],6,12,True,True,Exact manifest identity; no entity resolution applied.
+ukraine,Universal Bank,"[2019, 2020, 2021, 2022]","[2023, 2024]",4,4,False,False,Exact manifest identity; no entity resolution applied.

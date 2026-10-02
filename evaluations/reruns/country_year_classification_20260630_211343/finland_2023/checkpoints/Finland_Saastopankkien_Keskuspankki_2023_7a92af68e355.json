@@ -1,0 +1,334 @@
+{
+  "bank": "Finland_Säästöpankkien Keskuspankki_2023",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 32200000.0,
+        "category": "Renewable energy",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "the total fund capital of the Säästöpankki Ympäristö special investment fund totalled EUR 32.2 million on 31 December 2023… investment in solar and wind energy through the Säästöpankki Ympäristö special investment fund",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The Säästöpankki Ympäristö special investment fund, which focuses on climate‑change prevention and environmental innovation, reports a total capital of EUR 32.2 million and explicitly invests in solar and wind energy.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          50
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 32.2 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 32.2,
+        "subcategories": [
+          "solar",
+          "wind"
+        ]
+      },
+      {
+        "amount_eur": 32200000.0,
+        "category": "Climate change mitigation",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "At the end of 2023, the fund capital totalled EUR 32.2 million, which corresponds to 0.7 per cent of the total capital of Savings Banks’ Asset Management funds.",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The report discloses a special investment fund of EUR 32.2 million that focuses on climate‑change mitigation, but it does not explicitly link the amount to any SDG or label it as SDG‑linked finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          36
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 32.2 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 32.2,
+        "subcategories": []
+      }
+    ],
+    "unlinked_investments_eur": 2065000.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          8,
+          26
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          5,
+          11,
+          25,
+          26,
+          27,
+          28,
+          30,
+          161718
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          5,
+          10,
+          11,
+          27,
+          28,
+          38,
+          161718
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          5,
+          11,
+          30,
+          63,
+          68,
+          1617
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          17,
+          22,
+          26,
+          27,
+          28,
+          32
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 26,
+        "page_numbers": [
+          10,
+          18,
+          19,
+          23,
+          28,
+          33,
+          36,
+          37,
+          38,
+          47,
+          48,
+          64
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 28,
+        "page_numbers": [
+          8,
+          11,
+          17,
+          18,
+          23,
+          26,
+          28,
+          29,
+          30,
+          33,
+          35,
+          36,
+          38,
+          44,
+          161718
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 9,
+        "page_numbers": [
+          10,
+          11,
+          21,
+          27,
+          33
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          11,
+          17,
+          161718
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 14,
+        "page_numbers": [
+          8,
+          10,
+          11,
+          17,
+          25,
+          26,
+          48
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 30,
+        "page_numbers": [
+          11,
+          17,
+          19,
+          22,
+          26,
+          27,
+          28,
+          32,
+          35,
+          36,
+          40,
+          47,
+          48,
+          64,
+          1617
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 58,
+        "page_numbers": [
+          10,
+          11,
+          17,
+          18,
+          19,
+          21,
+          22,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35,
+          36,
+          37,
+          39,
+          46,
+          47,
+          48,
+          64,
+          69,
+          1618
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          22,
+          26,
+          27,
+          28,
+          32
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 17,
+        "page_numbers": [
+          11,
+          17,
+          19,
+          21,
+          22,
+          26,
+          27,
+          28,
+          32,
+          47
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 31,
+        "page_numbers": [
+          8,
+          9,
+          10,
+          17,
+          18,
+          20,
+          21,
+          23,
+          30,
+          35,
+          42,
+          43,
+          44,
+          45,
+          63,
+          65,
+          66,
+          69,
+          70,
+          161718
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 8,
+        "page_numbers": [
+          8,
+          9,
+          35,
+          36,
+          1617
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

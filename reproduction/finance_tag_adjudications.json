@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "policy": "Claim-specific explicit or strong thematic SDG support; retained-payment tags reviewed against source layout.",
+  "rows": [
+    {
+      "checkpoint": "evaluations/reruns/country_year_classification_20260630_211343/finland_2024/checkpoints_corrected/Finland_Oma_Saastopankki_2024_41c5cad0a3b3.json",
+      "section": "keyword_categories",
+      "row_index": 0,
+      "original_relevant_sdgs": [
+        4,
+        17
+      ],
+      "source_report": "data/bank_reports/reports/Finnish banks/2024/omasp_annual_report_2024.pdf",
+      "source_report_sha256": "79fb022875f6b6df83d82a6fbd5717c1273b8d8c2a3e1b3a4778ae3e6fecb24d",
+      "source_pages": [
+        110
+      ],
+      "supporting_excerpt": "[PDF page 110; report page 218–219 (two-page spread; donation is on printed page 218)] Through these actions, the Company supports the UN Sustainable Development Goals 3 Good health and wellbeing and 8 Decent work and economic growth. Highlights from 2024 grants and subsidies • The Company donated EUR 6,250 to MIELI ry for youth mental health work as part of the personnel's annual exercise challenge Kilsakisa.",
+      "approved_relevant_sdgs": [
+        3
+      ],
+      "rationale": "Claim-specific strong thematic support: the bank donation is explicitly for youth mental health. SDG 3 is named in the grants context. The old [4,17] sentence belongs to the separate financial-literacy column; SDG 8 in the broader grants paragraph is not assigned to this specific mental-health payment."
+    },
+    {
+      "checkpoint": "evaluations/reruns/country_year_classification_20260630_211343/ukraine_2023/checkpoints_corrected/Ukraine_Sense_Bank_2023_2beaac8df163.json",
+      "section": "keyword_categories",
+      "row_index": 2,
+      "original_relevant_sdgs": [
+        4
+      ],
+      "source_report": "data/bank_reports/reports/Ukrainian banks/2023/Sense_annual report_2023.pdf",
+      "source_report_sha256": "25c00623c7a5bdc23534430fc20b608ad483dd5fbc1849c187714968f7c1a41d",
+      "source_pages": [
+        61,
+        62
+      ],
+      "supporting_excerpt": "[PDF page 61; report page lix] Пріоритетом у рамках цілі «Подолання бідності» Банк обрав категорію – допомога дітям з дитячих будинки.\n\n[PDF page 62; report page lx] В рамках проєкту «Повний портфель» у 2023 році зібрали портфелі до школи дітям 2 закладів: Улянівська спеціальна школа для дітей-сиріт та дітей, позбавлених батьківського піклування (смт. Улянівка, Сумська область) та Дитячий будинок сімейного типу родини Міщенко (с. Горохуватка, Київська область). Загальна сума потреб – 69 тисяч гривень, з яких – 36 тисяч гривень зібрали співробітники Банку, а решту профінансував Банк.",
+      "approved_relevant_sdgs": [
+        1,
+        4
+      ],
+      "rationale": "The project is explicitly situated under poverty reduction (SDG 1, PDF page61), and the funded school-supplies purpose directly supports education (SDG 4, page62). Both explicit and strong thematic links are permitted by the extraction schema. This is a documented manual source adjudication, not a new LLM prediction."
+    }
+  ]
+}

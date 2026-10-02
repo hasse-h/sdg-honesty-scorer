@@ -1,0 +1,265 @@
+{
+  "bank": "Finland_Danske Bank_2019",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 402000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.134,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…the European Investment Bank’s inaugural DKK 3 billion Climate Awareness Bond (the largest green bond in Danish kroner to date)…",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states the bank helped issue a DKK 3 billion Climate Awareness Bond, described as the largest green bond in Danish kroner, indicating a sustainability‑linked financing instrument.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          52
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 3 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 3.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 108808000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.134,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In 2019, Realkredit Danmark issued bonds under the Group’s green bond framework with a nominal value of DKK 812 million outstanding at the end of 2019.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "Issued under the Group’s green bond framework, indicating a sustainability‑linked financing instrument.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          138
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "DKK 812 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 812.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In March 2019, the Group issued non-preferred senior bonds in accordance with the Group’s green bond framework with a nominal value of EUR 500 million (DKK 3,735 million).",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "Issued in accordance with the Group’s green bond framework, qualifying as SDG‑linked finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          140
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 5,
+        "page_numbers": [
+          33,
+          41,
+          57
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          9,
+          33,
+          46,
+          53
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          33,
+          40,
+          52
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          9,
+          33,
+          53,
+          166,
+          167,
+          176,
+          177
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 18,
+        "page_numbers": [
+          33,
+          40,
+          45,
+          46,
+          52,
+          53,
+          57,
+          61
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          46,
+          53
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          40
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          33,
+          51,
+          52,
+          57,
+          176,
+          177
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 21,
+        "page_numbers": [
+          5,
+          9,
+          33,
+          40,
+          46,
+          52,
+          57,
+          176,
+          177
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 30,
+        "page_numbers": [
+          4,
+          9,
+          34,
+          35,
+          39,
+          44,
+          45,
+          53,
+          148,
+          149,
+          150,
+          166,
+          167,
+          176,
+          177,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 10,
+        "page_numbers": [
+          33,
+          40,
+          41,
+          45,
+          46,
+          52,
+          53
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

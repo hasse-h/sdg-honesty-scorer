@@ -1,0 +1,691 @@
+{
+  "bank": "Finland_Danske Bank_2020",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 13707780000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "with green loans and bonds reaching a volume of DKK 102 billion...",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green loan/bond",
+        "justification": "The combined volume of green loans and bonds (DKK 102 bn) is presented as sustainable finance, though no explicit SDG linkage is provided.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          8
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 102 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 102.0,
+        "subcategories": [
+          "green loans",
+          "green bonds"
+        ]
+      },
+      {
+        "amount_eur": 1276705000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "green mortgage bond lending had reached a volume of around DKK 9.5 billion",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The report states that green mortgage bond lending reached DKK 9.5 billion, indicating financing of green (energy‑related) projects, which aligns with SDG 7 and SDG 13.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          44
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "DKK 9.5 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 9.5,
+        "subcategories": [
+          "mortgage"
+        ]
+      },
+      {
+        "amount_eur": 13707780000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "provision of DKK 102 billion in sustainable financing by the Group",
+        "exclusion_reason": "duplicate_collapsed:kept_keyword_categories[2]",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "The disclosed DKK 102 bn of sustainable financing includes issuance of green bonds, but the text does not tie the amount to specific SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 102 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 102.0,
+        "subcategories": [
+          "green loans",
+          "arranged bonds"
+        ]
+      },
+      {
+        "amount_eur": 13439000000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "…the volume of green loans and bonds has surpassed DKK 100 billion…",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green loan",
+        "justification": "The volume of green loans and bonds is reported to have surpassed DKK 100 billion, showing a substantial amount of sustainable financing.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          12
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 100 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 100.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 6000000000.0,
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "an EUR 6 billion senior unsecured bond for the Federal Republic of Germany",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "A green bond issuance is mentioned, but the text does not explicitly tie it to SDG targets.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          55
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 6 billion senior unsecured bond for the Federal Republic of Germany",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 6.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 1993200000.0,
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 0.09966,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "its inaugural SEK 20 billion Green Bond issue",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "The Swedish green bond is reported without explicit SDG linkage.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          55
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "SEK 20 billion Green Bond issue",
+        "source_currency": "SEK",
+        "source_unit": "billion",
+        "source_value": 20.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "a Fixed Rate EUR 500 million Green Bond for SBAB Bank",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "A green bond for SBAB Bank is disclosed, but no SDG reference is provided.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          55
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 500 million Green Bond for SBAB Bank",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "EUR 500 million Green Bond for one of Finland’s largest energy provider Vattenfall",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "A green bond for Vattenfall is mentioned without linking to specific SDGs.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          55
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 500 million Green Bond for one of Finland’s largest energy provider Vattenfall",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 499930800.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "The Group has issued non‑preferred senior bonds in accordance with the Group’s green bond framework. At the end of 2020, the nominal value of green non‑preferred senior bonds amounted to DKK 3,720 million.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "Green non‑preferred senior bonds were issued under the Group’s green bond framework, indicating a sustainability‑linked financing instrument.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          140
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "DKK 3,720 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 3720.0,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 13707780000.0,
+        "category": "Green finance",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "We have seen strong progress on sustainable finance, communication with customers and other stakeholders. with green loans and bonds reaching a volume of DKK 102 billion...",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states that green loans and bonds reached a volume of DKK 102 bn, indicating sustainable finance but without explicit SDG references.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          8
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 102 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 102.0,
+        "subcategories": [
+          "green loans",
+          "green bonds"
+        ]
+      },
+      {
+        "amount_eur": 3628530000.0,
+        "category": "Green investments",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "with green loans and bonds reaching a volume of DKK 102 billion and green investments a volume of DKK 27 billion.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Green investments are reported with a volume of DKK 27 bn as part of the bank’s sustainable‑finance activities, but no specific SDG is mentioned.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          8
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 27 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 27.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 13707780000.0,
+        "category": "Sustainable finance",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "DKK 102 billion since 2019 … provision of DKK 102 billion in sustainable financing by the Group",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The amount is disclosed as total sustainable‑finance volume (green loans and arranged bonds) but is not linked to any specific SDG in the text.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          16,
+          17
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 102 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 102.0,
+        "subcategories": [
+          "green loans"
+        ]
+      },
+      {
+        "amount_eur": 3628530000.0,
+        "category": "Sustainable finance",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "DKK 27 billion since 2019",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Disclosed investment by Danica Pension in the green transition; no explicit SDG reference.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          16
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 27 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 27.0,
+        "subcategories": [
+          "green transition"
+        ]
+      },
+      {
+        "amount_eur": 4031700000.0,
+        "category": "Sustainable finance",
+        "construct_type": "target",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "DKK 30 billion investments in the green transition",
+        "exclusion_reason": "excluded_construct:target",
+        "inclusion_policy": "excluded",
+        "justification": "Stated as a future investment target for the green transition, not a disclosed amount.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          16
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 30 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 30.0,
+        "subcategories": [
+          "green transition"
+        ]
+      },
+      {
+        "amount_eur": 3655408000.0,
+        "category": "Sustainable finance",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "DKK 27.2 billion",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Current volume of Danica Pension’s investments in the green transition; no SDG tag attached.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 27.2 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 27.2,
+        "subcategories": [
+          "green transition"
+        ]
+      },
+      {
+        "amount_eur": 1384217000.0,
+        "category": "Sustainable finance",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "DKK 10.3 billion",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Previous volume of Danica Pension’s green‑transition investments; not linked to a specific SDG.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 10.3 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 10.3,
+        "subcategories": [
+          "green transition"
+        ]
+      },
+      {
+        "amount_eur": 13439000000.0,
+        "category": "Sustainable finance",
+        "construct_type": "target",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "DKK 100 billion by 2030",
+        "exclusion_reason": "excluded_construct:target",
+        "inclusion_policy": "excluded",
+        "justification": "Pledge to reach DKK 100 bn of green investment by 2030; a forward‑looking target, not a disclosed amount.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "DKK 100 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 100.0,
+        "subcategories": [
+          "green transition"
+        ]
+      },
+      {
+        "amount_eur": 4031700000.0,
+        "category": "Green investments",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "…already reached more than two thirds of our ambition of DKK 30 billion in green investments…",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states that the bank has already reached more than two‑thirds of its ambition of DKK 30 billion in green investments, indicating a sizable sustainable‑finance allocation.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          12
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "DKK 30 billion",
+        "source_currency": "DKK",
+        "source_unit": "billion",
+        "source_value": 30.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 77946200.0,
+        "category": "Sustainable investment",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.13439,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "the solution attracted investments of DKK 580 million",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The Danica Balance Sustainable Choice solution attracted DKK 580 million of investments and the text explicitly states it supports the UN Sustainable Development Goals.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          59
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "explicit",
+        "source_amount_text": "DKK 580 million",
+        "source_currency": "DKK",
+        "source_unit": "million",
+        "source_value": 580.0,
+        "subcategories": [
+          "pension"
+        ]
+      },
+      {
+        "amount_eur": 6117925000.0,
+        "category": "Renewable energy",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 1.11235,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2020",
+        "evidence": "the GBP 5.5 billion project financing for the first two phases (2.4GW) of the Dogger Bank offshore wind farm",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The report describes a large‑scale offshore wind project financing, indicating renewable‑energy investment but does not link it to specific SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          55
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "GBP 5.5 billion project financing for the first two phases (2.4GW) of the Dogger Bank offshore wind farm",
+        "source_currency": "GBP",
+        "source_unit": "billion",
+        "source_value": 5.5,
+        "subcategories": [
+          "wind"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 1.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          208
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 9,
+        "page_numbers": [
+          10,
+          11,
+          12,
+          62,
+          65
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 4,
+        "page_numbers": [
+          62
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          44,
+          55
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 16,
+        "page_numbers": [
+          11,
+          12,
+          13,
+          44,
+          152,
+          153,
+          182,
+          183,
+          205,
+          206,
+          207
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 14,
+        "page_numbers": [
+          11,
+          12,
+          13,
+          44,
+          50,
+          182,
+          183,
+          213
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          10,
+          11,
+          12,
+          213
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          44,
+          178
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          12,
+          40,
+          43,
+          45,
+          50,
+          55,
+          62
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 26,
+        "page_numbers": [
+          12,
+          30,
+          40,
+          43,
+          44,
+          45,
+          50,
+          55,
+          62,
+          178,
+          179
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 1.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          62
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 31,
+        "page_numbers": [
+          12,
+          13,
+          45,
+          62,
+          150,
+          151,
+          152,
+          153,
+          205,
+          206,
+          207,
+          208,
+          213
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 10,
+        "page_numbers": [
+          11,
+          44,
+          45,
+          49,
+          55
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

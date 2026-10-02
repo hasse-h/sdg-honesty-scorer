@@ -1,0 +1,233 @@
+{
+  "bank": "Ukraine_Raiffeisen Bank JSC_2023",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          38,
+          41,
+          42,
+          104
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          4,
+          5,
+          6,
+          30,
+          33,
+          38,
+          40,
+          104
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          5,
+          6,
+          16,
+          17,
+          30,
+          31,
+          32,
+          33,
+          46
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 18,
+        "page_numbers": [
+          16,
+          17,
+          31,
+          32,
+          45
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          16,
+          31
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          17,
+          33,
+          104
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 27,
+        "page_numbers": [
+          4,
+          5,
+          15,
+          16,
+          30,
+          31,
+          33,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          44,
+          48,
+          49,
+          104,
+          105,
+          197,
+          199,
+          200
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 17,
+        "page_numbers": [
+          5,
+          20,
+          30,
+          31,
+          32,
+          33,
+          34,
+          36,
+          38,
+          39,
+          41,
+          43,
+          104,
+          105,
+          197
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          16,
+          41
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          5,
+          17,
+          34
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [
+          17
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          17,
+          35
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 8,
+        "page_numbers": [
+          15,
+          20,
+          31,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          6,
+          31,
+          47,
+          48,
+          104,
+          105
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "bank": "Ukraine_Privatbank_2024",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 400000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "the largest risk‑sharing agreement among Ukrainian financial institutions was signed with the EBRD for SMEs and corporate business (+400 million euros). The agreement provides for energy restoration programs...",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Risk‑sharing agreement",
+        "justification": "The agreement mentions energy restoration programs, linking to renewable energy (SDG 7) and climate action (SDG 13), but it is not explicitly labelled as SDG‑linked finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          41
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "400 million euros",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 400.0,
+        "subcategories": [
+          "energy restoration"
+        ]
+      }
+    ],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 17,
+        "page_numbers": [
+          15,
+          40,
+          41,
+          56,
+          110
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 2,
+        "page_numbers": [
+          89
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          13,
+          14,
+          15,
+          56,
+          67,
+          68,
+          69
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 11,
+        "page_numbers": [
+          14,
+          41,
+          68,
+          69
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          14,
+          22,
+          27,
+          41
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          41,
+          66,
+          89
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 35,
+        "page_numbers": [
+          7,
+          8,
+          10,
+          13,
+          15,
+          16,
+          22,
+          23,
+          24,
+          40,
+          41,
+          56,
+          67,
+          68,
+          111,
+          112,
+          113,
+          114
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 19,
+        "page_numbers": [
+          7,
+          8,
+          13,
+          16,
+          40,
+          41,
+          43,
+          66
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 24,
+        "page_numbers": [
+          13,
+          14,
+          22,
+          40,
+          41,
+          43,
+          67,
+          68,
+          69,
+          110
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          41,
+          69,
+          110
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 6,
+        "page_numbers": [
+          13,
+          66,
+          67
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 8,
+        "page_numbers": [
+          13,
+          41,
+          43,
+          66,
+          68
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 39,
+        "page_numbers": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          16,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          38,
+          39,
+          40,
+          43,
+          57,
+          58,
+          59,
+          64,
+          65,
+          70
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 23,
+        "page_numbers": [
+          7,
+          8,
+          13,
+          14,
+          15,
+          40,
+          41,
+          56,
+          67,
+          68,
+          70,
+          89
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

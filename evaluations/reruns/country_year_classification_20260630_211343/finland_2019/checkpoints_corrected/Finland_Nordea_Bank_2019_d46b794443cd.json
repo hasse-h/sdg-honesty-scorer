@@ -1,0 +1,209 @@
+{
+  "bank": "Finland_Nordea Bank_2019",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 3471663000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.89017,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2019",
+        "evidence": "USD 3.9bn in 2019 in apportioned deal value for green bonds",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states a USD 3.9bn deal value for green bonds, a disclosed sustainable finance instrument, but does not explicitly reference specific SDG numbers.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          11
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "USD 3.9bn",
+        "source_currency": "USD",
+        "source_unit": "billion",
+        "source_value": 3.9,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          22,
+          32,
+          34
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          22,
+          26,
+          27
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          7,
+          8,
+          24,
+          32,
+          34
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          16,
+          34
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          16,
+          34
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          21,
+          22,
+          24,
+          26,
+          32,
+          34
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          28,
+          29,
+          34
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          8,
+          21,
+          24,
+          26,
+          27,
+          34
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          34
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 7,
+        "page_numbers": [
+          15,
+          16,
+          20,
+          21,
+          34,
+          37
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 19,
+        "page_numbers": [
+          7,
+          8,
+          9,
+          10,
+          15,
+          16,
+          17,
+          21,
+          32,
+          33,
+          34,
+          35
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          18,
+          19,
+          24,
+          32,
+          34,
+          35
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          26,
+          32,
+          36
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

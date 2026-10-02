@@ -1,0 +1,632 @@
+{
+  "bank": "Finland_OP Yrityspankki_2022",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 5200000000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "sustainability‑linked loans, green loans and credit limits granted €5.2 billion",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Sustainability-linked loan",
+        "justification": "The report lists sustainability‑linked loans and green loans totalling €5.2 billion, showing sustainable finance but without explicit SDG references.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          11
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "€5.2 billion",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 5.2,
+        "subcategories": [
+          "green loans"
+        ]
+      },
+      {
+        "amount_eur": 1000000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In April 2022, OP Mortgage Bank issued a one‑billion‑euro green covered bond with a maturity of 5.5 years.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Covered bond",
+        "justification": "The report states OP Mortgage Bank issued a one‑billion‑euro green covered bond, indicating a sustainable finance instrument but without explicit SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          30
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "one-billion-euro",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 1.0,
+        "subcategories": [
+          "green"
+        ]
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "OP Financial Group has issued three € 500 million green bonds: OP Corporate Bank’s EUR 500 mil‑ lion green bond and the EUR 500 million senior non‑preferred green bond issued in January 2022, …",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states that OP Financial Group issued a € 500 million green bond, which is a sustainability‑linked instrument, indicating finance linked to environmental objectives.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          28
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "€ 500 million green bonds",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "OP Financial Group has issued three € 500 million green bonds: … the EUR 500 million senior non‑preferred green bond issued in January 2022, …",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The text mentions a EUR 500 million senior non‑preferred green bond, a sustainability‑linked debt instrument, qualifying as disclosed SDG‑linked finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          28
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 500 million senior non-preferred green bond",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 700000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "… and the EUR 700 million green covered bond issued by OP Mortgage Bank.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report cites a EUR 700 million green covered bond, a sustainability‑linked instrument, thus it is disclosed SDG‑linked finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          28
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 700 million green covered bond",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 700.0,
+        "subcategories": [
+          "green covered bond"
+        ]
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "OP Financial Group has issued three green bonds: ... EUR 500 million green bond ...",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states the issuance of a EUR 500 million green bond, indicating a concrete sustainable finance instrument.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          15
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "EUR 500 million senior non‑preferred green bond issued in January 2022",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report mentions a EUR 500 million senior non‑preferred green bond, another concrete sustainable finance instrument.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          15
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 700000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "EUR 700 million green covered bond issued by OP Mortgage Bank",
+        "exclusion_reason": "duplicate_collapsed:kept_investment_instruments[4]",
+        "inclusion_policy": "excluded",
+        "instrument": "Green covered bond",
+        "justification": "The report lists a EUR 700 million green covered bond, representing a disclosed sustainable finance amount.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          15
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 700 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 700.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In January, OP Corporate Bank plc issued a 500 million- euro senior non-preferred green bond … Eligible sectors to be funded include renewable energy, green buildings and environmentally sustainable management of living natural resources and land use.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The bond is explicitly labelled ‘green’ and its proceeds are earmarked for renewable energy, green buildings and sustainable land‑use, showing a strong SDG linkage.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          19
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "500 million- euro",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": [
+          "renewable energy",
+          "green buildings",
+          "environmental management"
+        ]
+      },
+      {
+        "amount_eur": 1000000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In April, OP Mortgage Bank issued a one-billion-euro green covered bond … The sector to be financed is energy‑efficient residential buildings (green buildings) and renewable energy.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green covered bond",
+        "justification": "The covered bond is designated ‘green’ and is intended to finance renewable‑energy projects, providing a clear SDG connection.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          19
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "one-billion-euro",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 1.0,
+        "subcategories": [
+          "renewable energy"
+        ]
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In January, OP Corporate Bank plc issued a 500-million-euro senior non-preferred green bond … Eligible sectors to be funded include renewable energy, green buildings and environmentally sustainable management of living natural resources and land use.",
+        "exclusion_reason": "duplicate_collapsed:kept_investment_instruments[8]",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "Proceeds are allocated to renewable energy, green buildings and sustainable management of natural resources, indicating a link to SDG 7 and SDG 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          161
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "500-million-euro",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": [
+          "renewable energy",
+          "green buildings",
+          "sustainable natural resources"
+        ]
+      },
+      {
+        "amount_eur": 1000000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In April, OP Mortgage Bank issued a 1 billion-euro green covered bond … proceeds … will be allocated to OP Financial Group’s home loans recognised as green ones … sector … energy‑efficient residential buildings (green buildings).",
+        "exclusion_reason": "unsupported_sdg_linkage:weak",
+        "inclusion_policy": "excluded",
+        "instrument": "Green covered bond",
+        "justification": "The covered bond funds energy‑efficient residential buildings, supporting SDG 7 (affordable and clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          161
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "1 billion-euro",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 1.0,
+        "subcategories": [
+          "energy‑efficient residential buildings"
+        ]
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 500000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In January, OP Corporate Bank plc issued a 500 million- euro senior non-preferred green bond … Eligible sectors to be funded include renewable energy, green buildings …",
+        "exclusion_reason": "duplicate_collapsed:kept_investment_instruments[8]",
+        "inclusion_policy": "excluded",
+        "justification": "The green bond proceeds are allocated to renewable energy (among other sectors), directly linking the disclosed finance to SDG 7 (affordable clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          19
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "explicit",
+        "source_amount_text": "500 million- euro",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 1000000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In April, OP Mortgage Bank issued a one-billion-euro green covered bond … Eligible sectors to be financed include renewable energy …",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The green covered bond is described as financing renewable‑energy related projects, providing an explicit SDG link to clean energy and climate action.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          19
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "one-billion-euro",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 1.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In January, OP Corporate Bank plc issued a 500-million-euro senior non-preferred green bond … Eligible sectors to be funded include renewable energy, green buildings …",
+        "exclusion_reason": "duplicate_collapsed:kept_investment_instruments[8]",
+        "inclusion_policy": "excluded",
+        "justification": "The green bond is said to fund renewable energy projects, linking it to SDG 7 and SDG 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          161
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "500-million-euro",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": [
+          "renewable energy"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.5,
+        "mention_count": 11,
+        "page_numbers": [
+          36,
+          44,
+          51,
+          94,
+          96
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 15,
+        "page_numbers": [
+          7,
+          11,
+          14,
+          15,
+          36,
+          37,
+          44,
+          51
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 18,
+        "page_numbers": [
+          15,
+          25,
+          44,
+          45,
+          46,
+          52,
+          53
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.5,
+        "mention_count": 1,
+        "page_numbers": [
+          92
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 21,
+        "page_numbers": [
+          15,
+          30,
+          48,
+          94,
+          95,
+          96
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 27,
+        "page_numbers": [
+          7,
+          11,
+          13,
+          25,
+          26,
+          36,
+          37,
+          45,
+          46,
+          47,
+          52,
+          73
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 9,
+        "page_numbers": [
+          10,
+          37,
+          95,
+          96
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 9,
+        "page_numbers": [
+          25,
+          37
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          11,
+          44,
+          47,
+          94,
+          95,
+          96
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 38,
+        "page_numbers": [
+          10,
+          13,
+          14,
+          15,
+          24,
+          26,
+          28,
+          29,
+          30,
+          31,
+          44,
+          48,
+          49,
+          92,
+          94,
+          95,
+          96
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 64,
+        "page_numbers": [
+          10,
+          14,
+          15,
+          16,
+          17,
+          24,
+          26,
+          28,
+          29,
+          30,
+          31,
+          37,
+          44,
+          48,
+          49,
+          54,
+          55,
+          56,
+          57,
+          73,
+          92,
+          93,
+          94,
+          95,
+          96,
+          131,
+          142
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          24
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          24,
+          28,
+          29,
+          44,
+          92
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 14,
+        "page_numbers": [
+          10,
+          26,
+          38,
+          39,
+          47,
+          48,
+          92
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 10,
+        "page_numbers": [
+          10,
+          14,
+          29,
+          36,
+          37,
+          38,
+          44
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

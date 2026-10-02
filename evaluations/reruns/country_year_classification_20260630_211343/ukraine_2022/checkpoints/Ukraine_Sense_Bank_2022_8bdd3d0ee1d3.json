@@ -1,0 +1,170 @@
+{
+  "bank": "Ukraine_Sense Bank_2022",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 41857.77,
+        "category": "Social assistance",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.024,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "У 2022 році за програмою «Допоможемо разом» витрачено 1 744 073,88 гривень.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The report states that 1 744 073,88 UAH was spent on the \"Help Together\" program, which is linked to SDG 3 \"Good health and well‑being\".",
+        "needs_fx_review": true,
+        "page_numbers": [
+          35
+        ],
+        "relevant_sdgs": [
+          3
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "1 744 073,88 гривень",
+        "source_currency": "UAH",
+        "source_unit": "actual",
+        "source_value": 1744073.88,
+        "subcategories": [
+          "employee support"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          26,
+          34
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          34
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          34
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          3
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          4,
+          26,
+          34,
+          59
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 5,
+        "page_numbers": [
+          3,
+          4
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 23,
+        "page_numbers": [
+          13,
+          14,
+          15,
+          55,
+          56,
+          57,
+          92
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          3,
+          5
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

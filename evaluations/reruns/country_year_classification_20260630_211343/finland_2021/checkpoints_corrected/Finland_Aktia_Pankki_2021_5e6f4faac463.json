@@ -1,0 +1,398 @@
+{
+  "bank": "Finland_Aktia Pankki_2021",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 53300000.0,
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "EUR 53.3 million of Aktia’s liquidity portfolio.",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The report states that €53.3 million of the liquidity portfolio is invested in green bonds, indicating sustainable finance but without explicit SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          33
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 53.3 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 53.3,
+        "subcategories": []
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 4000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…nearly EUR 4 million, which has holdings in ten wind farms and one solar energy project…",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The report states a specific investment of nearly EUR 4 million in ten wind farms and one solar project, directly supporting clean energy (SDG 7) and climate action (SDG 13).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          55
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "nearly EUR 4 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 4.0,
+        "subcategories": [
+          "wind",
+          "solar"
+        ]
+      },
+      {
+        "amount_eur": 35000000.0,
+        "category": "Renewable energy",
+        "construct_type": "gross_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "the fund held assets valued at approximately EUR 35 million… includes green bonds and investments in renewable energy, such as wind and solar power projects.",
+        "exclusion_reason": "context_construct:gross_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The Aktia Impact fund holds approximately EUR 35 million in assets and explicitly invests in renewable energy projects such as wind and solar, indicating exposure to renewable‑energy finance.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          43
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 35 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 35.0,
+        "subcategories": [
+          "solar",
+          "wind"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [
+          25,
+          26,
+          27,
+          43,
+          47
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          26,
+          27
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 15,
+        "page_numbers": [
+          25,
+          26,
+          27,
+          43,
+          48,
+          50,
+          51,
+          60,
+          61,
+          64
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 18,
+        "page_numbers": [
+          13,
+          22,
+          25,
+          26,
+          27,
+          37,
+          39,
+          40,
+          43,
+          47,
+          48,
+          49,
+          51,
+          61,
+          64,
+          65
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 11,
+        "page_numbers": [
+          26,
+          27,
+          47,
+          48,
+          49,
+          51,
+          61,
+          64,
+          65
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          26,
+          27
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 16,
+        "page_numbers": [
+          26,
+          27,
+          36,
+          38,
+          43,
+          52,
+          53,
+          54,
+          55,
+          60,
+          65
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 26,
+        "page_numbers": [
+          13,
+          22,
+          25,
+          26,
+          27,
+          32,
+          35,
+          36,
+          37,
+          38,
+          42,
+          44,
+          45,
+          48,
+          49,
+          50,
+          51,
+          60,
+          61,
+          64
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 19,
+        "page_numbers": [
+          25,
+          26,
+          27,
+          32,
+          36,
+          37,
+          39,
+          40,
+          45,
+          46,
+          60,
+          65
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          25,
+          26,
+          27,
+          47,
+          48,
+          49,
+          61,
+          64,
+          65
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 4,
+        "page_numbers": [
+          25,
+          26,
+          27,
+          38
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 30,
+        "page_numbers": [
+          11,
+          13,
+          19,
+          22,
+          25,
+          26,
+          27,
+          35,
+          36,
+          37,
+          38,
+          42,
+          43,
+          44,
+          46,
+          54,
+          55,
+          56,
+          60,
+          64,
+          65
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 51,
+        "page_numbers": [
+          5,
+          8,
+          9,
+          11,
+          12,
+          14,
+          22,
+          25,
+          26,
+          27,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          44,
+          45,
+          52,
+          53,
+          54,
+          55,
+          57,
+          60,
+          64,
+          65
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 3,
+        "page_numbers": [
+          26,
+          27,
+          47
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 2,
+        "page_numbers": [
+          26,
+          27
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 26,
+        "page_numbers": [
+          26,
+          27,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          44,
+          46,
+          47,
+          60,
+          61,
+          63,
+          64,
+          65
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 22,
+        "page_numbers": [
+          14,
+          22,
+          25,
+          26,
+          27,
+          32,
+          34,
+          35,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          55,
+          64,
+          65
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

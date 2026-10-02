@@ -1,0 +1,242 @@
+{
+  "bank": "Ukraine_Ukrgazbank_2023",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [
+      {
+        "amount_eur": 71070000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.02369,
+        "conversion_source": "ecb_nbu_year_end_reference_rate:2023",
+        "evidence": "In 2023, 229 credit agreements for sustainable business development projects were financed for a total amount (credit limits) of over UAH 3 billion.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The report states that 229 credit agreements for sustainable business development projects were financed for a total amount of over UAH 3 billion, explicitly linking the financing to the Sustainable Development Goals and renewable‑energy projects.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          132
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "over UAH 3 billion",
+        "source_currency": "UAH",
+        "source_unit": "billion",
+        "source_value": 3.0,
+        "subcategories": []
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          74
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [
+          136,
+          138,
+          139,
+          140
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          136,
+          137,
+          138
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          136,
+          138
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 1,
+        "page_numbers": [
+          138
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 15,
+        "page_numbers": [
+          133,
+          135,
+          138,
+          139,
+          140
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 22,
+        "page_numbers": [
+          49,
+          52,
+          65,
+          74,
+          75,
+          80,
+          136,
+          137
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 30,
+        "page_numbers": [
+          49,
+          50,
+          70,
+          74,
+          78,
+          135,
+          136,
+          138,
+          139,
+          140
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          49,
+          136,
+          137,
+          138
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 6,
+        "page_numbers": [
+          136,
+          137,
+          138,
+          140
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 11,
+        "page_numbers": [
+          133,
+          135,
+          138,
+          139,
+          140
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 21,
+        "page_numbers": [
+          35,
+          38,
+          45,
+          47,
+          51,
+          133,
+          135,
+          138,
+          139,
+          140
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 50,
+        "page_numbers": [
+          48,
+          49,
+          50,
+          51,
+          68,
+          69,
+          70,
+          74,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          112,
+          115,
+          138,
+          140,
+          141
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 22,
+        "page_numbers": [
+          49,
+          51,
+          65,
+          69,
+          133,
+          135,
+          136,
+          138,
+          139,
+          140,
+          141
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

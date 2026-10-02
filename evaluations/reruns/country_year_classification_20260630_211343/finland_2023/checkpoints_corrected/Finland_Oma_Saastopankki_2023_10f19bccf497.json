@@ -1,0 +1,234 @@
+{
+  "bank": "Finland_Oma Säästöpankki_2023",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 21,
+        "page_numbers": [
+          19,
+          20,
+          21,
+          23,
+          30,
+          34,
+          36,
+          38,
+          49
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 19,
+        "page_numbers": [
+          21,
+          22,
+          23,
+          30,
+          31,
+          34,
+          35,
+          36,
+          37,
+          38,
+          49
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 11,
+        "page_numbers": [
+          48,
+          67
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 13,
+        "page_numbers": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          58
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 31,
+        "page_numbers": [
+          19,
+          20,
+          21,
+          23,
+          24,
+          30,
+          31,
+          32,
+          34,
+          35,
+          36,
+          38,
+          39,
+          47,
+          48,
+          49,
+          104,
+          105
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 13,
+        "page_numbers": [
+          17,
+          18,
+          26,
+          27,
+          31,
+          33,
+          55,
+          59
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 6,
+        "page_numbers": [
+          20,
+          21,
+          35,
+          36
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 7,
+        "page_numbers": [
+          21,
+          23,
+          36,
+          38
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 23,
+        "page_numbers": [
+          21,
+          26,
+          27,
+          28,
+          30,
+          50,
+          51,
+          52,
+          53,
+          54,
+          59,
+          60,
+          61
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 49,
+        "page_numbers": [
+          25,
+          26,
+          27,
+          28,
+          30,
+          40,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          26
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 5,
+        "page_numbers": [
+          23,
+          26
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          21,
+          22,
+          24,
+          30,
+          33,
+          36,
+          39
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 9,
+        "page_numbers": [
+          21,
+          22,
+          33
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

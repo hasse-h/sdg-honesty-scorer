@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "scope": "Source-reviewed bank-year quarantine for period, duplicate/overlapping source, mixed entity, and pre-bank population problems. No cached classifications are divided, relabelled or merged.",
+  "primary_reporting_unit": "Bank or banking-group report bundle under its immutable manifest key, with original source entity identified in source_year_audit.json. The country denotes the selected reporting panel, not the geographic perimeter of finance.",
+  "retained_alias_decision": {
+    "country": "finland",
+    "year": 2022,
+    "bank": "Alisa Pankki",
+    "reported_entity": "Fellow Bank Plc",
+    "rationale": "Full 2022 annual report retained once. Alisa is a historical manifest key, not a claim that the report used that name. No predecessor panel is inferred.",
+    "source_entry": 46,
+    "external_corroboration": "https://news.cision.com/alisa-pankki-oyj/r/fellow-bank-starts-operating,c3538875"
+  },
+  "rows": [
+    {
+      "country": "ukraine",
+      "year": 2020,
+      "bank": "Oschadbank",
+      "reason_code": "wrong_report_year",
+      "reason": "The only assigned report is for the preceding year; cached narrative and finance cannot be attributed to the manifest year.",
+      "source_entries": [
+        109
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Ukrainian banks/2020/Oshchadbank_annual report_2020.pdf"
+      ],
+      "source_sha256": [
+        "059a39e36d1bba5572ef781bfbb15c3a31961e681c48285ebfd8ea5f60d80728"
+      ]
+    },
+    {
+      "country": "ukraine",
+      "year": 2023,
+      "bank": "Raiffeisen Bank JSC",
+      "reason_code": "wrong_report_year",
+      "reason": "The only assigned report is for the preceding year; cached narrative and finance cannot be attributed to the manifest year.",
+      "source_entries": [
+        160
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Ukrainian banks/2023/Raiffeisen_annual report_2023.pdf"
+      ],
+      "source_sha256": [
+        "e5668d5cba28b77bdfaf5be27d63e199568ec26ce15c2dc17b1e0ada9b36b004"
+      ]
+    },
+    {
+      "country": "ukraine",
+      "year": 2023,
+      "bank": "Universal Bank",
+      "reason_code": "wrong_report_year",
+      "reason": "The only assigned report is for the preceding year; cached narrative and finance cannot be attributed to the manifest year.",
+      "source_entries": [
+        166
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Ukrainian banks/2023/Universal bank_management report_fin statement and audit_2023.pdf"
+      ],
+      "source_sha256": [
+        "b035db128d10581aeadbe1e267a5629012a766c48cdbbe241d605c1faa4ec2c2"
+      ]
+    },
+    {
+      "country": "finland",
+      "year": 2019,
+      "bank": "Aktia Pankki",
+      "reason_code": "duplicate_source_within_bank_year",
+      "reason": "Two manifest reports have identical PDF bytes. The pipeline concatenated both reports before extraction; narrative counts cannot be deduplicated from the aggregated checkpoint without re-extraction.",
+      "source_entries": [
+        1,
+        2
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Finnish banks/2019/Aktia_Annual_review_Sustainabilty+Financial_2019.pdf",
+        "data/bank_reports/reports/Finnish banks/2019/Aktia_Financial_Statements_2019.pdf"
+      ],
+      "source_sha256": [
+        "3c5d9f1cd5a71140057068e344d83debfbc849e496ad97c8d22f76add555450d",
+        "3c5d9f1cd5a71140057068e344d83debfbc849e496ad97c8d22f76add555450d"
+      ]
+    },
+    {
+      "country": "finland",
+      "year": 2019,
+      "bank": "Fellow Pankki",
+      "reason_code": "pre_bank_entity",
+      "reason": "The sources identify Fellow Finance, the pre-bank crowdfunding/peer-to-peer lending platform. Fellow Bank was formed in 2022; the retrospective bank label is outside this banking-panel definition.",
+      "source_entries": [
+        5,
+        6
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Finnish banks/2019/Alisa_Fellow_Annual Review_2019.pdf",
+        "data/bank_reports/reports/Finnish banks/2019/Alisa_Fellow_Financial statement_2019.pdf"
+      ],
+      "source_sha256": [
+        "13b3356bb6acf3533ec54d77b39d246bbcb747259dd14e26efcb99a84105f7c8",
+        "6bda801131df4216a273abee791d2bd3caa77b688001fb99b83d662349721b30"
+      ]
+    },
+    {
+      "country": "finland",
+      "year": 2020,
+      "bank": "Fellow Pankki",
+      "reason_code": "pre_bank_entity",
+      "reason": "The sources identify Fellow Finance, the pre-bank crowdfunding/peer-to-peer lending platform. Fellow Bank was formed in 2022; the retrospective bank label is outside this banking-panel definition.",
+      "source_entries": [
+        13,
+        14
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Finnish banks/2020/Alisa_Fellow_Annual Review_2020.pdf",
+        "data/bank_reports/reports/Finnish banks/2020/Alisa_Fellow_Financial statement_2020.pdf"
+      ],
+      "source_sha256": [
+        "3a5e76a5303b4370a69758b9d2c24087a2e49d500d90dd0b77077d3d4e2b12e9",
+        "cd61b9492220377d8ef3b2855adec36ceb660f3353d679c097504548b153e876"
+      ]
+    },
+    {
+      "country": "finland",
+      "year": 2021,
+      "bank": "Fellow Pankki",
+      "reason_code": "pre_bank_entity",
+      "reason": "The sources identify Fellow Finance, the pre-bank crowdfunding/peer-to-peer lending platform. Fellow Bank was formed in 2022; the retrospective bank label is outside this banking-panel definition.",
+      "source_entries": [
+        32,
+        33
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Finnish banks/2021/Alisa_Fellow_Financial statement_2021.pdf",
+        "data/bank_reports/reports/Finnish banks/2021/Alisa_Felow_Annual Review_2021.pdf"
+      ],
+      "source_sha256": [
+        "921b9cb7ebb114241f6a069e66987e6155e0c2a005e83d2a1e805f4fa70f2f7c",
+        "c58c6c9449884327322acfbb5a209213d70627521bf133d7699eeebf80cf0082"
+      ]
+    },
+    {
+      "country": "finland",
+      "year": 2021,
+      "bank": "Alisa Pankki",
+      "reason_code": "duplicate_pre_bank_entity",
+      "reason": "The report is Fellow Finance 2021 and is byte-identical to the report assigned to Fellow Pankki; this is not a distinct Alisa bank-year.",
+      "source_entries": [
+        29
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Finnish banks/2021/Alisa_Annual Review_2021.pdf"
+      ],
+      "source_sha256": [
+        "c58c6c9449884327322acfbb5a209213d70627521bf133d7699eeebf80cf0082"
+      ]
+    },
+    {
+      "country": "finland",
+      "year": 2021,
+      "bank": "Evli Pankki",
+      "reason_code": "mixed_entity_bundle",
+      "reason": "The cached bundle mixes an Evli annual report with a Fellow Finance financial statement. Aggregated narrative cannot be separated safely without re-extraction.",
+      "source_entries": [
+        30,
+        31
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Finnish banks/2021/Alisa_Evil_Financial Statement_2021.pdf",
+        "data/bank_reports/reports/Finnish banks/2021/Alisa_Evli_Annual Review_2021.pdf"
+      ],
+      "source_sha256": [
+        "921b9cb7ebb114241f6a069e66987e6155e0c2a005e83d2a1e805f4fa70f2f7c",
+        "35d0f053559b299de6eb521cfbaa20bc3297f2402410cdf8ab8d29f12aa5adbe"
+      ]
+    },
+    {
+      "country": "finland",
+      "year": 2022,
+      "bank": "Fellow Pankki",
+      "reason_code": "overlapping_reporting_entity",
+      "reason": "This financial-statement bundle and the annual report under the Alisa 2022 label describe the same Fellow Bank reporting entity. Retain the full annual-report bundle (label Alisa Pankki, source Fellow Bank) once; omit this overlapping separately classified bundle.",
+      "source_entries": [
+        47
+      ],
+      "source_reports": [
+        "data/bank_reports/reports/Finnish banks/2022/Alisa_Fellow_Financial statement_2022.pdf"
+      ],
+      "source_sha256": [
+        "d6c34f0613c728dc6e3eaaaa6fe1f5509f7071832f2d6a6ab0b8d8d022c94bf8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "bank": "Ukraine_Oschadbank_2024",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 200000000.0,
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "the volume of the portfolio covered by this instrument is EUR 200 million, ... financing projects in the production sector and improving energy efficiency.",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Risk‑sharing facility",
+        "justification": "The EBRD risk‑sharing facility finances a EUR 200 million loan portfolio for projects that improve energy efficiency, which directly supports SDG 7 (affordable clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          39
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 200 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 200.0,
+        "subcategories": [
+          "energy efficiency"
+        ]
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 24000000.0,
+        "category": "Renewable energy",
+        "construct_type": "narrative_only",
+        "conversion_rate_used": 0.024,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "lending terms and conditions for MSME customers were introduced to purchase equipment for ensuring own energy independence (solar power plants, … hydro and wind power plants), within the framework of which over UAH 1 billion of loans were provided",
+        "exclusion_reason": "excluded_construct:narrative_only",
+        "inclusion_policy": "excluded",
+        "justification": "The report states that over UAH 1 billion of loans were provided for equipment such as solar, wind, hydro, biogas and gas‑piston plants, but it does not label these loans as SDG‑linked or explicitly associate them with specific SDGs.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          19
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "UAH 1 billion",
+        "source_currency": "UAH",
+        "source_unit": "billion",
+        "source_value": 1.0,
+        "subcategories": [
+          "solar",
+          "wind",
+          "hydro",
+          "biogas",
+          "gas piston"
+        ]
+      },
+      {
+        "amount_eur": 5640000.0,
+        "category": "Renewable energy",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 0.024,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Since the launch of the state programme \"Energy Independence of Households\" to 20 July 2024, Oschadbank had issued more than 700 loans worth over UAH 235 million...",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Loans under the state \"Energy Independence of Households\" programme are earmarked for solar or wind hybrid power systems for private houses.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          46
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "UAH 235 million",
+        "source_currency": "UAH",
+        "source_unit": "million",
+        "source_value": 235.0,
+        "subcategories": [
+          "solar",
+          "wind"
+        ]
+      },
+      {
+        "amount_eur": 5160000.0,
+        "category": "Renewable energy",
+        "construct_type": "facilitated_sustainable_finance",
+        "conversion_rate_used": 0.024,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "Since July 2024, more than 2,200 loans have been issued under this programme for a total amount of about UAH 215 million.",
+        "exclusion_reason": "context_construct:facilitated_sustainable_finance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "Consumer‑lending programme provides loans for purchasing solar power plants, panels, wind turbines and other energy‑generating equipment.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          46
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "UAH 215 million",
+        "source_currency": "UAH",
+        "source_unit": "million",
+        "source_value": 215.0,
+        "subcategories": [
+          "solar",
+          "wind"
+        ]
+      },
+      {
+        "amount_eur": 33600000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 0.024,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "The total amount of community financing in 2024 was UAH 1.4 billion… All the projects funded for communities are sustainable development projects: Improving the energy efficiency of residential and social buildings in Dnipro, installing a solar power plant in Kamianske…",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The community financing amount funds a solar power plant and energy‑efficiency upgrades, indicating renewable‑energy related sustainable projects.",
+        "needs_fx_review": true,
+        "page_numbers": [
+          53
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "UAH 1.4 billion",
+        "source_currency": "UAH",
+        "source_unit": "billion",
+        "source_value": 1.4,
+        "subcategories": [
+          "solar",
+          "energy efficiency"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 200000000.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          7,
+          9,
+          11,
+          15,
+          24,
+          26,
+          74
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          11,
+          20,
+          25
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 8,
+        "page_numbers": [
+          24,
+          26,
+          49
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 10,
+        "page_numbers": [
+          30,
+          44,
+          49
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          10,
+          44,
+          48,
+          49,
+          57
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 18,
+        "page_numbers": [
+          7,
+          14,
+          25,
+          31,
+          46,
+          47
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 35,
+        "page_numbers": [
+          7,
+          8,
+          9,
+          11,
+          15,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          44,
+          48,
+          49,
+          57,
+          76
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 29,
+        "page_numbers": [
+          7,
+          8,
+          9,
+          11,
+          14,
+          25,
+          27,
+          28,
+          30,
+          46,
+          47,
+          57,
+          74,
+          76
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 25,
+        "page_numbers": [
+          8,
+          10,
+          11,
+          24,
+          26,
+          30,
+          44,
+          48,
+          49,
+          57
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 16,
+        "page_numbers": [
+          9,
+          11,
+          25,
+          28,
+          31,
+          45
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 10,
+        "page_numbers": [
+          10,
+          25,
+          45,
+          46,
+          47
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 11,
+        "page_numbers": [
+          10,
+          25,
+          45,
+          46,
+          47
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 27,
+        "page_numbers": [
+          29,
+          32,
+          33,
+          34,
+          35,
+          43,
+          44,
+          62,
+          63,
+          64,
+          65,
+          71
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 23,
+        "page_numbers": [
+          7,
+          9,
+          25,
+          27,
+          28,
+          29,
+          45,
+          46,
+          48,
+          74,
+          76
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

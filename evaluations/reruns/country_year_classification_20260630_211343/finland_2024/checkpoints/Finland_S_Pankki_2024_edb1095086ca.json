@@ -1,0 +1,320 @@
+{
+  "bank": "Finland_S-Pankki_2024",
+  "investments": {
+    "investment_instruments": [],
+    "keyword_categories": [],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 4.0,
+        "mention_count": 3,
+        "page_numbers": [
+          52,
+          53,
+          54
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 1,
+        "page_numbers": [],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 21,
+        "page_numbers": [
+          5,
+          10,
+          12,
+          43,
+          45,
+          50,
+          115,
+          116,
+          117,
+          118,
+          119,
+          122,
+          124,
+          125
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          127
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 24,
+        "page_numbers": [
+          36,
+          37,
+          45,
+          50,
+          116,
+          117,
+          118,
+          119,
+          123,
+          126,
+          127,
+          128
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          110
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 24,
+        "page_numbers": [
+          45,
+          47,
+          48,
+          79,
+          84,
+          89,
+          99,
+          100,
+          103,
+          104,
+          106,
+          107,
+          108,
+          109,
+          110
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 59,
+        "page_numbers": [
+          5,
+          6,
+          10,
+          12,
+          33,
+          39,
+          43,
+          45,
+          50,
+          51,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          138,
+          141,
+          149
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 9,
+        "page_numbers": [
+          5,
+          6,
+          11,
+          12,
+          52,
+          53,
+          94
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 29,
+        "page_numbers": [
+          45,
+          50,
+          52,
+          53,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          123,
+          124,
+          126,
+          128,
+          129,
+          130,
+          131,
+          133,
+          138
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 2,
+        "page_numbers": [
+          135
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 24,
+        "page_numbers": [
+          10,
+          12,
+          39,
+          40,
+          41,
+          99,
+          107,
+          110,
+          114,
+          129,
+          130,
+          131,
+          136,
+          149
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 63,
+        "page_numbers": [
+          9,
+          12,
+          38,
+          39,
+          41,
+          43,
+          45,
+          46,
+          47,
+          48,
+          80,
+          81,
+          82,
+          85,
+          86,
+          87,
+          88,
+          90,
+          91,
+          92,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          111,
+          112,
+          113,
+          122
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          110
+        ],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 23,
+        "page_numbers": [
+          39,
+          45,
+          49,
+          111,
+          112,
+          113
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 41,
+        "page_numbers": [
+          9,
+          12,
+          30,
+          31,
+          32,
+          36,
+          37,
+          38,
+          45,
+          54,
+          118,
+          120,
+          121,
+          128,
+          131,
+          132,
+          137,
+          138,
+          139,
+          141,
+          146,
+          147,
+          148,
+          149
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 4,
+        "page_numbers": [
+          9,
+          12,
+          129,
+          131
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}

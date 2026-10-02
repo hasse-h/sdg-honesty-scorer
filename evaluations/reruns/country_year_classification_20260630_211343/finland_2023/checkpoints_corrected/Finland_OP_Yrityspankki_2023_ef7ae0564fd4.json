@@ -1,0 +1,770 @@
+{
+  "bank": "Finland_OP Yrityspankki_2023",
+  "investments": {
+    "investment_instruments": [
+      {
+        "amount_eur": 6500000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "OP Corporate Bank had granted a total of EUR 6.5 million of green and sustainability-linked loans.",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green loan",
+        "justification": "The report states the corporate bank granted EUR 6.5 million of green and sustainability‑linked loans, indicating sustainable finance but without explicit SDG reference.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          27
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "none",
+        "source_amount_text": "EUR 6.5 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 6.5,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "portfolio_balance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "\"Four of our bonds are green: the EUR 500 million green bond (2019)...\"",
+        "exclusion_reason": "context_construct:portfolio_balance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The issuance of a green bond signals a commitment to climate‑related projects aligned with the EU taxonomy, supporting SDG 7 and SDG 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          30
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "portfolio_balance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "\"...EUR 500 million green senior non‑preferred bond (2022) issued by OP Corporate Bank...\"",
+        "exclusion_reason": "context_construct:portfolio_balance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green bond",
+        "justification": "The green senior non‑preferred bond is classified as a green instrument, indicating alignment with climate‑focused objectives and SDG 7/13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          30
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 750000000.0,
+        "construct_type": "portfolio_balance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "\"...EUR 750 million green covered bond (2021) issued by OP Mortgage Bank...\"",
+        "exclusion_reason": "context_construct:portfolio_balance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green covered bond",
+        "justification": "The covered bond is labelled green, linking it to environmentally sustainable financing and thus to SDG 7 and SDG 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          30
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 750 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 750.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 1000000000.0,
+        "construct_type": "portfolio_balance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "\"...EUR 1 billion green covered bond (2022) issued by OP Mortgage Bank...\"",
+        "exclusion_reason": "context_construct:portfolio_balance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green covered bond",
+        "justification": "The €1 billion green covered bond is a sizable green financing instrument, indicating a strong contribution to SDG 7 and SDG 13.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          30
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 1 billion",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 1.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "OP Financial Group has issued four green bonds: the EUR 500 million green bond (2019)…",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The report states OP issued a EUR 500 million green bond, indicating financing of environmentally‑friendly projects.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 500000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…EUR 500 million green senior non‑preferred bond (2022) issued by OP Corporate Bank…",
+        "exclusion_reason": "duplicate_collapsed:kept_investment_instruments[2]",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "Another EUR 500 million green senior non‑preferred bond is disclosed, confirming additional climate‑related financing.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 500 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 500.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 750000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…EUR 750 million green covered bond (2021) issued by OP Mortgage Bank…",
+        "exclusion_reason": "duplicate_collapsed:kept_investment_instruments[3]",
+        "inclusion_policy": "excluded",
+        "instrument": "Green bond",
+        "justification": "The EUR 750 million green covered bond adds to the bank’s climate‑focused financing portfolio.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 750 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 750.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 1000000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "…EUR 1,000 million green covered bond (2022) issued by OP Mortgage Bank.",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green bond",
+        "justification": "The EUR 1 billion green covered bond further demonstrates OP’s commitment to climate‑aligned financing.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 1,000 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 1000.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 6600000000.0,
+        "construct_type": "portfolio_balance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "The combined exposures of these loans and limits increased to EUR 6.6 billion (5.2) in 2023.",
+        "exclusion_reason": "context_construct:portfolio_balance",
+        "inclusion_policy": "gross_context_only",
+        "instrument": "Green loan",
+        "justification": "Combined exposures of green loans increased to EUR 6.6 billion, indicating substantial financing for low‑carbon projects.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          17
+        ],
+        "relevant_sdgs": [
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 6.6 billion",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 6.6,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 62000000.0,
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In March, OP Financial Group launched a green loan for SMEs and housing companies… green loans granted to SMEs totalled EUR 62 million (0).",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "instrument": "Green loan",
+        "justification": "The green loan is explicitly described as financing renewable energy and low‑emission transport, linking it to SDG 7 and SDG 13, with a disclosed amount of EUR 62 million.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          40
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "EUR 62 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 62.0,
+        "subcategories": [
+          "renewable energy",
+          "energy‑efficient construction",
+          "low‑emission transport"
+        ]
+      }
+    ],
+    "keyword_categories": [
+      {
+        "amount_eur": 6600000000.0,
+        "category": "Sustainable financing",
+        "construct_type": "portfolio_balance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "6.6 € billion (2023) under SDG 13.1 – \"Sustainable financing products will account for at least 8 billion euros of total commitments by the end of 2025\".",
+        "exclusion_reason": "context_construct:portfolio_balance",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states that sustainable financing products amounted to €6.6 billion in 2023, directly linked to SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          22
+        ],
+        "relevant_sdgs": [
+          13
+        ],
+        "score_eligible": false,
+        "sdg_support": "explicit",
+        "source_amount_text": "6.6 € billion",
+        "source_currency": "EUR",
+        "source_unit": "billion",
+        "source_value": 6.6,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 62000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "\"In March 2023, we also launched a green loan product ... granted to SMEs totalled EUR 62 million. The loan is intended for investments made to reduce environmental impacts ... renewable energy, electric vehicle infrastructure...\"",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The green loan product is explicitly described as intended for energy‑efficiency, renewable‑energy and electric‑vehicle infrastructure investments, which directly support SDG 7 (Affordable and Clean Energy) and SDG 13 (Climate Action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          30
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "strong",
+        "source_amount_text": "EUR 62 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 62.0,
+        "subcategories": [
+          "energy efficiency",
+          "renewable energy",
+          "electric vehicle infrastructure"
+        ]
+      },
+      {
+        "amount_eur": 62000000.0,
+        "category": "Green loans",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "green loans granted to SMEs totalled EUR 62 million",
+        "exclusion_reason": "missing_sdg_linkage",
+        "inclusion_policy": "gross_context_only",
+        "justification": "The report states a green loan product for SMEs with a disclosed amount of EUR 62 million, indicating finance directed to environmentally‑beneficial activities.",
+        "needs_fx_review": false,
+        "page_numbers": [
+          18
+        ],
+        "relevant_sdgs": [],
+        "score_eligible": false,
+        "sdg_support": "weak",
+        "source_amount_text": "EUR 62 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 62.0,
+        "subcategories": []
+      },
+      {
+        "amount_eur": 62000000.0,
+        "category": "Renewable energy",
+        "construct_type": "disclosed_sdg_linked_finance",
+        "conversion_rate_used": 1.0,
+        "conversion_source": "fixed_fx_table_2024-12-31",
+        "evidence": "In March, OP Financial Group launched a green loan for SMEs and housing companies… At the end of December, green loans granted to SMEs totalled EUR 62 million (0).",
+        "exclusion_reason": "",
+        "inclusion_policy": "linked_scored",
+        "justification": "The report states that a green loan was launched for SMEs and housing companies, and green loans granted to SMEs totalled EUR 62 million, explicitly targeting renewable energy, energy‑efficient construction and low‑emission transport, which directly support SDG 7 (affordable clean energy) and SDG 13 (climate action).",
+        "needs_fx_review": false,
+        "page_numbers": [
+          40
+        ],
+        "relevant_sdgs": [
+          7,
+          13
+        ],
+        "score_eligible": true,
+        "sdg_support": "explicit",
+        "source_amount_text": "EUR 62 million",
+        "source_currency": "EUR",
+        "source_unit": "million",
+        "source_value": 62.0,
+        "subcategories": [
+          "renewable energy",
+          "energy‑efficient construction",
+          "low‑emission transport"
+        ]
+      }
+    ],
+    "unlinked_investments_eur": 0.0
+  },
+  "mentions": {
+    "sdg_data": [
+      {
+        "importance_score": 3.0,
+        "mention_count": 4,
+        "page_numbers": [
+          4,
+          5,
+          6,
+          26
+        ],
+        "sdg_number": 1
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 3,
+        "page_numbers": [
+          31
+        ],
+        "sdg_number": 2
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 20,
+        "page_numbers": [
+          5,
+          26,
+          34,
+          35,
+          36,
+          50,
+          57,
+          58,
+          70
+        ],
+        "sdg_number": 3
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 15,
+        "page_numbers": [
+          12,
+          13,
+          26,
+          34,
+          35,
+          50,
+          52,
+          70
+        ],
+        "sdg_number": 4
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 15,
+        "page_numbers": [
+          13,
+          27,
+          36,
+          47,
+          50,
+          51,
+          52,
+          53,
+          58,
+          59,
+          60,
+          66,
+          70
+        ],
+        "sdg_number": 5
+      },
+      {
+        "importance_score": 2.0,
+        "mention_count": 3,
+        "page_numbers": [
+          31
+        ],
+        "sdg_number": 6
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 32,
+        "page_numbers": [
+          5,
+          13,
+          22,
+          23,
+          24,
+          25,
+          27,
+          29,
+          30,
+          32,
+          33,
+          40,
+          49,
+          50,
+          54,
+          62,
+          63,
+          69
+        ],
+        "sdg_number": 7
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 35,
+        "page_numbers": [
+          13,
+          15,
+          26,
+          34,
+          35,
+          36,
+          47,
+          51,
+          52,
+          53,
+          55,
+          56,
+          57,
+          58,
+          66,
+          67,
+          68,
+          70,
+          157,
+          230,
+          231
+        ],
+        "sdg_number": 8
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 31,
+        "page_numbers": [
+          5,
+          13,
+          14,
+          15,
+          16,
+          26,
+          31,
+          33,
+          34,
+          39,
+          41,
+          42,
+          52,
+          75,
+          76,
+          77,
+          78,
+          80,
+          82
+        ],
+        "sdg_number": 9
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 13,
+        "page_numbers": [
+          34,
+          35,
+          36,
+          39,
+          40,
+          41,
+          43,
+          50,
+          70
+        ],
+        "sdg_number": 10
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 12,
+        "page_numbers": [
+          5,
+          14,
+          16,
+          30,
+          32,
+          40,
+          62,
+          63,
+          70
+        ],
+        "sdg_number": 11
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 32,
+        "page_numbers": [
+          13,
+          14,
+          17,
+          25,
+          26,
+          31,
+          32,
+          33,
+          34,
+          43,
+          47,
+          48,
+          49,
+          54,
+          55,
+          64,
+          65,
+          69,
+          77,
+          78,
+          80,
+          158
+        ],
+        "sdg_number": 12
+      },
+      {
+        "importance_score": 5.0,
+        "mention_count": 132,
+        "page_numbers": [
+          5,
+          13,
+          14,
+          17,
+          19,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          40,
+          43,
+          44,
+          47,
+          48,
+          49,
+          50,
+          54,
+          55,
+          61,
+          62,
+          63,
+          64,
+          65,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          80,
+          84,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          108,
+          121,
+          125,
+          156,
+          148151
+        ],
+        "sdg_number": 13
+      },
+      {
+        "importance_score": 0.0,
+        "mention_count": 0,
+        "page_numbers": [],
+        "sdg_number": 14
+      },
+      {
+        "importance_score": 4.0,
+        "mention_count": 16,
+        "page_numbers": [
+          14,
+          25,
+          26,
+          27,
+          30,
+          31,
+          33,
+          43,
+          47,
+          151
+        ],
+        "sdg_number": 15
+      },
+      {
+        "importance_score": 4.5,
+        "mention_count": 46,
+        "page_numbers": [
+          17,
+          22,
+          23,
+          24,
+          25,
+          26,
+          31,
+          32,
+          34,
+          42,
+          44,
+          45,
+          46,
+          47,
+          48,
+          50,
+          54,
+          68,
+          69,
+          75,
+          76,
+          81,
+          82,
+          83,
+          84,
+          85,
+          143,
+          144,
+          145,
+          146,
+          147
+        ],
+        "sdg_number": 16
+      },
+      {
+        "importance_score": 3.0,
+        "mention_count": 25,
+        "page_numbers": [
+          13,
+          14,
+          15,
+          17,
+          31,
+          33,
+          34,
+          41,
+          42,
+          47,
+          48,
+          50,
+          52,
+          77,
+          81
+        ],
+        "sdg_number": 17
+      }
+    ]
+  }
+}
